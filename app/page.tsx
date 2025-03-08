@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 type SectionId = 'home' | 'about' | 'call-for-papers' | 'submission' | 'registration' | 'contact';
 
@@ -60,9 +61,11 @@ export default function Page() {
                     <div className="flex justify-between h-16" data-oid="wxpk4of">
                         <div className="flex items-center" data-oid="59e_.p9">
                             <div className="flex items-center space-x-2" data-oid="rt_-19n">
-                                <img
+                                <Image
                                     src="/images/logo.webp"
                                     alt="Conference Logos"
+                                    width={64}
+                                    height={64}
                                     className="h-16"
                                     data-oid="0aiq.m."
                                 />
@@ -327,25 +330,31 @@ export default function Page() {
                         >
                             <div className="grid grid-cols-3 gap-1" data-oid="ohxnnju">
                                 <div className="col-span-1" data-oid="z7klk3_">
-                                    <img
+                                    <Image
                                         src="/images/Displacement _20250307_121648_0001.jpg"
                                         alt="Conference Image"
+                                        width={400}
+                                        height={256}
                                         className="w-full h-64 object-cover hover:opacity-90 transition-opacity"
                                         data-oid="the0s-l"
                                     />
                                 </div>
                                 <div className="col-span-1" data-oid="sljka1i">
-                                    <img
+                                    <Image
                                         src="/images/Displacement _20250307_121648_0002.jpg"
                                         alt="Conference Image"
+                                        width={400}
+                                        height={256}
                                         className="w-full h-64 object-cover hover:opacity-90 transition-opacity"
                                         data-oid="k9gcxa8"
                                     />
                                 </div>
                                 <div className="col-span-1" data-oid="o49d_ut">
-                                    <img
+                                    <Image
                                         src="/images/Displacement _20250307_121648_0003.jpg"
                                         alt="Conference Image"
+                                        width={400}
+                                        height={256}
                                         className="w-full h-64 object-cover hover:opacity-90 transition-opacity"
                                         data-oid="r.9fah5"
                                     />
@@ -445,9 +454,11 @@ export default function Page() {
                         </h2>
                         <div className="bg-white p-8 rounded-lg shadow-md" data-oid="73_bu71">
                             <div className="mb-8 flex justify-center" data-oid="p6zrb6k">
-                                <img
+                                <Image
                                     src="/images/Global insecurity and refugee crisis linked to climate change.jpeg"
                                     alt="Displacement Theme"
+                                    width={800}
+                                    height={320}
                                     className="rounded-lg shadow-md max-h-80 object-cover"
                                     data-oid="shw29ir"
                                 />
@@ -576,11 +587,10 @@ export default function Page() {
                                     Special Sessions{' '}
                                 </h3>
                                 <p className="text-gray-700" data-oid="fhnwgyt">
-                                    {' '}
-                                    The conference will feature special sessions on "Digital
-                                    Displacement in the Age of AI" and "Climate Refugees: Policy
-                                    Challenges and Responses." Submissions specifically addressing
-                                    these themes are encouraged.{' '}
+                                    The conference will feature special sessions on &ldquo;Digital
+                                    Displacement in the Age of AI&rdquo; and &ldquo;Climate Refugees: Policy
+                                    Challenges and Responses.&rdquo; Submissions specifically addressing
+                                    these themes are encouraged.
                                 </p>
                             </div>
                             <button
@@ -606,17 +616,21 @@ export default function Page() {
                         </h2>
                         <div className="flex justify-center mb-10" data-oid="koxm-h7">
                             <div className="grid grid-cols-2 gap-4 max-w-2xl" data-oid="uswsi7x">
-                                <img
+                                <Image
                                     src="/images/Displacement _20250307_121722_0000.png"
                                     alt="Submission Process"
                                     className="rounded-lg shadow-md"
+                                    width={400}
+                                    height={256}
                                     data-oid="xkhj2s1"
                                 />
 
-                                <img
+                                <Image
                                     src="/images/Displacement _20250307_121722_0001.png"
                                     alt="Submission Process"
                                     className="rounded-lg shadow-md"
+                                    width={400}
+                                    height={256}
                                     data-oid="ths_fyr"
                                 />
                             </div>
@@ -1160,9 +1174,11 @@ export default function Page() {
                                     className="rounded-md overflow-hidden shadow-lg"
                                     data-oid="7uon6ag"
                                 >
-                                    <img
+                                    <Image
                                         src="/images/Displacement _20250307_121648_0004.jpg"
                                         alt="University of Hyderabad Campus"
+                                        width={800}
+                                        height={256}
                                         className="w-full h-64 object-cover"
                                         data-oid="bo7tb3."
                                     />
@@ -1177,9 +1193,11 @@ export default function Page() {
                         <div className="grid md:grid-cols-3 gap-8" data-oid="a:n.9ac">
                             <div data-oid="uvh7y:.">
                                 <div className="flex items-center mb-4" data-oid="zleaea6">
-                                    <img
+                                    <Image
                                         src="/images/logo.webp"
                                         alt="Conference Logo"
+                                        width={48}
+                                        height={48}
                                         className="h-12 mr-3"
                                         data-oid="on:b_ox"
                                     />
