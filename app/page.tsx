@@ -53,34 +53,34 @@ export default function Page() {
     }, []);
 
     return (
-        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="-quqlbf">
+        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="64cjfxe">
             {/* Navigation */}
-            <nav className="fixed w-full bg-white shadow-md z-50" data-oid="6kxmhdx">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="aooonpt">
-                    <div className="flex justify-between h-16" data-oid="ngg81-.">
-                        <div className="flex items-center" data-oid="9lzrfp-">
-                            <div className="flex items-center space-x-2" data-oid="3y._jtj">
+            <nav className="fixed w-full bg-white shadow-md z-50" data-oid="yfnyofr">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="t8acdp_">
+                    <div className="flex justify-between h-16" data-oid="0y.9gkz">
+                        <div className="flex items-center" data-oid="u6waucw">
+                            <div className="flex items-center space-x-2" data-oid="mw_fxor">
                                 <img
                                     src="/images/logo.webp"
                                     alt="Conference Logos"
-                                    className="h-12"
-                                    data-oid="gmgrbfo"
+                                    className="h-16"
+                                    data-oid="knm4i9i"
                                 />
 
                                 <div
                                     className="text-xl font-bold text-indigo-800"
-                                    data-oid="27l984a"
+                                    data-oid="igm-5or"
                                 >
                                     DISPLACEMENT
                                 </div>
                             </div>
                         </div>
                         {/* Desktop Navigation */}
-                        <div className="hidden md:flex items-center space-x-4" data-oid="tbv_m:q">
+                        <div className="hidden md:flex items-center space-x-4" data-oid="gtov3ff">
                             <button
                                 onClick={() => scrollToSection('home')}
                                 className={`px-3 py-2 rounded-md text-sm font-medium ${activeSection === 'home' ? 'text-indigo-600 bg-indigo-50' : 'text-gray-700 hover:bg-gray-100'}`}
-                                data-oid="vmoejsd"
+                                data-oid="6yzvn2x"
                             >
                                 {' '}
                                 Home{' '}
@@ -88,7 +88,7 @@ export default function Page() {
                             <button
                                 onClick={() => scrollToSection('about')}
                                 className={`px-3 py-2 rounded-md text-sm font-medium ${activeSection === 'about' ? 'text-indigo-600 bg-indigo-50' : 'text-gray-700 hover:bg-gray-100'}`}
-                                data-oid="yqwkuk8"
+                                data-oid="pf5neds"
                             >
                                 {' '}
                                 About{' '}
@@ -96,7 +96,7 @@ export default function Page() {
                             <button
                                 onClick={() => scrollToSection('call-for-papers')}
                                 className={`px-3 py-2 rounded-md text-sm font-medium ${activeSection === 'call-for-papers' ? 'text-indigo-600 bg-indigo-50' : 'text-gray-700 hover:bg-gray-100'}`}
-                                data-oid="de2ce1y"
+                                data-oid="uw0dkm5"
                             >
                                 {' '}
                                 Call for Papers{' '}
@@ -104,7 +104,7 @@ export default function Page() {
                             <button
                                 onClick={() => scrollToSection('submission')}
                                 className={`px-3 py-2 rounded-md text-sm font-medium ${activeSection === 'submission' ? 'text-indigo-600 bg-indigo-50' : 'text-gray-700 hover:bg-gray-100'}`}
-                                data-oid="mr__uwr"
+                                data-oid="hp.zio0"
                             >
                                 {' '}
                                 Submission Guidelines{' '}
@@ -112,7 +112,7 @@ export default function Page() {
                             <button
                                 onClick={() => scrollToSection('registration')}
                                 className={`px-3 py-2 rounded-md text-sm font-medium ${activeSection === 'registration' ? 'text-indigo-600 bg-indigo-50' : 'text-gray-700 hover:bg-gray-100'}`}
-                                data-oid="b-_x2jr"
+                                data-oid="dh-smr4"
                             >
                                 {' '}
                                 Registration & Fees{' '}
@@ -120,18 +120,18 @@ export default function Page() {
                             <button
                                 onClick={() => scrollToSection('contact')}
                                 className={`px-3 py-2 rounded-md text-sm font-medium ${activeSection === 'contact' ? 'text-indigo-600 bg-indigo-50' : 'text-gray-700 hover:bg-gray-100'}`}
-                                data-oid="rq5-jdg"
+                                data-oid="afep4i8"
                             >
                                 {' '}
                                 Contact{' '}
                             </button>
                         </div>
                         {/* Mobile menu button */}
-                        <div className="md:hidden flex items-center" data-oid="ziw5z7f">
+                        <div className="md:hidden flex items-center" data-oid="d1aws67">
                             <button
                                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                                 className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-indigo-600 hover:bg-gray-100 focus:outline-none"
-                                data-oid="aq989rb"
+                                data-oid="xfr5pxp"
                             >
                                 <svg
                                     className="h-6 w-6"
@@ -139,7 +139,7 @@ export default function Page() {
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
-                                    data-oid="a1wa_1e"
+                                    data-oid=":hroh1."
                                 >
                                     {mobileMenuOpen ? (
                                         <path
@@ -147,7 +147,7 @@ export default function Page() {
                                             strokeLinejoin="round"
                                             strokeWidth={2}
                                             d="M6 18L18 6M6 6l12 12"
-                                            data-oid="o34m48q"
+                                            data-oid="cwa53w5"
                                         />
                                     ) : (
                                         <path
@@ -155,7 +155,7 @@ export default function Page() {
                                             strokeLinejoin="round"
                                             strokeWidth={2}
                                             d="M4 6h16M4 12h16M4 18h16"
-                                            data-oid="y:x._cl"
+                                            data-oid="3xqyr0j"
                                         />
                                     )}
                                 </svg>
@@ -166,12 +166,12 @@ export default function Page() {
             </nav>
             {/* Mobile menu */}
             {mobileMenuOpen && (
-                <div className="md:hidden bg-white shadow-lg" data-oid="2if8.wa">
-                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3" data-oid="y1zkofi">
+                <div className="md:hidden bg-white shadow-lg" data-oid="-r2t4kk">
+                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3" data-oid="7j_xbia">
                         <button
                             onClick={() => scrollToSection('home')}
                             className={`block px-3 py-2 rounded-md text-base font-medium w-full text-left ${activeSection === 'home' ? 'text-indigo-600 bg-indigo-50' : 'text-gray-700 hover:bg-gray-100'}`}
-                            data-oid="fder912"
+                            data-oid="7o7geye"
                         >
                             {' '}
                             Home{' '}
@@ -179,7 +179,7 @@ export default function Page() {
                         <button
                             onClick={() => scrollToSection('about')}
                             className={`block px-3 py-2 rounded-md text-base font-medium w-full text-left ${activeSection === 'about' ? 'text-indigo-600 bg-indigo-50' : 'text-gray-700 hover:bg-gray-100'}`}
-                            data-oid="hg7dg09"
+                            data-oid="mbcee88"
                         >
                             {' '}
                             About{' '}
@@ -187,7 +187,7 @@ export default function Page() {
                         <button
                             onClick={() => scrollToSection('call-for-papers')}
                             className={`block px-3 py-2 rounded-md text-base font-medium w-full text-left ${activeSection === 'call-for-papers' ? 'text-indigo-600 bg-indigo-50' : 'text-gray-700 hover:bg-gray-100'}`}
-                            data-oid="bzjtrh3"
+                            data-oid="4if5q-0"
                         >
                             {' '}
                             Call for Papers{' '}
@@ -195,7 +195,7 @@ export default function Page() {
                         <button
                             onClick={() => scrollToSection('submission')}
                             className={`block px-3 py-2 rounded-md text-base font-medium w-full text-left ${activeSection === 'submission' ? 'text-indigo-600 bg-indigo-50' : 'text-gray-700 hover:bg-gray-100'}`}
-                            data-oid="dbwikho"
+                            data-oid="p1298gp"
                         >
                             {' '}
                             Submission Guidelines{' '}
@@ -203,7 +203,7 @@ export default function Page() {
                         <button
                             onClick={() => scrollToSection('registration')}
                             className={`block px-3 py-2 rounded-md text-base font-medium w-full text-left ${activeSection === 'registration' ? 'text-indigo-600 bg-indigo-50' : 'text-gray-700 hover:bg-gray-100'}`}
-                            data-oid="2t4egs8"
+                            data-oid="lymu4xj"
                         >
                             {' '}
                             Registration & Fees{' '}
@@ -211,7 +211,7 @@ export default function Page() {
                         <button
                             onClick={() => scrollToSection('contact')}
                             className={`block px-3 py-2 rounded-md text-base font-medium w-full text-left ${activeSection === 'contact' ? 'text-indigo-600 bg-indigo-50' : 'text-gray-700 hover:bg-gray-100'}`}
-                            data-oid="72qa1-:"
+                            data-oid="a600:rl"
                         >
                             {' '}
                             Contact{' '}
@@ -220,46 +220,46 @@ export default function Page() {
                 </div>
             )}
             {/* Main Content */}
-            <div className="pt-16" data-oid="l4.7yr6">
+            <div className="pt-16" data-oid="s24_dh7">
                 {/* Home Section */}
                 <section
                     id="home"
                     className="min-h-screen flex items-center bg-gradient-to-br from-indigo-50 to-white"
-                    data-oid="p4ty_yh"
+                    data-oid="4jxscmq"
                 >
                     <div
                         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24"
-                        data-oid="83ww3n3"
+                        data-oid="_pquq.x"
                     >
-                        <div className="text-center" data-oid="ry7sho5">
+                        <div className="text-center" data-oid="87_vf_k">
                             <h1
                                 className="text-4xl md:text-6xl font-bold text-indigo-900 mb-4"
-                                data-oid="a-_d_9m"
+                                data-oid="hktbjy7"
                             >
                                 {' '}
                                 DISPLACEMENT Conference 2025{' '}
                             </h1>
                             <div
                                 className="flex flex-wrap justify-center gap-2 mb-8"
-                                data-oid="07nm1:k"
+                                data-oid="rmph6mo"
                             >
                                 <span
                                     className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm"
-                                    data-oid=".k::6uh"
+                                    data-oid="89xvgp1"
                                 >
                                     {' '}
                                     University of Hyderabad{' '}
                                 </span>
                                 <span
                                     className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm"
-                                    data-oid="n1u5ljy"
+                                    data-oid="_cq5_3-"
                                 >
                                     {' '}
                                     Dartmouth College{' '}
                                 </span>
                                 <span
                                     className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm"
-                                    data-oid="ms8hzyw"
+                                    data-oid="7tubw4_"
                                 >
                                     {' '}
                                     UCL{' '}
@@ -267,7 +267,7 @@ export default function Page() {
                             </div>
                             <p
                                 className="text-xl text-gray-600 max-w-3xl mx-auto mb-10"
-                                data-oid="y3w28iv"
+                                data-oid="z36vco4"
                             >
                                 {' '}
                                 An international conference exploring the multifaceted dimensions of
@@ -275,12 +275,12 @@ export default function Page() {
                             </p>
                             <div
                                 className="flex flex-col sm:flex-row justify-center gap-4"
-                                data-oid="ygirc5v"
+                                data-oid="ld0krsb"
                             >
                                 <button
                                     onClick={() => scrollToSection('registration')}
                                     className="px-8 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors shadow-md"
-                                    data-oid="-gc1uqz"
+                                    data-oid="exhprc6"
                                 >
                                     {' '}
                                     Register Now{' '}
@@ -288,7 +288,7 @@ export default function Page() {
                                 <button
                                     onClick={() => scrollToSection('call-for-papers')}
                                     className="px-8 py-3 border border-indigo-600 text-indigo-600 rounded-md hover:bg-indigo-50 transition-colors"
-                                    data-oid="gj6zjel"
+                                    data-oid="xmdk272"
                                 >
                                     {' '}
                                     Submit Paper{' '}
@@ -296,13 +296,13 @@ export default function Page() {
                             </div>
                             <div
                                 className="mt-12 p-4 bg-white rounded-lg shadow-md inline-block"
-                                data-oid="o7_ow.t"
+                                data-oid="uei5k7g"
                             >
-                                <p className="text-gray-700 font-medium" data-oid="d:4w:85">
+                                <p className="text-gray-700 font-medium" data-oid="a9gy2kq">
                                     {' '}
                                     Conference Dates: March 15-17, 2025{' '}
                                 </p>
-                                <p className="text-gray-700 font-medium" data-oid="uogs3pt">
+                                <p className="text-gray-700 font-medium" data-oid="q7u1wl7">
                                     {' '}
                                     Location: University of Hyderabad, India{' '}
                                 </p>
@@ -311,44 +311,44 @@ export default function Page() {
                     </div>
                 </section>
                 {/* About Section */}
-                <section id="about" className="py-20 bg-white" data-oid="r288o2i">
-                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="yfq2c9x">
+                <section id="about" className="py-20 bg-white" data-oid="x7sgvo2">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="fzzvccr">
                         <h2
                             className="text-3xl font-bold text-center text-indigo-900 mb-12"
-                            data-oid="pdhvxj2"
+                            data-oid="ldtr1t3"
                         >
                             {' '}
                             About the Conference{' '}
                         </h2>
-                        <div className="grid md:grid-cols-3 gap-8" data-oid="p86.eje">
+                        <div className="grid md:grid-cols-3 gap-8" data-oid="l7penvg">
                             <div
                                 className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
-                                data-oid="lws:l80"
+                                data-oid="tu5c4ko"
                             >
                                 <h3
                                     className="text-xl font-semibold text-indigo-800 mb-4"
-                                    data-oid="hemkbcy"
+                                    data-oid="xkl0r5x"
                                 >
                                     {' '}
                                     University of Hyderabad{' '}
                                 </h3>
-                                <p className="text-gray-600 mb-4" data-oid="g-lh16r">
+                                <p className="text-gray-600 mb-4" data-oid="_t2r.8h">
                                     {' '}
                                     A premier institution of higher education in India known for its
                                     outstanding contribution to teaching and research.{' '}
                                 </p>
                                 <div
                                     className="h-40 bg-gray-200 rounded-md mb-4 flex items-center justify-center"
-                                    data-oid="3okx6m:"
+                                    data-oid="q6b_aj9"
                                 >
-                                    <span className="text-gray-500" data-oid="o4dcq6c">
+                                    <span className="text-gray-500" data-oid="9zemmjf">
                                         University Logo
                                     </span>
                                 </div>
                                 <a
                                     href="#"
                                     className="text-indigo-600 hover:text-indigo-800 font-medium"
-                                    data-oid="r.zlh22"
+                                    data-oid=".qbmi8w"
                                 >
                                     {' '}
                                     Learn more →{' '}
@@ -356,32 +356,32 @@ export default function Page() {
                             </div>
                             <div
                                 className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
-                                data-oid="9e_ygwj"
+                                data-oid="9q.t6j2"
                             >
                                 <h3
                                     className="text-xl font-semibold text-indigo-800 mb-4"
-                                    data-oid="fi24y78"
+                                    data-oid="-jgdq:-"
                                 >
                                     {' '}
                                     Dartmouth College{' '}
                                 </h3>
-                                <p className="text-gray-600 mb-4" data-oid="dnan5mz">
+                                <p className="text-gray-600 mb-4" data-oid="q5fg65z">
                                     {' '}
                                     An Ivy League research university with a rich history of
                                     academic excellence and innovative research.{' '}
                                 </p>
                                 <div
                                     className="h-40 bg-gray-200 rounded-md mb-4 flex items-center justify-center"
-                                    data-oid="q0-8.-4"
+                                    data-oid="xn-k7.-"
                                 >
-                                    <span className="text-gray-500" data-oid="w.pam.t">
+                                    <span className="text-gray-500" data-oid="weacm03">
                                         College Logo
                                     </span>
                                 </div>
                                 <a
                                     href="#"
                                     className="text-indigo-600 hover:text-indigo-800 font-medium"
-                                    data-oid="vaww9_1"
+                                    data-oid="jl6slbf"
                                 >
                                     {' '}
                                     Learn more →{' '}
@@ -389,47 +389,47 @@ export default function Page() {
                             </div>
                             <div
                                 className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
-                                data-oid="n06mz2a"
+                                data-oid="e6fk_.q"
                             >
                                 <h3
                                     className="text-xl font-semibold text-indigo-800 mb-4"
-                                    data-oid="awbojsj"
+                                    data-oid="uwgst5b"
                                 >
                                     {' '}
                                     University College London (UCL){' '}
                                 </h3>
-                                <p className="text-gray-600 mb-4" data-oid="3vhhkz4">
+                                <p className="text-gray-600 mb-4" data-oid="5m-i.6h">
                                     {' '}
                                     A world-leading multidisciplinary university with an
                                     international reputation for quality research and teaching.{' '}
                                 </p>
                                 <div
                                     className="h-40 bg-gray-200 rounded-md mb-4 flex items-center justify-center"
-                                    data-oid="lmmw:9g"
+                                    data-oid="c3u8tlt"
                                 >
-                                    <span className="text-gray-500" data-oid=".qv5bf_">
+                                    <span className="text-gray-500" data-oid="0ym1t:x">
                                         UCL Logo
                                     </span>
                                 </div>
                                 <a
                                     href="#"
                                     className="text-indigo-600 hover:text-indigo-800 font-medium"
-                                    data-oid="mcn9vsr"
+                                    data-oid="ql2mi_6"
                                 >
                                     {' '}
                                     Learn more →{' '}
                                 </a>
                             </div>
                         </div>
-                        <div className="mt-12 bg-indigo-50 p-6 rounded-lg" data-oid="vfxd.mr">
+                        <div className="mt-12 bg-indigo-50 p-6 rounded-lg" data-oid="tsscoz:">
                             <h3
                                 className="text-xl font-semibold text-indigo-800 mb-4"
-                                data-oid="77_:e2_"
+                                data-oid="4xi7f:q"
                             >
                                 {' '}
                                 About DISPLACEMENT 2025{' '}
                             </h3>
-                            <p className="text-gray-700 mb-4" data-oid="1emgbd8">
+                            <p className="text-gray-700 mb-4" data-oid="99kphf3">
                                 {' '}
                                 The DISPLACEMENT Conference 2025 brings together scholars,
                                 researchers, and practitioners from around the world to explore the
@@ -437,7 +437,7 @@ export default function Page() {
                                 forms—geographical, social, cultural, economic, and
                                 psychological.{' '}
                             </p>
-                            <p className="text-gray-700" data-oid="1uy9605">
+                            <p className="text-gray-700" data-oid="27ykr8-">
                                 {' '}
                                 This collaborative effort between the University of Hyderabad,
                                 Dartmouth College, and University College London aims to foster
@@ -449,140 +449,140 @@ export default function Page() {
                     </div>
                 </section>
                 {/* Call for Papers Section */}
-                <section id="call-for-papers" className="py-20 bg-indigo-50" data-oid="i:s1r5p">
-                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="86twsvg">
+                <section id="call-for-papers" className="py-20 bg-indigo-50" data-oid="agtlv9t">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="uf.qi52">
                         <h2
                             className="text-3xl font-bold text-center text-indigo-900 mb-12"
-                            data-oid="b6xwhpi"
+                            data-oid="mdxxos6"
                         >
                             {' '}
                             Call for Papers{' '}
                         </h2>
-                        <div className="bg-white p-8 rounded-lg shadow-md" data-oid="25oteum">
-                            <p className="text-gray-700 mb-6" data-oid="u5959rs">
+                        <div className="bg-white p-8 rounded-lg shadow-md" data-oid="fvinn43">
+                            <p className="text-gray-700 mb-6" data-oid="5hf6y-m">
                                 {' '}
                                 We invite submissions that explore the theme of displacement from
                                 various disciplinary perspectives, including but not limited
                                 to:{' '}
                             </p>
-                            <div className="grid md:grid-cols-2 gap-6 mb-8" data-oid="i5gvkd7">
-                                <div data-oid="1j202:1">
+                            <div className="grid md:grid-cols-2 gap-6 mb-8" data-oid="rtry6a4">
+                                <div data-oid="ui9flic">
                                     <h3
                                         className="text-lg font-semibold text-indigo-800 mb-3"
-                                        data-oid="lsd91:w"
+                                        data-oid="p_2xuz:"
                                     >
                                         {' '}
                                         Thematic Areas{' '}
                                     </h3>
                                     <ul
                                         className="list-disc pl-5 text-gray-700 space-y-2"
-                                        data-oid="5haqpt9"
+                                        data-oid="fgfn.fb"
                                     >
-                                        <li data-oid="k5paxx4">
+                                        <li data-oid="xfshtsl">
                                             Forced migration and refugee studies
                                         </li>
-                                        <li data-oid="aete:pk">
+                                        <li data-oid="bi_xtjc">
                                             Climate change and environmental displacement
                                         </li>
-                                        <li data-oid="cmz:.kg">
+                                        <li data-oid="xh5q_s_">
                                             Digital displacement and virtual communities
                                         </li>
-                                        <li data-oid="szhhrv3">
+                                        <li data-oid="q.psogv">
                                             Economic displacement and labor mobility
                                         </li>
-                                        <li data-oid="flnfh6x">
+                                        <li data-oid="x6s_.da">
                                             Cultural displacement and identity formation
                                         </li>
-                                        <li data-oid="n0ko8lw">
+                                        <li data-oid="e2_8pz:">
                                             Displacement in literature and arts
                                         </li>
-                                        <li data-oid="k-subls">
+                                        <li data-oid="2inodxh">
                                             Historical perspectives on displacement
                                         </li>
-                                        <li data-oid="55cpw6k">
+                                        <li data-oid="iirb275">
                                             Urban displacement and spatial justice
                                         </li>
                                     </ul>
                                 </div>
-                                <div data-oid="yb6k2.7">
+                                <div data-oid="a15z7:9">
                                     <h3
                                         className="text-lg font-semibold text-indigo-800 mb-3"
-                                        data-oid="20try5i"
+                                        data-oid="ich:2:z"
                                     >
                                         {' '}
                                         Key Dates{' '}
                                     </h3>
-                                    <ul className="text-gray-700 space-y-3" data-oid="59h9:m7">
-                                        <li className="flex items-start" data-oid="-nndbd7">
+                                    <ul className="text-gray-700 space-y-3" data-oid="tg590z-">
+                                        <li className="flex items-start" data-oid="9q6dypj">
                                             <span
                                                 className="font-medium text-indigo-600 mr-2"
-                                                data-oid="z.m8dp1"
+                                                data-oid="67206sz"
                                             >
                                                 {' '}
                                                 August 15, 2024:{' '}
                                             </span>
-                                            <span data-oid="oi5j_sd">
+                                            <span data-oid="r9b:b-d">
                                                 Abstract submission deadline
                                             </span>
                                         </li>
-                                        <li className="flex items-start" data-oid="wx6pwia">
+                                        <li className="flex items-start" data-oid="yz2g9ek">
                                             <span
                                                 className="font-medium text-indigo-600 mr-2"
-                                                data-oid="o4_-bh7"
+                                                data-oid="ozgda25"
                                             >
                                                 {' '}
                                                 October 1, 2024:{' '}
                                             </span>
-                                            <span data-oid="2bcy01k">
+                                            <span data-oid="99dptn:">
                                                 Notification of acceptance
                                             </span>
                                         </li>
-                                        <li className="flex items-start" data-oid="tnvs6dk">
+                                        <li className="flex items-start" data-oid="l7ugqav">
                                             <span
                                                 className="font-medium text-indigo-600 mr-2"
-                                                data-oid="oy1xj-h"
+                                                data-oid="mcjdpt4"
                                             >
                                                 {' '}
                                                 December 15, 2024:{' '}
                                             </span>
-                                            <span data-oid="ha.is8j">
+                                            <span data-oid="509ko6:">
                                                 Full paper submission deadline
                                             </span>
                                         </li>
-                                        <li className="flex items-start" data-oid="crplk2a">
+                                        <li className="flex items-start" data-oid="hqcec1d">
                                             <span
                                                 className="font-medium text-indigo-600 mr-2"
-                                                data-oid="dcsayue"
+                                                data-oid="eti-86c"
                                             >
                                                 {' '}
                                                 February 1, 2025:{' '}
                                             </span>
-                                            <span data-oid="9mi:ld9">
+                                            <span data-oid="rztfr2t">
                                                 Early registration deadline
                                             </span>
                                         </li>
-                                        <li className="flex items-start" data-oid="aow0knk">
+                                        <li className="flex items-start" data-oid="a8286zq">
                                             <span
                                                 className="font-medium text-indigo-600 mr-2"
-                                                data-oid="92di8zx"
+                                                data-oid="nx_-bzr"
                                             >
                                                 {' '}
                                                 March 15-17, 2025:{' '}
                                             </span>
-                                            <span data-oid="4tkj26c">Conference dates</span>
+                                            <span data-oid="m5bezy4">Conference dates</span>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div className="bg-indigo-50 p-4 rounded-md mb-6" data-oid="-tjoxp-">
+                            <div className="bg-indigo-50 p-4 rounded-md mb-6" data-oid="3ubvfp:">
                                 <h3
                                     className="text-lg font-semibold text-indigo-800 mb-2"
-                                    data-oid="j.plxiw"
+                                    data-oid="5x399.t"
                                 >
                                     {' '}
                                     Special Sessions{' '}
                                 </h3>
-                                <p className="text-gray-700" data-oid="-wsd:l:">
+                                <p className="text-gray-700" data-oid="6vf85lf">
                                     {' '}
                                     The conference will feature special sessions on "Digital
                                     Displacement in the Age of AI" and "Climate Refugees: Policy
@@ -593,7 +593,7 @@ export default function Page() {
                             <button
                                 onClick={() => scrollToSection('submission')}
                                 className="px-6 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors shadow-sm"
-                                data-oid="2g_rirl"
+                                data-oid="xz4mxz4"
                             >
                                 {' '}
                                 View Submission Guidelines{' '}
@@ -602,263 +602,263 @@ export default function Page() {
                     </div>
                 </section>
                 {/* Submission Guidelines Section */}
-                <section id="submission" className="py-20 bg-white" data-oid="hk513el">
-                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="_.rlk:6">
+                <section id="submission" className="py-20 bg-white" data-oid="gdcu-qc">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="dvwvnsl">
                         <h2
                             className="text-3xl font-bold text-center text-indigo-900 mb-12"
-                            data-oid="qwkbgpb"
+                            data-oid="e9qakss"
                         >
                             {' '}
                             Submission Guidelines{' '}
                         </h2>
-                        <div className="grid md:grid-cols-2 gap-8" data-oid="pv6i75c">
-                            <div className="bg-white p-6 rounded-lg shadow-md" data-oid="wvd9btw">
+                        <div className="grid md:grid-cols-2 gap-8" data-oid="wrfxkk:">
+                            <div className="bg-white p-6 rounded-lg shadow-md" data-oid="jqo90mk">
                                 <h3
                                     className="text-xl font-semibold text-indigo-800 mb-4"
-                                    data-oid="vqpz.v8"
+                                    data-oid="jxl_d:c"
                                 >
                                     {' '}
                                     Abstract Submission{' '}
                                 </h3>
-                                <ul className="space-y-3 text-gray-700" data-oid="r6fw-eg">
-                                    <li className="flex items-start" data-oid="oxf42hb">
+                                <ul className="space-y-3 text-gray-700" data-oid="k-j1qh3">
+                                    <li className="flex items-start" data-oid="jvoljxi">
                                         <svg
                                             className="h-5 w-5 text-indigo-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="i7jtb40"
+                                            data-oid="jt9.7qu"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                                                data-oid=":g9bldw"
+                                                data-oid="nq3vu4d"
                                             />
                                         </svg>
-                                        <span data-oid="skuubas">
+                                        <span data-oid="p3y5yjh">
                                             Abstracts should be 300-500 words in length.
                                         </span>
                                     </li>
-                                    <li className="flex items-start" data-oid="389e6-t">
+                                    <li className="flex items-start" data-oid="uziko8t">
                                         <svg
                                             className="h-5 w-5 text-indigo-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="n5pnmli"
+                                            data-oid="li65kur"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                                                data-oid="lt7yk.p"
+                                                data-oid=":4kdy72"
                                             />
                                         </svg>
-                                        <span data-oid="jyyvcot">
+                                        <span data-oid="au52x-.">
                                             Include 5-6 keywords related to your research.
                                         </span>
                                     </li>
-                                    <li className="flex items-start" data-oid="yuejj-3">
+                                    <li className="flex items-start" data-oid="tcroa_:">
                                         <svg
                                             className="h-5 w-5 text-indigo-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="ygsuylk"
+                                            data-oid="sk2m8wv"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                                                data-oid="p.4flxc"
+                                                data-oid="92zv3pl"
                                             />
                                         </svg>
-                                        <span data-oid="uujfya6">
+                                        <span data-oid="pii.n5x">
                                             {' '}
                                             Clearly state the research question, methodology, and
                                             preliminary findings.{' '}
                                         </span>
                                     </li>
-                                    <li className="flex items-start" data-oid="5s9xwsw">
+                                    <li className="flex items-start" data-oid="rqhf1fk">
                                         <svg
                                             className="h-5 w-5 text-indigo-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="cqvdnc:"
+                                            data-oid="fo8wntg"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                                                data-oid="2f.btvq"
+                                                data-oid="iqwzh_k"
                                             />
                                         </svg>
-                                        <span data-oid="2310m-s">
+                                        <span data-oid="y.ivsj1">
                                             {' '}
                                             Submit in PDF format through the conference submission
                                             portal.{' '}
                                         </span>
                                     </li>
-                                    <li className="flex items-start" data-oid="nna_xkv">
+                                    <li className="flex items-start" data-oid="r.0ygks">
                                         <svg
                                             className="h-5 w-5 text-indigo-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="g617r3s"
+                                            data-oid="_:.nj1k"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                                                data-oid="hol_91r"
+                                                data-oid="14eq7vz"
                                             />
                                         </svg>
-                                        <span data-oid="stipavz">
+                                        <span data-oid="6l5j0z_">
                                             {' '}
                                             Include author name(s), affiliation, and contact
                                             information on a separate cover page.{' '}
                                         </span>
                                     </li>
                                 </ul>
-                                <div className="mt-6" data-oid="3eea_7r">
+                                <div className="mt-6" data-oid="gj.bi92">
                                     <button
                                         className="px-6 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors shadow-sm"
-                                        data-oid="jh13dy9"
+                                        data-oid="4x0v3dn"
                                     >
                                         {' '}
                                         Submit Abstract{' '}
                                     </button>
                                 </div>
                             </div>
-                            <div className="bg-white p-6 rounded-lg shadow-md" data-oid="m.mlah8">
+                            <div className="bg-white p-6 rounded-lg shadow-md" data-oid="ofgi9vs">
                                 <h3
                                     className="text-xl font-semibold text-indigo-800 mb-4"
-                                    data-oid="45-nqc4"
+                                    data-oid="--k1-f3"
                                 >
                                     {' '}
                                     Full Paper Requirements{' '}
                                 </h3>
-                                <ul className="space-y-3 text-gray-700" data-oid="_etq3:q">
-                                    <li className="flex items-start" data-oid="ypsz8t-">
+                                <ul className="space-y-3 text-gray-700" data-oid="46ro0k5">
+                                    <li className="flex items-start" data-oid="c49nmrf">
                                         <svg
                                             className="h-5 w-5 text-indigo-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="1u6cdi:"
+                                            data-oid="w_qly3r"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                                                data-oid="j5k.b8:"
+                                                data-oid="ke:meir"
                                             />
                                         </svg>
-                                        <span data-oid="syo273s">
+                                        <span data-oid="4jhbfh1">
                                             {' '}
                                             Papers should be 6,000-8,000 words, including
                                             references.{' '}
                                         </span>
                                     </li>
-                                    <li className="flex items-start" data-oid="41d0k5_">
+                                    <li className="flex items-start" data-oid="4:chcvs">
                                         <svg
                                             className="h-5 w-5 text-indigo-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="6c_7drt"
+                                            data-oid="s6yk2x_"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                                                data-oid="6o8a2kq"
+                                                data-oid="ll03vnu"
                                             />
                                         </svg>
-                                        <span data-oid="rdgr5_m">
+                                        <span data-oid="8crsxkc">
                                             {' '}
                                             Use Times New Roman, 12-point font, double-spaced.{' '}
                                         </span>
                                     </li>
-                                    <li className="flex items-start" data-oid="uyr6plr">
+                                    <li className="flex items-start" data-oid="_9x8fq6">
                                         <svg
                                             className="h-5 w-5 text-indigo-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="cjrvlm_"
+                                            data-oid="4dfvi:s"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                                                data-oid="4j01hfz"
+                                                data-oid="4_zvl2x"
                                             />
                                         </svg>
-                                        <span data-oid="7htti6_">
+                                        <span data-oid="8mszsab">
                                             Follow APA 7th edition citation style.
                                         </span>
                                     </li>
-                                    <li className="flex items-start" data-oid="we8f7nk">
+                                    <li className="flex items-start" data-oid="nq.6cxh">
                                         <svg
                                             className="h-5 w-5 text-indigo-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="pab60.1"
+                                            data-oid="b5g55-o"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                                                data-oid="af9rav6"
+                                                data-oid="1r8s:3v"
                                             />
                                         </svg>
-                                        <span data-oid="ns:dvxh">
+                                        <span data-oid="g0mym1q">
                                             {' '}
                                             Include an abstract, keywords, introduction, literature
                                             review, methodology, findings, discussion, and
                                             conclusion.{' '}
                                         </span>
                                     </li>
-                                    <li className="flex items-start" data-oid="6m.140f">
+                                    <li className="flex items-start" data-oid=".-b0n-e">
                                         <svg
                                             className="h-5 w-5 text-indigo-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="4-j7mys"
+                                            data-oid="a2m:f42"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                                                data-oid="358uw:b"
+                                                data-oid="gounzrz"
                                             />
                                         </svg>
-                                        <span data-oid="50jviw4">
+                                        <span data-oid="2-d.tpk">
                                             Submit in both PDF and Word format.
                                         </span>
                                     </li>
                                 </ul>
-                                <div className="mt-6" data-oid="i8g90gq">
+                                <div className="mt-6" data-oid="d:hf6dl">
                                     <a
                                         href="#"
                                         className="text-indigo-600 hover:text-indigo-800 font-medium"
-                                        data-oid=".bu8b2k"
+                                        data-oid="y30pnx6"
                                     >
                                         {' '}
                                         Download Paper Template →{' '}
@@ -866,15 +866,15 @@ export default function Page() {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-10 bg-indigo-50 p-6 rounded-lg" data-oid="qzf5jf:">
+                        <div className="mt-10 bg-indigo-50 p-6 rounded-lg" data-oid="j228arh">
                             <h3
                                 className="text-xl font-semibold text-indigo-800 mb-4"
-                                data-oid="mh6zr6."
+                                data-oid="0zdm6s6"
                             >
                                 {' '}
                                 Review Process{' '}
                             </h3>
-                            <p className="text-gray-700 mb-4" data-oid="69n_:yn">
+                            <p className="text-gray-700 mb-4" data-oid="xb-don5">
                                 {' '}
                                 All submissions will undergo a double-blind peer review process.
                                 Each abstract will be reviewed by at least two members of the
@@ -882,16 +882,16 @@ export default function Page() {
                             </p>
                             <ul
                                 className="list-disc pl-5 text-gray-700 space-y-2 mb-4"
-                                data-oid="8vgsg_-"
+                                data-oid="wy51579"
                             >
-                                <li data-oid="e01yqwx">Relevance to the conference theme</li>
-                                <li data-oid="786qvz7">Originality and innovation</li>
-                                <li data-oid="9qb37kr">Theoretical foundation</li>
-                                <li data-oid="g5ot47x">Methodological rigor</li>
-                                <li data-oid=":ouvrdi">Clarity of presentation</li>
-                                <li data-oid="isq7q8w">Potential contribution to the field</li>
+                                <li data-oid="uudeatg">Relevance to the conference theme</li>
+                                <li data-oid="h.n-rvp">Originality and innovation</li>
+                                <li data-oid=":ksqqmc">Theoretical foundation</li>
+                                <li data-oid="vbojrr:">Methodological rigor</li>
+                                <li data-oid="an7vff5">Clarity of presentation</li>
+                                <li data-oid="xol2dy:">Potential contribution to the field</li>
                             </ul>
-                            <p className="text-gray-700" data-oid="erkxet7">
+                            <p className="text-gray-700" data-oid="5bhdz94">
                                 {' '}
                                 Authors of accepted abstracts will be invited to submit full papers,
                                 which will also undergo peer review before final acceptance.{' '}
@@ -900,129 +900,129 @@ export default function Page() {
                     </div>
                 </section>
                 {/* Registration & Fees Section */}
-                <section id="registration" className="py-20 bg-indigo-50" data-oid="g5yo43a">
-                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="a7zhnzq">
+                <section id="registration" className="py-20 bg-indigo-50" data-oid="k-7xcz1">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="n2wh6ju">
                         <h2
                             className="text-3xl font-bold text-center text-indigo-900 mb-12"
-                            data-oid=":h8wswy"
+                            data-oid="i0apy_c"
                         >
                             {' '}
                             Registration & Fees{' '}
                         </h2>
-                        <div className="grid md:grid-cols-3 gap-6 mb-10" data-oid="3rop-_a">
+                        <div className="grid md:grid-cols-3 gap-6 mb-10" data-oid="xm4j06z">
                             <div
                                 className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
-                                data-oid="zkne0rp"
+                                data-oid="mrqwwwe"
                             >
-                                <div className="text-center mb-4" data-oid="u4iw-1g">
+                                <div className="text-center mb-4" data-oid="satk43-">
                                     <h3
                                         className="text-xl font-semibold text-indigo-800"
-                                        data-oid="9.3lznd"
+                                        data-oid="5f-48ut"
                                     >
                                         {' '}
                                         Early Bird Registration{' '}
                                     </h3>
-                                    <p className="text-gray-500 text-sm" data-oid="kzae49u">
+                                    <p className="text-gray-500 text-sm" data-oid="sz4j8mb">
                                         {' '}
                                         (Until February 1, 2025){' '}
                                     </p>
                                 </div>
-                                <div className="flex justify-center mb-6" data-oid="amv1ym.">
-                                    <div className="text-center" data-oid="gyycy7d">
+                                <div className="flex justify-center mb-6" data-oid="ys217_q">
+                                    <div className="text-center" data-oid="dgyonzx">
                                         <span
                                             className="text-4xl font-bold text-indigo-600"
-                                            data-oid="ut3dvtv"
+                                            data-oid=":clived"
                                         >
                                             {' '}
                                             $250{' '}
                                         </span>
                                         <span
                                             className="text-gray-500 block text-sm"
-                                            data-oid="s:-kco2"
+                                            data-oid="a4838q1"
                                         >
                                             {' '}
                                             Regular Participants{' '}
                                         </span>
                                     </div>
                                 </div>
-                                <ul className="space-y-2 text-gray-700 mb-6" data-oid="09un2mq">
-                                    <li className="flex items-start" data-oid="thsn1q7">
+                                <ul className="space-y-2 text-gray-700 mb-6" data-oid="1i.4fm9">
+                                    <li className="flex items-start" data-oid="dw889xu">
                                         <svg
                                             className="h-5 w-5 text-green-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="d.x9umk"
+                                            data-oid="uytsv7r"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M5 13l4 4L19 7"
-                                                data-oid="zu6bv7w"
+                                                data-oid="_f1pobq"
                                             />
                                         </svg>
-                                        <span data-oid="ku8ce4q">Conference attendance</span>
+                                        <span data-oid="l9kniof">Conference attendance</span>
                                     </li>
-                                    <li className="flex items-start" data-oid="_ntgq4j">
+                                    <li className="flex items-start" data-oid="21qt3sx">
                                         <svg
                                             className="h-5 w-5 text-green-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="qyi:m8o"
+                                            data-oid="bd57q7t"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M5 13l4 4L19 7"
-                                                data-oid="6xs3f3q"
+                                                data-oid="s3q30d7"
                                             />
                                         </svg>
-                                        <span data-oid="f5me8-0">Conference materials</span>
+                                        <span data-oid="1r.i9z:">Conference materials</span>
                                     </li>
-                                    <li className="flex items-start" data-oid="s4z9g-.">
+                                    <li className="flex items-start" data-oid="66i_q8m">
                                         <svg
                                             className="h-5 w-5 text-green-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="dlbq76b"
+                                            data-oid="flt404_"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M5 13l4 4L19 7"
-                                                data-oid="u:1h6xs"
+                                                data-oid="v8khhw1"
                                             />
                                         </svg>
-                                        <span data-oid="in-t3az">Coffee breaks & lunches</span>
+                                        <span data-oid=":5fs50k">Coffee breaks & lunches</span>
                                     </li>
-                                    <li className="flex items-start" data-oid="kkurjbk">
+                                    <li className="flex items-start" data-oid="8bmv89n">
                                         <svg
                                             className="h-5 w-5 text-green-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="0s4rmk."
+                                            data-oid="k-d__f4"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M5 13l4 4L19 7"
-                                                data-oid=":hzb1lr"
+                                                data-oid="pl2oidp"
                                             />
                                         </svg>
-                                        <span data-oid="84ovmhp">Welcome reception</span>
+                                        <span data-oid="vu485jb">Welcome reception</span>
                                     </li>
                                 </ul>
-                                <div className="text-center" data-oid="gwo54y2">
+                                <div className="text-center" data-oid="b-3r:kn">
                                     <p
                                         className="text-indigo-600 font-medium mb-2"
-                                        data-oid="8bki8p1"
+                                        data-oid="n::371e"
                                     >
                                         {' '}
                                         Student Rate: $150{' '}
@@ -1031,124 +1031,124 @@ export default function Page() {
                             </div>
                             <div
                                 className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-2 border-indigo-500 relative"
-                                data-oid="papcn6m"
+                                data-oid="gm.fjk."
                             >
                                 <div
                                     className="absolute top-0 right-0 bg-indigo-500 text-white px-3 py-1 text-xs font-bold uppercase rounded-bl-lg"
-                                    data-oid="7y6::xy"
+                                    data-oid="gz4gx.v"
                                 >
                                     {' '}
                                     Recommended{' '}
                                 </div>
-                                <div className="text-center mb-4" data-oid="cp.blt1">
+                                <div className="text-center mb-4" data-oid="s.ygx4p">
                                     <h3
                                         className="text-xl font-semibold text-indigo-800"
-                                        data-oid="vp8ei11"
+                                        data-oid="o5xxn8j"
                                     >
                                         {' '}
                                         Standard Registration{' '}
                                     </h3>
-                                    <p className="text-gray-500 text-sm" data-oid="4ys.y:5">
+                                    <p className="text-gray-500 text-sm" data-oid="3jnbhq1">
                                         {' '}
                                         (February 2 - March 1, 2025){' '}
                                     </p>
                                 </div>
-                                <div className="flex justify-center mb-6" data-oid="mzhbia2">
-                                    <div className="text-center" data-oid="-fxqfvl">
+                                <div className="flex justify-center mb-6" data-oid="ywc2v0a">
+                                    <div className="text-center" data-oid="_s2mba-">
                                         <span
                                             className="text-4xl font-bold text-indigo-600"
-                                            data-oid="b9rnpg7"
+                                            data-oid="ph99tyh"
                                         >
                                             {' '}
                                             $300{' '}
                                         </span>
                                         <span
                                             className="text-gray-500 block text-sm"
-                                            data-oid="d1rt_92"
+                                            data-oid="f-ca.9o"
                                         >
                                             {' '}
                                             Regular Participants{' '}
                                         </span>
                                     </div>
                                 </div>
-                                <ul className="space-y-2 text-gray-700 mb-6" data-oid="x-:adva">
-                                    <li className="flex items-start" data-oid="b.0kj1q">
+                                <ul className="space-y-2 text-gray-700 mb-6" data-oid="x1ur2ft">
+                                    <li className="flex items-start" data-oid="jpgvqw6">
                                         <svg
                                             className="h-5 w-5 text-green-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="857zrty"
+                                            data-oid="84n6h:1"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M5 13l4 4L19 7"
-                                                data-oid="a9wa-tv"
+                                                data-oid="xhpqx:x"
                                             />
                                         </svg>
-                                        <span data-oid="bhxzv9d">Conference attendance</span>
+                                        <span data-oid="4_8.cyg">Conference attendance</span>
                                     </li>
-                                    <li className="flex items-start" data-oid="lacpim-">
+                                    <li className="flex items-start" data-oid="ave6unh">
                                         <svg
                                             className="h-5 w-5 text-green-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="ewu7a8a"
+                                            data-oid="o7:2_wk"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M5 13l4 4L19 7"
-                                                data-oid="zcw8fpf"
+                                                data-oid="2aj-5f3"
                                             />
                                         </svg>
-                                        <span data-oid="n4y:3j5">Conference materials</span>
+                                        <span data-oid="r4_k8tv">Conference materials</span>
                                     </li>
-                                    <li className="flex items-start" data-oid="-a1rzjt">
+                                    <li className="flex items-start" data-oid="bp2hz44">
                                         <svg
                                             className="h-5 w-5 text-green-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="p_3a8hg"
+                                            data-oid="g_j6rga"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M5 13l4 4L19 7"
-                                                data-oid="_e.my2y"
+                                                data-oid="l9y7ry7"
                                             />
                                         </svg>
-                                        <span data-oid="x0tzl59">Coffee breaks & lunches</span>
+                                        <span data-oid="w8dmwv6">Coffee breaks & lunches</span>
                                     </li>
-                                    <li className="flex items-start" data-oid="8y9kqv2">
+                                    <li className="flex items-start" data-oid="0h9r6qh">
                                         <svg
                                             className="h-5 w-5 text-green-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="a72ah3n"
+                                            data-oid="5c3nq6n"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M5 13l4 4L19 7"
-                                                data-oid="ijg_:m8"
+                                                data-oid="5r7tr3c"
                                             />
                                         </svg>
-                                        <span data-oid="tlw-tc7">Welcome reception</span>
+                                        <span data-oid="bjpba.p">Welcome reception</span>
                                     </li>
                                 </ul>
-                                <div className="text-center" data-oid="4jvc3oa">
+                                <div className="text-center" data-oid="hzsjd59">
                                     <p
                                         className="text-indigo-600 font-medium mb-2"
-                                        data-oid="y1m1iz_"
+                                        data-oid="tqebo1m"
                                     >
                                         {' '}
                                         Student Rate: $200{' '}
@@ -1157,116 +1157,116 @@ export default function Page() {
                             </div>
                             <div
                                 className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
-                                data-oid="4adhtoa"
+                                data-oid="y:wk4_5"
                             >
-                                <div className="text-center mb-4" data-oid="1wh5k26">
+                                <div className="text-center mb-4" data-oid="_xga:z.">
                                     <h3
                                         className="text-xl font-semibold text-indigo-800"
-                                        data-oid="ueat6_b"
+                                        data-oid=".s4ecu1"
                                     >
                                         {' '}
                                         Late Registration{' '}
                                     </h3>
-                                    <p className="text-gray-500 text-sm" data-oid="tj_f-hq">
+                                    <p className="text-gray-500 text-sm" data-oid="3aq9fsv">
                                         (After March 1, 2025)
                                     </p>
                                 </div>
-                                <div className="flex justify-center mb-6" data-oid="12o9w9q">
-                                    <div className="text-center" data-oid="3slt4q4">
+                                <div className="flex justify-center mb-6" data-oid="orqbcds">
+                                    <div className="text-center" data-oid="x6u11gq">
                                         <span
                                             className="text-4xl font-bold text-indigo-600"
-                                            data-oid="royjd5v"
+                                            data-oid="g4ha__d"
                                         >
                                             {' '}
                                             $350{' '}
                                         </span>
                                         <span
                                             className="text-gray-500 block text-sm"
-                                            data-oid="oueehud"
+                                            data-oid="0p1jgyw"
                                         >
                                             {' '}
                                             Regular Participants{' '}
                                         </span>
                                     </div>
                                 </div>
-                                <ul className="space-y-2 text-gray-700 mb-6" data-oid="ppn:w20">
-                                    <li className="flex items-start" data-oid="fywkem9">
+                                <ul className="space-y-2 text-gray-700 mb-6" data-oid="qq3qo0z">
+                                    <li className="flex items-start" data-oid="nk.eruo">
                                         <svg
                                             className="h-5 w-5 text-green-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid=":q5f9ua"
+                                            data-oid="1e2fj45"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M5 13l4 4L19 7"
-                                                data-oid="6ob_u2v"
+                                                data-oid="eo8m-lg"
                                             />
                                         </svg>
-                                        <span data-oid="7n46ap6">Conference attendance</span>
+                                        <span data-oid="rsw576b">Conference attendance</span>
                                     </li>
-                                    <li className="flex items-start" data-oid="r9o0wn2">
+                                    <li className="flex items-start" data-oid="4mvee2e">
                                         <svg
                                             className="h-5 w-5 text-green-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="_4_s9fz"
+                                            data-oid="a.ae4vw"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M5 13l4 4L19 7"
-                                                data-oid="9c-dzn9"
+                                                data-oid="wse5w.8"
                                             />
                                         </svg>
-                                        <span data-oid="jmwoljq">Conference materials</span>
+                                        <span data-oid="ocgu205">Conference materials</span>
                                     </li>
-                                    <li className="flex items-start" data-oid="w03radp">
+                                    <li className="flex items-start" data-oid="esni0.d">
                                         <svg
                                             className="h-5 w-5 text-green-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="e.2qvqu"
+                                            data-oid="rvd58y8"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M5 13l4 4L19 7"
-                                                data-oid="bez0sky"
+                                                data-oid="7gl474l"
                                             />
                                         </svg>
-                                        <span data-oid="m572w3z">Coffee breaks & lunches</span>
+                                        <span data-oid="frk3s.0">Coffee breaks & lunches</span>
                                     </li>
-                                    <li className="flex items-start" data-oid="dplx4h7">
+                                    <li className="flex items-start" data-oid="9jn8nfk">
                                         <svg
                                             className="h-5 w-5 text-green-500 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="c53_9dv"
+                                            data-oid="97v555h"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M5 13l4 4L19 7"
-                                                data-oid=":e:xq9b"
+                                                data-oid="ngazd36"
                                             />
                                         </svg>
-                                        <span data-oid="0ya1h1o">Welcome reception</span>
+                                        <span data-oid="pyhi.k7">Welcome reception</span>
                                     </li>
                                 </ul>
-                                <div className="text-center" data-oid="ygt538a">
+                                <div className="text-center" data-oid="nle8wu7">
                                     <p
                                         className="text-indigo-600 font-medium mb-2"
-                                        data-oid="azbf7gb"
+                                        data-oid="d8r333."
                                     >
                                         {' '}
                                         Student Rate: $250{' '}
@@ -1274,44 +1274,44 @@ export default function Page() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-white p-6 rounded-lg shadow-md mb-8" data-oid="qzsg6of">
+                        <div className="bg-white p-6 rounded-lg shadow-md mb-8" data-oid="i1p89mk">
                             <h3
                                 className="text-xl font-semibold text-indigo-800 mb-4"
-                                data-oid="2bec7pk"
+                                data-oid="i5d3-y5"
                             >
                                 {' '}
                                 Additional Options{' '}
                             </h3>
-                            <div className="grid md:grid-cols-2 gap-6" data-oid="k6h9z40">
-                                <div data-oid="oid_h0c">
+                            <div className="grid md:grid-cols-2 gap-6" data-oid="yo:0i6n">
+                                <div data-oid="i0v8:ec">
                                     <h4
                                         className="font-medium text-indigo-700 mb-2"
-                                        data-oid="trzz3of"
+                                        data-oid="2naugsm"
                                     >
                                         {' '}
                                         Conference Dinner{' '}
                                     </h4>
-                                    <p className="text-gray-700 mb-2" data-oid="l-eiv08">
+                                    <p className="text-gray-700 mb-2" data-oid="jdi573v">
                                         $50 per person
                                     </p>
-                                    <p className="text-gray-600 text-sm" data-oid="a9qe-5c">
+                                    <p className="text-gray-600 text-sm" data-oid="9c-d7zm">
                                         {' '}
                                         Join us for a special dinner featuring local cuisine and
                                         cultural performances.{' '}
                                     </p>
                                 </div>
-                                <div data-oid="mrpruzj">
+                                <div data-oid="i1uv9bq">
                                     <h4
                                         className="font-medium text-indigo-700 mb-2"
-                                        data-oid="v6hrr2a"
+                                        data-oid="9rt303w"
                                     >
                                         {' '}
                                         Cultural Tour{' '}
                                     </h4>
-                                    <p className="text-gray-700 mb-2" data-oid="pf0-a9s">
+                                    <p className="text-gray-700 mb-2" data-oid="j63y_-6">
                                         $40 per person
                                     </p>
-                                    <p className="text-gray-600 text-sm" data-oid="_p:vh9p">
+                                    <p className="text-gray-600 text-sm" data-oid="ga:93gy">
                                         {' '}
                                         A guided tour of historical and cultural sites in Hyderabad
                                         (March 18, 2025).{' '}
@@ -1319,21 +1319,21 @@ export default function Page() {
                                 </div>
                             </div>
                         </div>
-                        <div className="text-center" data-oid="ex4v66m">
+                        <div className="text-center" data-oid="q14arp2">
                             <button
                                 className="px-8 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors shadow-md"
-                                data-oid="ryibk9."
+                                data-oid="uhof3r0"
                             >
                                 {' '}
                                 Register Now{' '}
                             </button>
-                            <p className="mt-4 text-gray-600" data-oid="x.nnu:3">
+                            <p className="mt-4 text-gray-600" data-oid="8w0uzi6">
                                 {' '}
                                 For group registrations or special requirements, please contact{' '}
                                 <a
                                     href="mailto:registration@displacement2025.org"
                                     className="text-indigo-600 hover:underline"
-                                    data-oid="bd27s-a"
+                                    data-oid="u97m6uw"
                                 >
                                     {' '}
                                     registration@displacement2025.org{' '}
@@ -1343,89 +1343,89 @@ export default function Page() {
                     </div>
                 </section>
                 {/* Contact Section */}
-                <section id="contact" className="py-20 bg-white" data-oid="ycis:71">
-                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="zw1mpf4">
+                <section id="contact" className="py-20 bg-white" data-oid="1r94ubl">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="yphqeel">
                         <h2
                             className="text-3xl font-bold text-center text-indigo-900 mb-12"
-                            data-oid="9ctz4v2"
+                            data-oid="-.mm7oq"
                         >
                             {' '}
                             Contact Us{' '}
                         </h2>
-                        <div className="grid md:grid-cols-2 gap-8" data-oid="ojbra0g">
-                            <div className="bg-white p-6 rounded-lg shadow-md" data-oid="f1mf.zz">
+                        <div className="grid md:grid-cols-2 gap-8" data-oid="tc0dv:i">
+                            <div className="bg-white p-6 rounded-lg shadow-md" data-oid="fd_-ysw">
                                 <h3
                                     className="text-xl font-semibold text-indigo-800 mb-4"
-                                    data-oid="nuxlpne"
+                                    data-oid="y1_hozo"
                                 >
                                     {' '}
                                     Conference Organizers{' '}
                                 </h3>
-                                <div className="space-y-6" data-oid="7lzuut_">
-                                    <div data-oid="v5m41vk">
+                                <div className="space-y-6" data-oid="belt-ef">
+                                    <div data-oid="47pt9ij">
                                         <h4
                                             className="font-medium text-indigo-700 mb-2"
-                                            data-oid="xw_a52a"
+                                            data-oid="14smlqd"
                                         >
                                             {' '}
                                             Conference Chair{' '}
                                         </h4>
-                                        <p className="text-gray-700" data-oid="ultqw:x">
+                                        <p className="text-gray-700" data-oid="bamigy.">
                                             Prof. Ananya Sharma
                                         </p>
-                                        <p className="text-gray-700" data-oid="7.6_q9m">
+                                        <p className="text-gray-700" data-oid="sp1n_7f">
                                             University of Hyderabad
                                         </p>
                                         <a
                                             href="mailto:chair@displacement2025.org"
                                             className="text-indigo-600 hover:underline"
-                                            data-oid="pxrlkk3"
+                                            data-oid="uul470c"
                                         >
                                             {' '}
                                             chair@displacement2025.org{' '}
                                         </a>
                                     </div>
-                                    <div data-oid="cx-4x-1">
+                                    <div data-oid="1sya2uv">
                                         <h4
                                             className="font-medium text-indigo-700 mb-2"
-                                            data-oid="ja0ewct"
+                                            data-oid="q7an74f"
                                         >
                                             {' '}
                                             Program Committee{' '}
                                         </h4>
-                                        <p className="text-gray-700" data-oid="igdghve">
+                                        <p className="text-gray-700" data-oid="6k1.si_">
                                             Prof. Michael Chen
                                         </p>
-                                        <p className="text-gray-700" data-oid="wnzxnwn">
+                                        <p className="text-gray-700" data-oid="jwbe8id">
                                             Dartmouth College
                                         </p>
                                         <a
                                             href="mailto:program@displacement2025.org"
                                             className="text-indigo-600 hover:underline"
-                                            data-oid="_uruidp"
+                                            data-oid="hjuhtng"
                                         >
                                             {' '}
                                             program@displacement2025.org{' '}
                                         </a>
                                     </div>
-                                    <div data-oid="70ncia.">
+                                    <div data-oid="ptxgtyx">
                                         <h4
                                             className="font-medium text-indigo-700 mb-2"
-                                            data-oid="uu44ubm"
+                                            data-oid="58ujm:l"
                                         >
                                             {' '}
                                             Local Arrangements{' '}
                                         </h4>
-                                        <p className="text-gray-700" data-oid="g:itd4p">
+                                        <p className="text-gray-700" data-oid="so9g3ws">
                                             Dr. Priya Patel
                                         </p>
-                                        <p className="text-gray-700" data-oid="srx8p8x">
+                                        <p className="text-gray-700" data-oid="yp90_p5">
                                             University of Hyderabad
                                         </p>
                                         <a
                                             href="mailto:local@displacement2025.org"
                                             className="text-indigo-600 hover:underline"
-                                            data-oid="_ip.f9u"
+                                            data-oid="odcm1.y"
                                         >
                                             {' '}
                                             local@displacement2025.org{' '}
@@ -1433,20 +1433,20 @@ export default function Page() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="bg-white p-6 rounded-lg shadow-md" data-oid="zuz5:u9">
+                            <div className="bg-white p-6 rounded-lg shadow-md" data-oid="ux0h3f6">
                                 <h3
                                     className="text-xl font-semibold text-indigo-800 mb-4"
-                                    data-oid="0tedocw"
+                                    data-oid="zuzz3kw"
                                 >
                                     {' '}
                                     Get in Touch{' '}
                                 </h3>
-                                <form className="space-y-4" data-oid="mbfgf82">
-                                    <div data-oid="c2z0i52">
+                                <form className="space-y-4" data-oid="lqvi-h9">
+                                    <div data-oid="2.vaeyw">
                                         <label
                                             htmlFor="name"
                                             className="block text-sm font-medium text-gray-700 mb-1"
-                                            data-oid="q:fb.77"
+                                            data-oid="ujve4g9"
                                         >
                                             {' '}
                                             Name{' '}
@@ -1456,14 +1456,14 @@ export default function Page() {
                                             id="name"
                                             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
                                             placeholder="Your name"
-                                            data-oid="x2unxjg"
+                                            data-oid="hldcccd"
                                         />
                                     </div>
-                                    <div data-oid="2qg7xdq">
+                                    <div data-oid="p36-0ov">
                                         <label
                                             htmlFor="email"
                                             className="block text-sm font-medium text-gray-700 mb-1"
-                                            data-oid="7dta321"
+                                            data-oid="ah4wncb"
                                         >
                                             {' '}
                                             Email{' '}
@@ -1473,14 +1473,14 @@ export default function Page() {
                                             id="email"
                                             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
                                             placeholder="Your email"
-                                            data-oid="4w6sk3i"
+                                            data-oid="_pb43-o"
                                         />
                                     </div>
-                                    <div data-oid="mcy._-n">
+                                    <div data-oid="m2y.9mv">
                                         <label
                                             htmlFor="subject"
                                             className="block text-sm font-medium text-gray-700 mb-1"
-                                            data-oid="uxz_z3h"
+                                            data-oid="me94fj-"
                                         >
                                             {' '}
                                             Subject{' '}
@@ -1490,14 +1490,14 @@ export default function Page() {
                                             id="subject"
                                             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
                                             placeholder="Subject"
-                                            data-oid="843l44e"
+                                            data-oid="e_dysif"
                                         />
                                     </div>
-                                    <div data-oid="mz1_cjj">
+                                    <div data-oid="p9xozcl">
                                         <label
                                             htmlFor="message"
                                             className="block text-sm font-medium text-gray-700 mb-1"
-                                            data-oid="40:247e"
+                                            data-oid="opqf22q"
                                         >
                                             {' '}
                                             Message{' '}
@@ -1507,13 +1507,13 @@ export default function Page() {
                                             rows={4}
                                             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
                                             placeholder="Your message"
-                                            data-oid="g0vyw9-"
+                                            data-oid="7a5t01i"
                                         ></textarea>
                                     </div>
                                     <button
                                         type="submit"
                                         className="px-6 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors shadow-sm"
-                                        data-oid="-t:mmvt"
+                                        data-oid="64ll_4d"
                                     >
                                         {' '}
                                         Send Message{' '}
@@ -1521,35 +1521,35 @@ export default function Page() {
                                 </form>
                             </div>
                         </div>
-                        <div className="mt-12 bg-indigo-50 p-6 rounded-lg" data-oid="7kucb:7">
+                        <div className="mt-12 bg-indigo-50 p-6 rounded-lg" data-oid="a:6l5ns">
                             <h3
                                 className="text-xl font-semibold text-indigo-800 mb-4"
-                                data-oid="m8wqud5"
+                                data-oid="1:7zk5w"
                             >
                                 {' '}
                                 Conference Venue{' '}
                             </h3>
-                            <div className="grid md:grid-cols-2 gap-6" data-oid="x..m391">
-                                <div data-oid="2rft3uk">
-                                    <p className="text-gray-700 mb-2" data-oid="_-19h1m">
-                                        <strong data-oid="a.pq9rx">University of Hyderabad</strong>
-                                        <br data-oid=".gvxklm" /> Prof. C.R. Rao Road, Gachibowli
-                                        <br data-oid="8d766yd" /> Hyderabad, Telangana 500046
-                                        <br data-oid="36n_8y." /> India
+                            <div className="grid md:grid-cols-2 gap-6" data-oid="scv7b4p">
+                                <div data-oid=":rnuc.2">
+                                    <p className="text-gray-700 mb-2" data-oid="as_f66:">
+                                        <strong data-oid="3-8i96i">University of Hyderabad</strong>
+                                        <br data-oid="c2uah8t" /> Prof. C.R. Rao Road, Gachibowli
+                                        <br data-oid="g:w_l7c" /> Hyderabad, Telangana 500046
+                                        <br data-oid="q9ynxoo" /> India
                                     </p>
-                                    <p className="text-gray-700 mb-4" data-oid="zsz81dr">
-                                        <strong data-oid="rol3ul.">Conference Hall:</strong> School
+                                    <p className="text-gray-700 mb-4" data-oid="eck2d:v">
+                                        <strong data-oid="45bek97">Conference Hall:</strong> School
                                         of Social Sciences Auditorium
                                     </p>
-                                    <div data-oid="lh-qo.7">
+                                    <div data-oid="89o617o">
                                         <h4
                                             className="font-medium text-indigo-700 mb-2"
-                                            data-oid="8s7-g1w"
+                                            data-oid="onlew6f"
                                         >
                                             {' '}
                                             Accommodation{' '}
                                         </h4>
-                                        <p className="text-gray-700" data-oid="b-hmyke">
+                                        <p className="text-gray-700" data-oid="azkm5nu">
                                             {' '}
                                             Information about recommended hotels and special
                                             conference rates will be available soon. For early
@@ -1557,7 +1557,7 @@ export default function Page() {
                                             <a
                                                 href="mailto:accommodation@displacement2025.org"
                                                 className="text-indigo-600 hover:underline"
-                                                data-oid="4dykvh4"
+                                                data-oid="w-b_j.7"
                                             >
                                                 {' '}
                                                 accommodation@displacement2025.org{' '}
@@ -1567,9 +1567,9 @@ export default function Page() {
                                 </div>
                                 <div
                                     className="h-64 bg-gray-200 rounded-md flex items-center justify-center"
-                                    data-oid="nb7vrnr"
+                                    data-oid="a-ua4dt"
                                 >
-                                    <span className="text-gray-500" data-oid="086p2hs">
+                                    <span className="text-gray-500" data-oid="gihhhxh">
                                         {' '}
                                         Map will be displayed here{' '}
                                     </span>
@@ -1579,79 +1579,79 @@ export default function Page() {
                     </div>
                 </section>
                 {/* Footer */}
-                <footer className="bg-indigo-900 text-white py-12" data-oid="31t7ig1">
-                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="c.m1l-l">
-                        <div className="grid md:grid-cols-4 gap-8" data-oid=":ci3dto">
-                            <div data-oid="bvky7aq">
-                                <h3 className="text-xl font-semibold mb-4" data-oid="why2quu">
+                <footer className="bg-indigo-900 text-white py-12" data-oid="td5bkgw">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="4l_4xve">
+                        <div className="grid md:grid-cols-4 gap-8" data-oid="_eq3ccr">
+                            <div data-oid="agl4:oe">
+                                <h3 className="text-xl font-semibold mb-4" data-oid="j:sqpf6">
                                     DISPLACEMENT 2025
                                 </h3>
-                                <p className="text-indigo-200" data-oid="r-iqhuu">
+                                <p className="text-indigo-200" data-oid="ruhodoa">
                                     {' '}
                                     An international conference exploring the multifaceted
                                     dimensions of displacement in contemporary society.{' '}
                                 </p>
                             </div>
-                            <div data-oid="v-tf.n6">
-                                <h3 className="text-lg font-semibold mb-4" data-oid="1.dqs5q">
+                            <div data-oid="esa7v7d">
+                                <h3 className="text-lg font-semibold mb-4" data-oid="s7vems5">
                                     Quick Links
                                 </h3>
-                                <ul className="space-y-2" data-oid="22yh57s">
-                                    <li data-oid="n5ztqsm">
+                                <ul className="space-y-2" data-oid="a1la6un">
+                                    <li data-oid="_t4rkmo">
                                         <button
                                             onClick={() => scrollToSection('home')}
                                             className="text-indigo-200 hover:text-white"
-                                            data-oid="ad6::yu"
+                                            data-oid="5jkpm6w"
                                         >
                                             {' '}
                                             Home{' '}
                                         </button>
                                     </li>
-                                    <li data-oid="yq3u39c">
+                                    <li data-oid="v-l8bm6">
                                         <button
                                             onClick={() => scrollToSection('about')}
                                             className="text-indigo-200 hover:text-white"
-                                            data-oid="oeu-6.a"
+                                            data-oid="be1dctm"
                                         >
                                             {' '}
                                             About{' '}
                                         </button>
                                     </li>
-                                    <li data-oid="uor0l-o">
+                                    <li data-oid="23-1bzi">
                                         <button
                                             onClick={() => scrollToSection('call-for-papers')}
                                             className="text-indigo-200 hover:text-white"
-                                            data-oid="72kbyak"
+                                            data-oid="6c:4yt0"
                                         >
                                             {' '}
                                             Call for Papers{' '}
                                         </button>
                                     </li>
-                                    <li data-oid="_aep4rw">
+                                    <li data-oid="0:9vc6v">
                                         <button
                                             onClick={() => scrollToSection('submission')}
                                             className="text-indigo-200 hover:text-white"
-                                            data-oid="zfqpd-n"
+                                            data-oid="uwcdsw7"
                                         >
                                             {' '}
                                             Submission Guidelines{' '}
                                         </button>
                                     </li>
-                                    <li data-oid="bj5zdsc">
+                                    <li data-oid="9rytq6s">
                                         <button
                                             onClick={() => scrollToSection('registration')}
                                             className="text-indigo-200 hover:text-white"
-                                            data-oid="l04:cua"
+                                            data-oid="upswjfi"
                                         >
                                             {' '}
                                             Registration & Fees{' '}
                                         </button>
                                     </li>
-                                    <li data-oid="wi6rgzh">
+                                    <li data-oid="bc7a20u">
                                         <button
                                             onClick={() => scrollToSection('contact')}
                                             className="text-indigo-200 hover:text-white"
-                                            data-oid="o2ry3xh"
+                                            data-oid="hf_bujj"
                                         >
                                             {' '}
                                             Contact{' '}
@@ -1659,111 +1659,120 @@ export default function Page() {
                                     </li>
                                 </ul>
                             </div>
-                            <div data-oid="fe6s0vg">
-                                <h3 className="text-lg font-semibold mb-4" data-oid="hs26skw">
+                            <div data-oid="od1_g:0">
+                                <h3 className="text-lg font-semibold mb-4" data-oid="o-7bjko">
                                     Contact
                                 </h3>
-                                <ul className="space-y-2" data-oid=".74jw5a">
-                                    <li className="flex items-start" data-oid="4idc102">
+                                <ul className="space-y-2" data-oid="bqvwktt">
+                                    <li
+                                        className="flex items-start"
+                                        data-oid="e240z6d"
+                                        key="olk-MtuQ"
+                                    >
                                         <svg
                                             className="h-5 w-5 text-indigo-300 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="ugqe4k9"
+                                            data-oid="ao:d:rm"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                                                data-oid="61quzn7"
+                                                data-oid="4b92yvr"
                                             />
                                         </svg>
                                         <a
                                             href="mailto:info@displacement2025.org"
                                             className="text-indigo-200 hover:text-white"
-                                            data-oid="i0v6ykw"
+                                            data-oid="ixk6bb6"
+                                            key="olk-4GKU"
                                         >
                                             {' '}
                                             info@displacement2025.org{' '}
                                         </a>
                                     </li>
-                                    <li className="flex items-start" data-oid="cbu-.qz">
+                                    <li
+                                        className="flex items-start"
+                                        data-oid="83onk9."
+                                        key="olk-mYJE"
+                                    >
                                         <svg
                                             className="h-5 w-5 text-indigo-300 mr-2 mt-0.5"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="72r:mvx"
+                                            data-oid="2x-hk3h"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                                                data-oid="wxiy-xp"
+                                                data-oid="qoz5gax"
                                             />
                                         </svg>
-                                        <span className="text-indigo-200" data-oid="s9d60fs">
+                                        <span className="text-indigo-200" data-oid="3_nsvjh">
                                             +91 40 2313 XXXX
                                         </span>
                                     </li>
                                 </ul>
                             </div>
-                            <div data-oid="fra4l-1">
-                                <h3 className="text-lg font-semibold mb-4" data-oid="wyxf1j2">
+                            <div data-oid="af8ehc8">
+                                <h3 className="text-lg font-semibold mb-4" data-oid="_zc:.2b">
                                     Follow Us
                                 </h3>
-                                <div className="flex space-x-4" data-oid="erlvw5u">
+                                <div className="flex space-x-4" data-oid="5a1q5_c">
                                     <a
                                         href="#"
                                         className="text-indigo-200 hover:text-white"
-                                        data-oid="hlxcn99"
+                                        data-oid="nap2r0i"
                                     >
                                         <svg
                                             className="h-6 w-6"
                                             fill="currentColor"
                                             viewBox="0 0 24 24"
-                                            data-oid="ibl854n"
+                                            data-oid="8e8f:cp"
                                         >
                                             <path
                                                 d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
-                                                data-oid="fa3:-4m"
+                                                data-oid="xdvt-52"
                                             />
                                         </svg>
                                     </a>
                                     <a
                                         href="#"
                                         className="text-indigo-200 hover:text-white"
-                                        data-oid="ke4c6oc"
+                                        data-oid="9casj.l"
                                     >
                                         <svg
                                             className="h-6 w-6"
                                             fill="currentColor"
                                             viewBox="0 0 24 24"
-                                            data-oid="1g6sk7b"
+                                            data-oid="f2g3pnw"
                                         >
                                             <path
                                                 d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
-                                                data-oid="tnuirbo"
+                                                data-oid="zgovxs0"
                                             />
                                         </svg>
                                     </a>
                                     <a
                                         href="#"
                                         className="text-indigo-200 hover:text-white"
-                                        data-oid="jnxwlaq"
+                                        data-oid="gasrs48"
                                     >
                                         <svg
                                             className="h-6 w-6"
                                             fill="currentColor"
                                             viewBox="0 0 24 24"
-                                            data-oid="wba0u4l"
+                                            data-oid="1a9obbw"
                                         >
                                             <path
                                                 d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
-                                                data-oid="cx:qg7e"
+                                                data-oid="y:e9b7:"
                                             />
                                         </svg>
                                     </a>
@@ -1772,12 +1781,12 @@ export default function Page() {
                         </div>
                         <div
                             className="mt-12 pt-8 border-t border-indigo-800 text-center text-indigo-300 text-sm"
-                            data-oid="kp17:4m"
+                            data-oid="n3gi08j"
                         >
-                            <p data-oid="2ss29lh">
+                            <p data-oid="jvx4e2e">
                                 © 2024 DISPLACEMENT Conference. All rights reserved.
                             </p>
-                            <p className="mt-2" data-oid="yswv7b4">
+                            <p className="mt-2" data-oid="sz1_7d.">
                                 {' '}
                                 A collaborative initiative by the University of Hyderabad, Dartmouth
                                 College, and University College London.{' '}
