@@ -57,7 +57,7 @@ export default function About() {
                     </div>
                     <div 
                         className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
-                        onClick={() => window.open('https://home.dartmouth.edu/', '_blank')}
+                        onClick={() => window.open('https://sites.dartmouth.edu/laaa/', '_blank')}
                     >
                         <h3 className="text-xl font-semibold text-red-800 mb-4">
                             Dartmouth College
@@ -69,7 +69,7 @@ export default function About() {
                     </div>
                     <div 
                         className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
-                        onClick={() => window.open('https://www.ucl.ac.uk/', '_blank')}
+                        onClick={() => window.open('https://southernresponses.org/', '_blank')}
                     >
                         <h3 className="text-xl font-semibold text-red-800 mb-4">
                             University College London (UCL)
