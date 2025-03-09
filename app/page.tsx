@@ -64,7 +64,7 @@ export default function Page() {
                                 <Image
                                     src="/images/logo.webp"
                                     alt="Conference Logos"
-                                    width={100}
+                                    width={150}
                                     height={64}
                                     className="h-16"
                                 />
@@ -274,8 +274,8 @@ export default function Page() {
                                     <Image
                                         src="/images/Displacement _20250307_121648_0001.jpg"
                                         alt="Conference Image"
-                                        width={400}
-                                        height={256}
+                                        width={600}
+                                        height={400}
                                         className="w-full h-64 object-cover hover:opacity-90 transition-opacity"
                                     />
                                 </div>
@@ -283,8 +283,8 @@ export default function Page() {
                                     <Image
                                         src="/images/Displacement _20250307_121648_0002.jpg"
                                         alt="Conference Image"
-                                        width={400}
-                                        height={256}
+                                        width={600}
+                                        height={400}
                                         className="w-full h-64 object-cover hover:opacity-90 transition-opacity"
                                     />
                                 </div>
@@ -292,8 +292,8 @@ export default function Page() {
                                     <Image
                                         src="/images/Displacement _20250307_121648_0003.jpg"
                                         alt="Conference Image"
-                                        width={400}
-                                        height={256}
+                                        width={600}
+                                        height={400}
                                         className="w-full h-64 object-cover hover:opacity-90 transition-opacity"
                                     />
                                 </div>
@@ -371,8 +371,8 @@ export default function Page() {
                                 <Image
                                     src="/images/Global insecurity and refugee crisis linked to climate change.jpeg"
                                     alt="Displacement Theme"
-                                    width={800}
-                                    height={320}
+                                    width={1000}
+                                    height={400}
                                     className="rounded-lg shadow-md max-h-80 object-cover"
                                 />
                             </div>
@@ -478,16 +478,16 @@ export default function Page() {
                                     src="/images/Displacement _20250307_121722_0000.png"
                                     alt="Submission Process"
                                     className="rounded-lg shadow-md"
-                                    width={400}
-                                    height={256}
+                                    width={600}
+                                    height={400}
                                 />
 
                                 <Image
                                     src="/images/Displacement _20250307_121722_0001.png"
                                     alt="Submission Process"
                                     className="rounded-lg shadow-md"
-                                    width={400}
-                                    height={256}
+                                    width={600}
+                                    height={400}
                                 />
                             </div>
                         </div>
@@ -931,8 +931,8 @@ export default function Page() {
                                     <Image
                                         src="/images/Displacement _20250307_121648_0004.jpg"
                                         alt="University of Hyderabad Campus"
-                                        width={800}
-                                        height={256}
+                                        width={1000}
+                                        height={400}
                                         className="w-full h-64 object-cover"
                                     />
                                 </div>
@@ -949,7 +949,7 @@ export default function Page() {
                                     <Image
                                         src="/images/logo.webp"
                                         alt="Conference Logo"
-                                        width={100}
+                                        width={150}
                                         height={48}
                                         className="h-12 mr-3"
                                     />
