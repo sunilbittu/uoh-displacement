@@ -20,7 +20,7 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center space-x-2">
                             <Image
-                                src="/images/logo.webp"
+                                src="/images/logo.png"
                                 alt="Conference Logos"
                                 width={150}
                                 height={64}

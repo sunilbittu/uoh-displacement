@@ -15,7 +15,7 @@ export default function Footer({ scrollToSection }: FooterProps) {
                     <div>
                         <Link href="/" className="flex items-center mb-4">
                             <Image
-                                src="/images/logo.webp"
+                                src="/images/logo.png"
                                 alt="Conference Logo"
                                 width={150}
                                 height={48}

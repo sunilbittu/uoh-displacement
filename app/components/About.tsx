@@ -43,7 +43,10 @@ export default function About() {
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-8">
-                    <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div 
+                        className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                        onClick={() => window.open('https://uohyd.ac.in/', '_blank')}
+                    >
                         <h3 className="text-xl font-semibold text-red-800 mb-4">
                             University of Hyderabad
                         </h3>
@@ -52,7 +55,10 @@ export default function About() {
                             outstanding contribution to teaching and research.
                         </p>
                     </div>
-                    <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div 
+                        className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                        onClick={() => window.open('https://home.dartmouth.edu/', '_blank')}
+                    >
                         <h3 className="text-xl font-semibold text-red-800 mb-4">
                             Dartmouth College
                         </h3>
@@ -61,7 +67,10 @@ export default function About() {
                             academic excellence and innovative research.
                         </p>
                     </div>
-                    <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div 
+                        className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                        onClick={() => window.open('https://www.ucl.ac.uk/', '_blank')}
+                    >
                         <h3 className="text-xl font-semibold text-red-800 mb-4">
                             University College London (UCL)
                         </h3>
