@@ -86,9 +86,9 @@ export default function CallForPapers({ scrollToSection }: CallForPapersProps) {
                             Special Sessions
                         </h3>
                         <p className="text-gray-700">
-                            The conference will feature special sessions on "Digital
-                            Displacement in the Age of AI" and "Climate Refugees: Policy
-                            Challenges and Responses." Submissions specifically addressing
+                            The conference will feature special sessions on &quot;Digital
+                            Displacement in the Age of AI&quot; and &quot;Climate Refugees: Policy
+                            Challenges and Responses.&quot; Submissions specifically addressing
                             these themes are encouraged.
                         </p>
                     </div>
