@@ -3,53 +3,53 @@ import Image from 'next/image';
 
 export default function People() {
     return (
-        <section id="people" className="py-20 bg-white" data-oid="7hkdz97">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="_rvitwf">
+        <section id="people" className="py-20 bg-white" data-oid="y7h3ano">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="2junu4v">
                 <h2
                     className="text-3xl font-bold text-center text-red-800 mb-12"
-                    data-oid="5l01jw8"
+                    data-oid="cqmm1e5"
                 >
                     People
                 </h2>
-                <div className="grid md:grid-cols-2 gap-8" data-oid="rsglo9:">
-                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="g4p4ia4">
-                        <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="or8pqs7">
+                <div className="grid md:grid-cols-2 gap-8" data-oid="09xdszs">
+                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="b_y_oov">
+                        <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid=":e5ghnc">
                             Conference Organizers
                         </h3>
-                        <div className="space-y-6" data-oid="h6qqwb8">
-                            <div data-oid="ogt2tic">
-                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="f78:tx:">
+                        <div className="space-y-6" data-oid="qrraqnd">
+                            <div data-oid="b8nwkg.">
+                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="-qqvu-0">
                                     Coordinator
                                 </h4>
-                                <p className="text-gray-700" data-oid="m:dqrvq">
+                                <p className="text-gray-700" data-oid="lf32w0e">
                                     Sireesha Telugu
                                 </p>
-                                <p className="text-gray-700" data-oid="tz39q37">
+                                <p className="text-gray-700" data-oid="59gsm.1">
                                     University of Hyderabad
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="qxlhflb">
-                        <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="i6nfjw6">
+                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="5etvcrj">
+                        <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="z0xpv90">
                             Conference Venue
                         </h3>
-                        <div className="grid md:grid-cols-1 gap-6" data-oid="cmvu.20">
-                            <div data-oid="8hwz6k2">
-                                <p className="text-gray-700 mb-2" data-oid="pg80b:h">
-                                    <strong data-oid="aqi8.xk">University of Hyderabad</strong>
-                                    <br data-oid="376ea7b" /> Prof. C.R. Rao Road, Gachibowli
-                                    <br data-oid="4pvs:5e" /> Hyderabad, Telangana 500046
-                                    <br data-oid="-948j:-" /> India
+                        <div className="grid md:grid-cols-1 gap-6" data-oid="8y25j4d">
+                            <div data-oid="g2y2xsb">
+                                <p className="text-gray-700 mb-2" data-oid="mb9abtz">
+                                    <strong data-oid="hvownd4">University of Hyderabad</strong>
+                                    <br data-oid="rx7bt_x" /> Prof. C.R. Rao Road, Gachibowli
+                                    <br data-oid="sh0wq.1" /> Hyderabad, Telangana 500046
+                                    <br data-oid="c.yym6r" /> India
                                 </p>
-                                <p className="text-gray-700 mb-4" data-oid="sbd_o7i">
-                                    <strong data-oid="0cabkh1">Conference Hall:</strong> School of
+                                <p className="text-gray-700 mb-4" data-oid="4pcdtc_">
+                                    <strong data-oid=":8j08od">Conference Hall:</strong> School of
                                     Social Sciences Auditorium
                                 </p>
                             </div>
                             <div
                                 className="rounded-md overflow-hidden shadow-lg mt-4"
-                                data-oid="gxw4508"
+                                data-oid="h26cz9z"
                             >
                                 <Image
                                     src="/images/Displacement _20250307_121648_0004.jpg"
@@ -57,7 +57,7 @@ export default function People() {
                                     width={1000}
                                     height={400}
                                     className="w-full h-64 object-cover"
-                                    data-oid="3y2-l.r"
+                                    data-oid="mu3nig-"
                                 />
                             </div>
                         </div>

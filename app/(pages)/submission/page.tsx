@@ -11,17 +11,17 @@ export default function SubmissionPage() {
     };
 
     return (
-        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="fv.23io">
+        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="voo-:7z">
             <Navigation
                 activeSection="submission"
                 scrollToSection={scrollToSection}
-                data-oid="s6zu0_0"
+                data-oid="aqqldiz"
             />
 
-            <div className="pt-16" data-oid="rew.5zh">
-                <Submission data-oid="idywmf4" />
+            <div className="pt-16" data-oid="-pyqy4m">
+                <Submission data-oid="ipv6n20" />
             </div>
-            <Footer scrollToSection={scrollToSection} data-oid="0m8i_72" />
+            <Footer scrollToSection={scrollToSection} data-oid="szfwp.w" />
         </div>
     );
 }
