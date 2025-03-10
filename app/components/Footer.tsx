@@ -21,7 +21,7 @@ export default function Footer({ scrollToSection }: FooterProps) {
                                 height={48}
                                 className="h-12 mr-3"
                             />
-                            <h3 className="text-xl font-semibold">DISPLACEMENT 2025</h3>
+                            <h3 className="text-xl font-semibold">Displacement 2025</h3>
                         </Link>
                         <p className="text-yellow-200">
                             An international conference exploring the multifaceted
@@ -87,7 +87,7 @@ export default function Footer({ scrollToSection }: FooterProps) {
                     </div>
                 </div>
                 <div className="mt-12 pt-8 border-t border-yellow-800 text-center text-yellow-300 text-sm">
-                    <p>© 2024 DISPLACEMENT Conference. All rights reserved.</p>
+                    <p>© 2024 Displacement Conference. All rights reserved.</p>
                     <p className="mt-2">
                         A collaborative initiative by the University of Hyderabad, Dartmouth
                         College, and University College London.

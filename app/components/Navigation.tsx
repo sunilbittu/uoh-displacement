@@ -20,13 +20,20 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center space-x-2">
                             <Image
-                                src="/images/logo.png"
+                                src="/images/logo-uoh.png"
                                 alt="Conference Logos"
                                 width={150}
                                 height={64}
                                 className="h-16"
                             />
-                            <div className="text-xl font-bold text-red-700">DISPLACEMENT</div>
+                            <div className="text-xl font-bold text-red-700">Displacement</div>
+                            <Image
+                                src="/images/logo-ioe.png"
+                                alt="Conference Logos"
+                                width={150}
+                                height={64}
+                                className="h-16"
+                            />
                         </Link>
                     </div>
                     {/* Desktop Navigation */}

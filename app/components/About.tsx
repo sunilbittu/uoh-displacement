@@ -82,10 +82,10 @@ export default function About() {
                 </div>
                 <div className="mt-12 bg-yellow-50 p-6 rounded-lg">
                     <h3 className="text-xl font-semibold text-red-800 mb-4">
-                        About DISPLACEMENT 2025
+                        About Displacement 2025
                     </h3>
                     <p className="text-gray-700 mb-4">
-                        The DISPLACEMENT Conference 2025 brings together scholars,
+                        The Displacement Conference 2025 brings together scholars,
                         researchers, and practitioners from around the world to explore the
                         complex phenomenon of displacement in its various
                         forms—geographical, social, cultural, economic, and

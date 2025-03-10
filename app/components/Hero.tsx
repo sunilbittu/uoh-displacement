@@ -22,7 +22,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
                 <div className="text-center">
                     <div className="flex justify-center mb-6"></div>
                     <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
-                        DISPLACEMENT Conference 2025
+                        Displacement Conference 2025
                     </h1>
                     <div className="flex flex-wrap justify-center gap-2 mb-8">
                         <span className="px-3 py-1 bg-yellow-100 text-red-800 rounded-full text-sm font-medium">
