@@ -43,7 +43,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
                     </div>
                     <p className="text-xl text-white max-w-3xl mx-auto mb-10" data-oid="1tef7to">
                         An international conference exploring the multifaceted dimensions of
-                        displacement in contemporary society.
+                        displacement.
                     </p>
                     <div className="flex justify-center" data-oid="e80wqlo">
                         <button

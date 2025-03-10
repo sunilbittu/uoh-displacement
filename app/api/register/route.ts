@@ -8,17 +8,17 @@ export async function POST(request: NextRequest) {
         const formData = await request.formData();
 
         // Validate required fields
-        const requiredFields = ['name', 'designation', 'paperTitle', 'participationMode'];
-        const missingFields = requiredFields.filter(field => !formData.get(field));
-        
+        const requiredFields = ['name', 'designation', 'paperTitle', 'participationMode', 'email'];
+        const missingFields = requiredFields.filter((field) => !formData.get(field));
+
         if (missingFields.length > 0) {
             console.log('Missing required fields:', missingFields);
             return NextResponse.json(
-                { 
-                    success: false, 
-                    message: `Missing required fields: ${missingFields.join(', ')}` 
+                {
+                    success: false,
+                    message: `Missing required fields: ${missingFields.join(', ')}`,
                 },
-                { status: 400 }
+                { status: 400 },
             );
         }
 
@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
             console.log('No receipt file provided');
             return NextResponse.json(
                 { success: false, message: 'Receipt file is required' },
-                { status: 400 }
+                { status: 400 },
             );
         }
 
@@ -42,7 +42,7 @@ export async function POST(request: NextRequest) {
             console.error('S3 upload error:', error);
             return NextResponse.json(
                 { success: false, message: 'Failed to upload receipt file' },
-                { status: 500 }
+                { status: 500 },
             );
         }
 
@@ -51,20 +51,21 @@ export async function POST(request: NextRequest) {
         const designation = formData.get('designation') as string;
         const paperTitle = formData.get('paperTitle') as string;
         const participationMode = formData.get('participationMode') as string;
+        const email = formData.get('email') as string;
 
         console.log('Form data received:', {
             name,
             designation,
             paperTitle,
             participationMode,
-            receiptUrl: fileUrl
+            receiptUrl: fileUrl,
         });
 
         // Connect to MongoDB
         console.log('Connecting to MongoDB...');
         const client = await clientPromise;
         const db = client.db('uoh');
-        
+
         // Test database connection
         try {
             await db.command({ ping: 1 });
@@ -76,7 +77,23 @@ export async function POST(request: NextRequest) {
 
         // Check if collection exists
         const collections = await db.listCollections().toArray();
-        console.log('Available collections:', collections.map(c => c.name));
+        console.log(
+            'Available collections:',
+            collections.map((c) => c.name),
+        );
+
+        // Check if a registration with this email already exists
+        const existingRegistration = await db.collection('registrations').findOne({ email });
+        if (existingRegistration) {
+            return NextResponse.json(
+                {
+                    success: false,
+                    message:
+                        'A registration with this email already exists. Please use the check registration feature to view your receipt.',
+                },
+                { status: 400 },
+            );
+        }
 
         // Insert registration data
         console.log('Attempting to insert registration data...');
@@ -85,6 +102,7 @@ export async function POST(request: NextRequest) {
             designation,
             paperTitle,
             participationMode,
+            email,
             receiptUrl: fileUrl,
             createdAt: new Date(),
         };
@@ -99,7 +117,9 @@ export async function POST(request: NextRequest) {
         }
 
         // Verify the document was inserted
-        const insertedDoc = await db.collection('registrations').findOne({ _id: result.insertedId });
+        const insertedDoc = await db
+            .collection('registrations')
+            .findOne({ _id: result.insertedId });
         console.log('Verification - inserted document:', insertedDoc);
 
         return NextResponse.json({
@@ -109,29 +129,29 @@ export async function POST(request: NextRequest) {
         });
     } catch (error: any) {
         console.error('Registration error:', error);
-        
+
         // Handle specific MongoDB errors
         if (error.name === 'MongoError') {
             console.error('MongoDB specific error:', {
                 name: error.name,
                 code: error.code,
-                message: error.message
+                message: error.message,
             });
             return NextResponse.json(
-                { 
-                    success: false, 
-                    message: 'Database error occurred. Please try again.' 
+                {
+                    success: false,
+                    message: 'Database error occurred. Please try again.',
                 },
-                { status: 500 }
+                { status: 500 },
             );
         }
 
         return NextResponse.json(
-            { 
-                success: false, 
-                message: error.message || 'Registration failed. Please try again.' 
+            {
+                success: false,
+                message: error.message || 'Registration failed. Please try again.',
             },
-            { status: 500 }
+            { status: 500 },
         );
     }
 }
