@@ -12,7 +12,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
             id="home"
             className="min-h-screen flex items-center relative"
             style={{
-                backgroundImage: 'url("/images/Displacement _20250307_121647_0000.jpg")',
+                backgroundImage: 'url("/images/hero.png")',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
             }}
