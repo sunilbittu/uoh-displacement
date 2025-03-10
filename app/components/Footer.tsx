@@ -35,29 +35,26 @@ export default function Footer({ scrollToSection }: FooterProps) {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
                         <ul className="space-y-2">
-                            {['home', 'about', 'registration', 'contact'].map(
-                                (section) => (
-                                    <li key={section}>
-                                        <button
-                                            onClick={() => scrollToSection(section as SectionId)}
-                                            className={`text-${section === 'home' ? 'yellow' : 'indigo'}-200 hover:text-white`}
-                                        >
-                                            {section
-                                                .split('-')
-                                                .map(
-                                                    (word) =>
-                                                        word.charAt(0).toUpperCase() +
-                                                        word.slice(1),
-                                                )
-                                                .join(' ')}
-                                        </button>
-                                    </li>
-                                ),
-                            )}
+                            {['home', 'about', 'registration', 'people'].map((section) => (
+                                <li key={section}>
+                                    <button
+                                        onClick={() => scrollToSection(section as SectionId)}
+                                        className={`text-${section === 'home' ? 'yellow' : 'indigo'}-200 hover:text-white`}
+                                    >
+                                        {section
+                                            .split('-')
+                                            .map(
+                                                (word) =>
+                                                    word.charAt(0).toUpperCase() + word.slice(1),
+                                            )
+                                            .join(' ')}
+                                    </button>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                     <div>
-                        <h3 className="text-lg font-semibold mb-4">Contact</h3>
+                        <h3 className="text-lg font-semibold mb-4">People</h3>
                         <ul className="space-y-2">
                             <li className="flex items-start">
                                 <svg

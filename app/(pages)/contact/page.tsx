@@ -1,22 +1,13 @@
 'use client';
-import Contact from '@/app/components/Contact';
-import Navigation from '@/app/components/Navigation';
-import Footer from '@/app/components/Footer';
+import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 
 export default function ContactPage() {
     const router = useRouter();
-    const scrollToSection = (sectionId: string) => {
-        router.push(`/${sectionId === 'home' ? '' : sectionId}`);
-    };
 
-    return (
-        <div className="min-h-screen bg-white text-gray-800 font-sans">
-            <Navigation activeSection="contact" scrollToSection={scrollToSection} />
-            <div className="pt-16">
-                <Contact />
-            </div>
-            <Footer scrollToSection={scrollToSection} />
-        </div>
-    );
-} 
+    useEffect(() => {
+        router.push('/people');
+    }, [router]);
+
+    return null;
+}
