@@ -43,8 +43,7 @@ export default function People() {
                                     <br data-oid="c.yym6r" /> India
                                 </p>
                                 <p className="text-gray-700 mb-4" data-oid="4pcdtc_">
-                                    <strong data-oid=":8j08od">Conference Hall:</strong> School of
-                                    Social Sciences Auditorium
+                                    <strong data-oid=":8j08od">Conference Hall:</strong> Zakir Hussain Lecture Hall Complex
                                 </p>
                             </div>
                             <div
