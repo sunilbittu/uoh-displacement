@@ -1,1 +1,1 @@
-export type SectionId = 'home' | 'about' | 'registration' | 'people'; 
+export type SectionId = 'home' | 'about' | 'registration' | 'contact'; 

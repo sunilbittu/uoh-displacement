@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-type SectionId = 'home' | 'about' | 'registration' | 'people';
+type SectionId = 'home' | 'about' | 'registration' | 'contact';
 interface NavigationProps {
     activeSection: SectionId;
     scrollToSection: (sectionId: SectionId) => void;
@@ -45,7 +45,7 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex items-center space-x-4">
                         
-                        {['home', 'about', 'registration', 'people'].map((section) => (
+                        {['home', 'about', 'registration', 'contact'].map((section) => (
                             <button
                                 key={section}
                                 onClick={() => scrollToSection(section as SectionId)}
@@ -101,7 +101,7 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                     
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                         
-                        {['home', 'about', 'registration', 'people'].map((section) => (
+                        {['home', 'about', 'registration', 'contact'].map((section) => (
                             <button
                                 key={section}
                                 onClick={() => {

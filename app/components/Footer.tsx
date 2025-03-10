@@ -35,7 +35,7 @@ export default function Footer({ scrollToSection }: FooterProps) {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
                         <ul className="space-y-2">
-                            {['home', 'about', 'registration', 'people'].map(
+                            {['home', 'about', 'registration', 'contact'].map(
                                 (section) => (
                                     <li key={section}>
                                         <button
