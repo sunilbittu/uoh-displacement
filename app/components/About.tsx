@@ -92,11 +92,14 @@ export default function About() {
                         psychological.
                     </p>
                     <p className="text-gray-700">
-                        This collaborative effort between the University of Hyderabad,
+                        Department of English, University of Hyderabad, In Collaboration with
                         Dartmouth College, and University College London aims to foster
                         interdisciplinary dialogue and develop innovative approaches to
                         understanding and addressing displacement in contemporary
                         society.
+                    </p>
+                    <p className="text-gray-700">
+                        This conference is funded by Institute of Eminence, University of Hyderabad.
                     </p>
                 </div>
             </div>

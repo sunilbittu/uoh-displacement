@@ -24,7 +24,10 @@ export default function Footer({ scrollToSection }: FooterProps) {
 
                             <h3 className="text-xl font-semibold">Displacement 2025</h3>
                         </Link>
-                        <p className="text-yellow-200">
+                        <p className="text-indigo-200">
+                            Funded by Institute of Eminence University of Hyderabad
+                        </p>
+                        <p className="text-yellow-200 mb-2">
                             An international conference exploring the multifaceted dimensions of
                             displacement in contemporary society.
                         </p>
@@ -32,28 +35,25 @@ export default function Footer({ scrollToSection }: FooterProps) {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
                         <ul className="space-y-2">
-                            {[
-                                'home',
-                                'about',
-                                'call-for-papers',
-                                'registration',
-                                'contact',
-                            ].map((section) => (
-                                <li key={section}>
-                                    <button
-                                        onClick={() => scrollToSection(section as SectionId)}
-                                        className={`text-${section === 'home' ? 'yellow' : 'indigo'}-200 hover:text-white`}
-                                    >
-                                        {section
-                                            .split('-')
-                                            .map(
-                                                (word) =>
-                                                    word.charAt(0).toUpperCase() + word.slice(1),
-                                            )
-                                            .join(' ')}
-                                    </button>
-                                </li>
-                            ))}
+                            {['home', 'about', 'registration', 'people'].map(
+                                (section) => (
+                                    <li key={section}>
+                                        <button
+                                            onClick={() => scrollToSection(section as SectionId)}
+                                            className={`text-${section === 'home' ? 'yellow' : 'indigo'}-200 hover:text-white`}
+                                        >
+                                            {section
+                                                .split('-')
+                                                .map(
+                                                    (word) =>
+                                                        word.charAt(0).toUpperCase() +
+                                                        word.slice(1),
+                                                )
+                                                .join(' ')}
+                                        </button>
+                                    </li>
+                                ),
+                            )}
                         </ul>
                     </div>
                     <div>
