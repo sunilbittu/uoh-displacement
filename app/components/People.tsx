@@ -13,39 +13,9 @@ export default function People() {
                         </h3>
                         <div className="space-y-6">
                             <div>
-                                <h4 className="font-medium text-red-700 mb-2">Conference Chair</h4>
-                                <p className="text-gray-700">Prof. Ananya Sharma</p>
-                                <p className="text-gray-700">University of Hyderabad</p>
-                                <a
-                                    href="mailto:chair@displacement2025.org"
-                                    className="text-indigo-600 hover:underline"
-                                >
-                                    chair@displacement2025.org
-                                </a>
-                            </div>
-                            <div>
-                                <h4 className="font-medium text-indigo-700 mb-2">
-                                    Program Committee
-                                </h4>
-                                <p className="text-gray-700">Prof. Michael Chen</p>
-                                <p className="text-gray-700">Dartmouth College</p>
-                                <a
-                                    href="mailto:program@displacement2025.org"
-                                    className="text-indigo-600 hover:underline"
-                                >
-                                    program@displacement2025.org
-                                </a>
-                            </div>
-                            <div>
                                 <h4 className="font-medium text-indigo-700 mb-2">Coordinator</h4>
                                 <p className="text-gray-700">Sireesha Telugu</p>
                                 <p className="text-gray-700">University of Hyderabad</p>
-                                <a
-                                    href="mailto:coordinator@displacement2025.org"
-                                    className="text-indigo-600 hover:underline"
-                                >
-                                    coordinator@displacement2025.org
-                                </a>
                             </div>
                         </div>
                     </div>
