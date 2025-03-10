@@ -36,7 +36,6 @@ export default function Footer({ scrollToSection }: FooterProps) {
                                 'home',
                                 'about',
                                 'call-for-papers',
-                                'submission',
                                 'registration',
                                 'contact',
                             ].map((section) => (
@@ -101,11 +100,7 @@ export default function Footer({ scrollToSection }: FooterProps) {
                     </div>
                 </div>
                 <div className="mt-12 pt-8 border-t border-yellow-800 text-center text-yellow-300 text-sm">
-                    <p>© 2024 Displacement Conference. All rights reserved.</p>
-                    <p className="mt-2">
-                        A collaborative initiative by the University of Hyderabad, Dartmouth
-                        College, and University College London.
-                    </p>
+                    <p>© 2025 Displacement Conference. All rights reserved.</p>
                 </div>
             </div>
         </footer>
