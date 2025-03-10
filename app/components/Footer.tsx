@@ -21,23 +21,37 @@ export default function Footer({ scrollToSection }: FooterProps) {
                                 height={48}
                                 className="h-12 mr-3"
                             />
+
                             <h3 className="text-xl font-semibold">Displacement 2025</h3>
                         </Link>
                         <p className="text-yellow-200">
-                            An international conference exploring the multifaceted
-                            dimensions of displacement in contemporary society.
+                            An international conference exploring the multifaceted dimensions of
+                            displacement in contemporary society.
                         </p>
                     </div>
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
                         <ul className="space-y-2">
-                            {['home', 'about', 'call-for-papers', 'submission', 'registration', 'contact'].map((section) => (
+                            {[
+                                'home',
+                                'about',
+                                'call-for-papers',
+                                'submission',
+                                'registration',
+                                'contact',
+                            ].map((section) => (
                                 <li key={section}>
                                     <button
                                         onClick={() => scrollToSection(section as SectionId)}
                                         className={`text-${section === 'home' ? 'yellow' : 'indigo'}-200 hover:text-white`}
                                     >
-                                        {section.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
+                                        {section
+                                            .split('-')
+                                            .map(
+                                                (word) =>
+                                                    word.charAt(0).toUpperCase() + word.slice(1),
+                                            )
+                                            .join(' ')}
                                     </button>
                                 </li>
                             ))}
@@ -96,4 +110,4 @@ export default function Footer({ scrollToSection }: FooterProps) {
             </div>
         </footer>
     );
-} 
+}
