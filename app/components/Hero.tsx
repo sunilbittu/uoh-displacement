@@ -24,16 +24,12 @@ export default function Hero({ scrollToSection }: HeroProps) {
                     <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
                         Displacement Conference 2025
                     </h1>
-                    <div className="flex flex-wrap justify-center gap-2 mb-8">
-                        <span className="px-3 py-1 bg-yellow-100 text-red-800 rounded-full text-sm font-medium">
-                            University of Hyderabad
-                        </span>
-                        <span className="px-3 py-1 bg-yellow-100 text-red-800 rounded-full text-sm font-medium">
-                            Dartmouth College
-                        </span>
-                        <span className="px-3 py-1 bg-yellow-100 text-red-800 rounded-full text-sm font-medium">
-                            UCL
-                        </span>
+                    <div className="mb-8">
+                    <p className="text-xl text-white max-w-3xl mx-auto mb-10">
+                            Department of English, University of Hyderabad
+                            <br />
+                            in collaboration with Dartmouth College and UCL
+                        </p>
                     </div>
                     <p className="text-xl text-white max-w-3xl mx-auto mb-10">
                         An international conference exploring the multifaceted dimensions of
@@ -65,4 +61,4 @@ export default function Hero({ scrollToSection }: HeroProps) {
             </div>
         </section>
     );
-} 
+}
