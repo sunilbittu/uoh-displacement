@@ -35,22 +35,6 @@ export default function People() {
                                     <strong>Conference Hall:</strong> School of Social Sciences
                                     Auditorium
                                 </p>
-                                <div>
-                                    <h4 className="font-medium text-indigo-700 mb-2">
-                                        Accommodation
-                                    </h4>
-                                    <p className="text-gray-700">
-                                        Information about recommended hotels and special conference
-                                        rates will be available soon. For early inquiries, please
-                                        contact{' '}
-                                        <a
-                                            href="mailto:accommodation@displacement2025.org"
-                                            className="text-indigo-600 hover:underline"
-                                        >
-                                            accommodation@displacement2025.org
-                                        </a>
-                                    </p>
-                                </div>
                             </div>
                             <div className="rounded-md overflow-hidden shadow-lg mt-4">
                                 <Image
