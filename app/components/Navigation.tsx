@@ -45,6 +45,7 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                             'people',
                             'participants',
                             'media',
+                            'updates',
                             'call-for-papers',
                         ].map((section) => (
                             <button
@@ -103,6 +104,7 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                             'people',
                             'participants',
                             'media',
+                            'updates',
                             'call-for-papers',
                         ].map((section) => (
                             <button

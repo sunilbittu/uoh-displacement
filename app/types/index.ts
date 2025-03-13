@@ -6,4 +6,5 @@ export type SectionId =
     | 'participants'
     | 'media'
     | 'people'
+    | 'updates'
     | 'call-for-papers';
