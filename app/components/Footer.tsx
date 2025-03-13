@@ -105,8 +105,41 @@ export default function Footer({ scrollToSection }: FooterProps) {
                         </ul>
                     </div>
                 </div>
-                <div className="mt-12 pt-8 border-t border-yellow-800 text-center text-yellow-300 text-sm">
-                    <p>© 2025 Displacement Conference. All rights reserved.</p>
+                <div className="mt-8 pt-8 border-t border-yellow-800 flex flex-col items-center">
+                    <div className="flex justify-center space-x-8 mb-6">
+                        {/* D-Logo */}
+                        <button
+                            onClick={() => scrollToSection('d-logo' as SectionId)}
+                            className="p-2 hover:bg-gray-800 rounded-md transition-colors"
+                        >
+                            <div className="relative h-16 w-16">
+                                <Image
+                                    src="/images/d-logo.jpg"
+                                    alt="D Logo"
+                                    fill
+                                    style={{ objectFit: 'contain' }}
+                                />
+                            </div>
+                        </button>
+
+                        {/* U-Logo */}
+                        <button
+                            onClick={() => scrollToSection('u-logo' as SectionId)}
+                            className="p-2 hover:bg-gray-800 rounded-md transition-colors"
+                        >
+                            <div className="relative h-16 w-16">
+                                <Image
+                                    src="/images/u-logo.jpg"
+                                    alt="U Logo"
+                                    fill
+                                    style={{ objectFit: 'contain' }}
+                                />
+                            </div>
+                        </button>
+                    </div>
+                    <div className="text-center text-yellow-300 text-sm">
+                        <p>© 2025 Displacement Conference. All rights reserved.</p>
+                    </div>
                 </div>
             </div>
         </footer>
