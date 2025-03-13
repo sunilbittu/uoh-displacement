@@ -7,4 +7,6 @@ export type SectionId =
     | 'media'
     | 'people'
     | 'updates'
-    | 'call-for-papers';
+    | 'call-for-papers'
+    | 'd-logo'
+    | 'u-logo';

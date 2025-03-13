@@ -47,6 +47,8 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                             'media',
                             'updates',
                             'call-for-papers',
+                            'd-logo',
+                            'u-logo',
                         ].map((section) => (
                             <button
                                 key={section}
@@ -106,6 +108,8 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                             'media',
                             'updates',
                             'call-for-papers',
+                            'd-logo',
+                            'u-logo',
                         ].map((section) => (
                             <button
                                 key={section}
