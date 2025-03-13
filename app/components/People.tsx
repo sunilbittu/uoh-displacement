@@ -13,9 +13,46 @@ export default function People() {
                         </h3>
                         <div className="space-y-6">
                             <div>
-                                <h4 className="font-medium text-indigo-700 mb-2">Coordinator</h4>
-                                <p className="text-gray-700">Sireesha Telugu</p>
-                                <p className="text-gray-700">University of Hyderabad</p>
+                                <h4 className="font-medium text-indigo-700 mb-2">Convenor</h4>
+                                <p className="text-gray-700">Dr. Sireesha Telugu</p>
+                            </div>
+                            <div>
+                                <h4 className="font-medium text-indigo-700 mb-2">Co-convenor</h4>
+                                <p className="text-gray-700">Dr. Bhaskar Lama</p>
+                            </div>
+                            <div>
+                                <h4 className="font-medium text-indigo-700 mb-2">
+                                    International Coordinators
+                                </h4>
+                                <p className="text-gray-700">
+                                    Dr. Eman Shaban Morsi (Dartmouth College, US)
+                                </p>
+                                <p className="text-gray-700">
+                                    Dr. Elena Fiddian-Qasmiyeh (University College London, UK)
+                                </p>
+                            </div>
+                            <div>
+                                <h4 className="font-medium text-indigo-700 mb-2">
+                                    Organising Committee
+                                </h4>
+                                <div className="grid grid-cols-2 gap-2">
+                                    <p className="text-gray-700">Laboni Mukherjee</p>
+                                    <p className="text-gray-700">Noah Simon Kolikapudi</p>
+                                    <p className="text-gray-700">Assis Mon Marcelin</p>
+                                    <p className="text-gray-700">Sourav Jatua</p>
+                                    <p className="text-gray-700">Prateeti Chowdary</p>
+                                    <p className="text-gray-700">Themreichon Alma Poinamei</p>
+                                    <p className="text-gray-700">Aravind Prakash</p>
+                                    <p className="text-gray-700">Atul Nair</p>
+                                    <p className="text-gray-700">Songayam Zimik</p>
+                                    <p className="text-gray-700">Liya Abi</p>
+                                    <p className="text-gray-700">Abhinav TM</p>
+                                    <p className="text-gray-700">Arya P</p>
+                                    <p className="text-gray-700">Gifty R</p>
+                                    <p className="text-gray-700">Prabhas Ahamed</p>
+                                    <p className="text-gray-700">Irfan S</p>
+                                    <p className="text-gray-700">Hami Shirin</p>
+                                </div>
                             </div>
                         </div>
                     </div>
