@@ -47,8 +47,6 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                             'media',
                             'updates',
                             'call-for-papers',
-                            'd-logo',
-                            'u-logo',
                         ].map((section) => (
                             <button
                                 key={section}
@@ -61,6 +59,36 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                                     .join(' ')}
                             </button>
                         ))}
+
+                        {/* D-Logo */}
+                        <button
+                            onClick={() => scrollToSection('d-logo' as SectionId)}
+                            className={`p-1 rounded-md ${activeSection === 'd-logo' ? 'bg-yellow-50' : 'hover:bg-yellow-100'}`}
+                        >
+                            <div className="relative h-8 w-8">
+                                <Image
+                                    src="/images/d-logo.jpg"
+                                    alt="D Logo"
+                                    fill
+                                    style={{ objectFit: 'contain' }}
+                                />
+                            </div>
+                        </button>
+
+                        {/* U-Logo */}
+                        <button
+                            onClick={() => scrollToSection('u-logo' as SectionId)}
+                            className={`p-1 rounded-md ${activeSection === 'u-logo' ? 'bg-yellow-50' : 'hover:bg-yellow-100'}`}
+                        >
+                            <div className="relative h-8 w-8">
+                                <Image
+                                    src="/images/u-logo.jpg"
+                                    alt="U Logo"
+                                    fill
+                                    style={{ objectFit: 'contain' }}
+                                />
+                            </div>
+                        </button>
                     </div>
                     {/* Mobile menu button */}
                     <div className="md:hidden flex items-center">
@@ -108,8 +136,6 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                             'media',
                             'updates',
                             'call-for-papers',
-                            'd-logo',
-                            'u-logo',
                         ].map((section) => (
                             <button
                                 key={section}
@@ -125,6 +151,44 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                                     .join(' ')}
                             </button>
                         ))}
+
+                        <div className="flex space-x-4 px-3 py-2">
+                            {/* D-Logo */}
+                            <button
+                                onClick={() => {
+                                    scrollToSection('d-logo' as SectionId);
+                                    setMobileMenuOpen(false);
+                                }}
+                                className={`p-1 rounded-md ${activeSection === 'd-logo' ? 'bg-yellow-50' : 'hover:bg-yellow-100'}`}
+                            >
+                                <div className="relative h-8 w-8">
+                                    <Image
+                                        src="/images/d-logo.jpg"
+                                        alt="D Logo"
+                                        fill
+                                        style={{ objectFit: 'contain' }}
+                                    />
+                                </div>
+                            </button>
+
+                            {/* U-Logo */}
+                            <button
+                                onClick={() => {
+                                    scrollToSection('u-logo' as SectionId);
+                                    setMobileMenuOpen(false);
+                                }}
+                                className={`p-1 rounded-md ${activeSection === 'u-logo' ? 'bg-yellow-50' : 'hover:bg-yellow-100'}`}
+                            >
+                                <div className="relative h-8 w-8">
+                                    <Image
+                                        src="/images/u-logo.jpg"
+                                        alt="U Logo"
+                                        fill
+                                        style={{ objectFit: 'contain' }}
+                                    />
+                                </div>
+                            </button>
+                        </div>
                     </div>
                 </div>
             )}
