@@ -13,17 +13,41 @@ export default function Footer({ scrollToSection }: FooterProps) {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid md:grid-cols-3 gap-8">
                     <div>
-                        <Link href="/" className="flex items-center mb-4">
-                            <Image
-                                src="/images/logo.png"
-                                alt="Conference Logo"
-                                width={150}
-                                height={48}
-                                className="h-12 mr-3"
-                            />
+                        <div className="mb-4">
+                            <div className="flex items-center mb-2">
+                                <Link href="/" className="flex items-center">
+                                    <Image
+                                        src="/images/logo.png"
+                                        alt="Conference Logo"
+                                        width={150}
+                                        height={48}
+                                        className="h-12 mr-3"
+                                    />
+                                </Link>
+                                <div className="flex items-center space-x-3">
+                                    {/* D-Logo */}
+                                    <div className="relative h-10 w-10">
+                                        <Image
+                                            src="/images/d-logo.jpg"
+                                            alt="D Logo"
+                                            fill
+                                            style={{ objectFit: 'contain' }}
+                                        />
+                                    </div>
 
+                                    {/* U-Logo */}
+                                    <div className="relative h-10 w-10">
+                                        <Image
+                                            src="/images/u-logo.jpg"
+                                            alt="U Logo"
+                                            fill
+                                            style={{ objectFit: 'contain' }}
+                                        />
+                                    </div>
+                                </div>
+                            </div>
                             <h3 className="text-xl font-semibold">Displacement 2025</h3>
-                        </Link>
+                        </div>
                         <p className="text-indigo-200">
                             Funded by Institute of Eminence University of Hyderabad
                         </p>
@@ -106,37 +130,6 @@ export default function Footer({ scrollToSection }: FooterProps) {
                     </div>
                 </div>
                 <div className="mt-8 pt-8 border-t border-yellow-800 flex flex-col items-center">
-                    <div className="flex justify-center space-x-8 mb-6">
-                        {/* D-Logo */}
-                        <button
-                            onClick={() => scrollToSection('d-logo' as SectionId)}
-                            className="p-2 hover:bg-gray-800 rounded-md transition-colors"
-                        >
-                            <div className="relative h-16 w-16">
-                                <Image
-                                    src="/images/d-logo.jpg"
-                                    alt="D Logo"
-                                    fill
-                                    style={{ objectFit: 'contain' }}
-                                />
-                            </div>
-                        </button>
-
-                        {/* U-Logo */}
-                        <button
-                            onClick={() => scrollToSection('u-logo' as SectionId)}
-                            className="p-2 hover:bg-gray-800 rounded-md transition-colors"
-                        >
-                            <div className="relative h-16 w-16">
-                                <Image
-                                    src="/images/u-logo.jpg"
-                                    alt="U Logo"
-                                    fill
-                                    style={{ objectFit: 'contain' }}
-                                />
-                            </div>
-                        </button>
-                    </div>
                     <div className="text-center text-yellow-300 text-sm">
                         <p>© 2025 Displacement Conference. All rights reserved.</p>
                     </div>
