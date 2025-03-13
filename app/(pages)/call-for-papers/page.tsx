@@ -1,9 +1,9 @@
 'use client';
-import React from 'react';
+import React, { useState } from 'react';
 import Navigation from '@/app/components/Navigation';
 import Footer from '@/app/components/Footer';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
+import Image from 'next/image';
 
 export default function CallForPapersPage() {
     const router = useRouter();
@@ -11,24 +11,41 @@ export default function CallForPapersPage() {
         router.push(`/${sectionId === 'home' ? '' : sectionId}`);
     };
 
-    // Sample PDF documents - replace with your actual PDFs
-    const pdfDocuments = [
+    const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+    // CFP images from public/images
+    const cfpImages = [
         {
-            title: 'Call for Papers - Main Document',
-            description: 'Detailed information about submission guidelines and conference themes',
-            url: '/pdfs/call-for-papers.pdf',
+            id: 'cfp',
+            src: '/images/cfp.webp',
+            alt: 'Call for Papers',
         },
         {
-            title: 'Submission Template',
-            description: 'Template for paper submissions',
-            url: '/pdfs/submission-template.pdf',
+            id: 'cfp1',
+            src: '/images/cfp1.webp',
+            alt: 'Call for Papers 1',
         },
         {
-            title: 'Important Dates',
-            description: 'Key deadlines for submissions and registration',
-            url: '/pdfs/important-dates.pdf',
+            id: 'cfp2',
+            src: '/images/cfp2.webp',
+            alt: 'Call for Papers 2',
+        },
+        {
+            id: 'cfp3',
+            src: '/images/cfp3.webp',
+            alt: 'Call for Papers 3',
         },
     ];
+
+    // Function to open the image modal
+    const openImageModal = (imageSrc: string) => {
+        setSelectedImage(imageSrc);
+    };
+
+    // Function to close the image modal
+    const closeImageModal = () => {
+        setSelectedImage(null);
+    };
 
     return (
         <div className="min-h-screen bg-white text-gray-800 font-sans">
@@ -45,76 +62,85 @@ export default function CallForPapersPage() {
                         <p className="text-gray-700 mb-4">
                             We invite scholars, researchers, and practitioners to submit papers
                             exploring the multifaceted dimensions of displacement in contemporary
-                            society. The conference aims to foster interdisciplinary dialogue on
-                            various aspects of displacement including but not limited to:
-                        </p>
-                        <ul className="list-disc pl-5 mb-4 text-gray-700">
-                            <li>Forced migration and refugee studies</li>
-                            <li>Environmental displacement</li>
-                            <li>Economic displacement</li>
-                            <li>Cultural and social displacement</li>
-                            <li>Technological displacement</li>
-                            <li>Historical perspectives on displacement</li>
-                        </ul>
-                        <p className="text-gray-700">
-                            Please review the documents below for detailed submission guidelines and
-                            important dates.
+                            society. Please review the call for papers documents below for detailed
+                            submission guidelines and important dates.
                         </p>
                     </div>
 
-                    <h2 className="text-2xl font-semibold text-gray-800 mb-4">Documents</h2>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {pdfDocuments.map((doc, index) => (
+                    <div className="grid md:grid-cols-2 gap-6">
+                        {cfpImages.map((image) => (
                             <div
-                                key={index}
-                                className="bg-white p-5 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow"
+                                key={image.id}
+                                className="bg-white p-4 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow cursor-pointer"
+                                onClick={() => openImageModal(image.src)}
                             >
-                                <div className="flex items-center justify-center w-12 h-12 bg-red-100 rounded-full mb-4">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-6 w-6 text-red-600"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"
-                                        />
-                                    </svg>
+                                <div className="relative w-full h-[400px]">
+                                    <Image
+                                        src={image.src}
+                                        alt={image.alt}
+                                        fill
+                                        style={{ objectFit: 'contain' }}
+                                        className="rounded"
+                                    />
                                 </div>
-                                <h3 className="text-lg font-medium text-gray-900 mb-2">
-                                    {doc.title}
-                                </h3>
-                                <p className="text-gray-600 mb-4">{doc.description}</p>
-                                <Link
-                                    href={doc.url}
-                                    target="_blank"
-                                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
-                                >
-                                    View PDF
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="ml-2 h-4 w-4"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
+                                <div className="mt-4 text-center">
+                                    <button
+                                        className="px-4 py-2 bg-red-700 text-white rounded hover:bg-red-800 transition-colors"
+                                        onClick={(e) => {
+                                            e.stopPropagation();
+                                            openImageModal(image.src);
+                                        }}
                                     >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                                        />
-                                    </svg>
-                                </Link>
+                                        View Full Size
+                                    </button>
+                                </div>
                             </div>
                         ))}
                     </div>
                 </div>
             </div>
+
+            {/* Image Modal */}
+            {selectedImage && (
+                <div
+                    className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+                    onClick={closeImageModal}
+                >
+                    <div
+                        className="relative max-w-4xl max-h-[90vh] w-full"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <button
+                            className="absolute top-2 right-2 bg-white rounded-full p-2 z-10"
+                            onClick={closeImageModal}
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-6 w-6"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M6 18L18 6M6 6l12 12"
+                                />
+                            </svg>
+                        </button>
+                        <div className="relative w-full h-[80vh]">
+                            <Image
+                                src={selectedImage}
+                                alt="Call for Papers"
+                                fill
+                                style={{ objectFit: 'contain' }}
+                                className="rounded"
+                            />
+                        </div>
+                    </div>
+                </div>
+            )}
 
             <Footer scrollToSection={scrollToSection} />
         </div>

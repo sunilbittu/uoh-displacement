@@ -42,6 +42,7 @@ export default function Footer({ scrollToSection }: FooterProps) {
                                 'people',
                                 'participants',
                                 'media',
+                                'call-for-papers',
                             ].map((section) => (
                                 <li key={section}>
                                     <button
