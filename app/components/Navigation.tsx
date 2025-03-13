@@ -38,7 +38,7 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                     </div>
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex items-center space-x-4">
-                        {['home', 'about', 'registration', 'people', 'presenters', 'media'].map(
+                        {['home', 'about', 'registration', 'people', 'participants', 'media'].map(
                             (section) => (
                                 <button
                                     key={section}
@@ -90,7 +90,7 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
             {mobileMenuOpen && (
                 <div className="md:hidden bg-white shadow-lg">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        {['home', 'about', 'registration', 'people', 'presenters', 'media'].map(
+                        {['home', 'about', 'registration', 'people', 'participants', 'media'].map(
                             (section) => (
                                 <button
                                     key={section}

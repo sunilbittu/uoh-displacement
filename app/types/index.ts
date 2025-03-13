@@ -3,6 +3,6 @@ export type SectionId =
     | 'about'
     | 'registration'
     | 'contact'
-    | 'presenters'
+    | 'participants'
     | 'media'
     | 'people';
