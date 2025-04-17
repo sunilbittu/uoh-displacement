@@ -32,9 +32,108 @@ export default function ParticipantsPage() {
                             >
                                 Keynote Speakers
                             </h2>
-                            <p className="text-gray-700 mb-4" data-oid="h-s29_2">
-                                Information about conference speakers will be available soon.
-                            </p>
+                            <div className="space-y-4" data-oid="l.oip3s">
+                                {/* We'll add photos later when provided */}
+                                <div className="flex items-start space-x-3" data-oid="2_teow-">
+                                    <div
+                                        className="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0"
+                                        data-oid="te.hqor"
+                                    >
+                                        {/* Photo placeholder - will be replaced with Image component */}
+                                    </div>
+                                    <div data-oid="o4w5npx">
+                                        <h3
+                                            className="font-medium text-indigo-700"
+                                            data-oid="t3c7tbl"
+                                        >
+                                            Prof. Rajini Srikant
+                                        </h3>
+                                        <p className="text-gray-600 text-sm" data-oid="pnkbb-d">
+                                            University of Massachusetts, Boston, USA
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-start space-x-3" data-oid="g3e9gs2">
+                                    <div
+                                        className="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0"
+                                        data-oid="0cipe47"
+                                    >
+                                        {/* Photo placeholder */}
+                                    </div>
+                                    <div data-oid="z5mus:c">
+                                        <h3
+                                            className="font-medium text-indigo-700"
+                                            data-oid="sqd:b1d"
+                                        >
+                                            Prof. Irudaya Rajan
+                                        </h3>
+                                        <p className="text-gray-600 text-sm" data-oid="okv:t58">
+                                            The International Institute of Migration and Development
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-start space-x-3" data-oid="ceciru4">
+                                    <div
+                                        className="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0"
+                                        data-oid="tah7x_n"
+                                    >
+                                        {/* Photo placeholder */}
+                                    </div>
+                                    <div data-oid="izl5yim">
+                                        <h3
+                                            className="font-medium text-indigo-700"
+                                            data-oid="p3jdo_s"
+                                        >
+                                            Divya Jose
+                                        </h3>
+                                        <p className="text-gray-600 text-sm" data-oid="k.dl1up">
+                                            Refugee Education, UK
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-start space-x-3" data-oid=".px-269">
+                                    <div
+                                        className="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0"
+                                        data-oid="s:4mnff"
+                                    >
+                                        {/* Photo placeholder */}
+                                    </div>
+                                    <div data-oid="sza:ujl">
+                                        <h3
+                                            className="font-medium text-indigo-700"
+                                            data-oid="v8374un"
+                                        >
+                                            Prof. Vinay Lal
+                                        </h3>
+                                        <p className="text-gray-600 text-sm" data-oid="rl2d4.l">
+                                            University of California, LA, USA
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-start space-x-3" data-oid="-x-u.7x">
+                                    <div
+                                        className="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0"
+                                        data-oid="lj-ysig"
+                                    >
+                                        {/* Photo placeholder */}
+                                    </div>
+                                    <div data-oid="fs4h4_b">
+                                        <h3
+                                            className="font-medium text-indigo-700"
+                                            data-oid="fhgt_1i"
+                                        >
+                                            Prof. K Narayana Chandran
+                                        </h3>
+                                        <p className="text-gray-600 text-sm" data-oid="1j-xp:m">
+                                            Former Professor, UoH
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <div className="bg-white p-6 rounded-lg shadow-md" data-oid="tx0ozne">
