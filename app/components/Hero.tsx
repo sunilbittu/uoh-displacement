@@ -16,52 +16,52 @@ export default function Hero({ scrollToSection }: HeroProps) {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
             }}
-            data-oid="tv6ccky"
+            data-oid=":5.2u27"
         >
-            <div className="absolute inset-0 bg-black bg-opacity-50" data-oid="_y20oyg"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-50" data-oid="n1d.:yw"></div>
             <div
                 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative z-10"
-                data-oid="lgrs:6x"
+                data-oid="5pq-ann"
             >
-                <div className="text-center" data-oid="31pdy9g">
-                    <div className="flex justify-center mb-6" data-oid="_-n3.py"></div>
+                <div className="text-center" data-oid="04:8rks">
+                    <div className="flex justify-center mb-6" data-oid="7dtgt4p"></div>
                     <h1
                         className="text-4xl md:text-6xl font-bold text-white mb-4"
-                        data-oid=":oe2-h3"
+                        data-oid="mcc11jk"
                     >
                         Displacement Conference 2025
                     </h1>
-                    <div className="mb-8" data-oid="x9jsp4e">
+                    <div className="mb-8" data-oid="tl8bwve">
                         <p
                             className="text-xl text-white max-w-3xl mx-auto mb-10"
-                            data-oid="9-s5yzy"
+                            data-oid=":hx-7oo"
                         >
                             Department of English, University of Hyderabad
-                            <br data-oid="z6.8.k6" />
+                            <br data-oid="3smv_uk" />
                             in collaboration with Dartmouth College and UCL
                         </p>
                     </div>
-                    <p className="text-xl text-white max-w-3xl mx-auto mb-10" data-oid="cpt0z6f">
+                    <p className="text-xl text-white max-w-3xl mx-auto mb-10" data-oid="p1y0dj1">
                         An international conference exploring the multifaceted dimensions of
                         displacement.
                     </p>
-                    <div className="flex justify-center" data-oid="agflfba">
+                    <div className="flex justify-center" data-oid="etp62us">
                         <button
                             onClick={() => scrollToSection('registration')}
                             className="px-8 py-3 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors shadow-md"
-                            data-oid="l5:tvj8"
+                            data-oid="ew8m:gl"
                         >
                             Register Now
                         </button>
                     </div>
                     <div
                         className="mt-12 p-4 bg-white bg-opacity-90 rounded-lg shadow-md inline-block"
-                        data-oid="p6hk-fl"
+                        data-oid="6-5mtjn"
                     >
-                        <p className="text-gray-700 font-medium" data-oid="t.-38xd">
+                        <p className="text-gray-700 font-medium" data-oid="1d:ov-q">
                             Conference Dates: April 23-25, 2025
                         </p>
-                        <p className="text-gray-700 font-medium" data-oid="vprwgva">
+                        <p className="text-gray-700 font-medium" data-oid=".gz:7zn">
                             Location: University of Hyderabad, India
                         </p>
                     </div>
