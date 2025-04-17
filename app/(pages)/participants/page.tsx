@@ -30,7 +30,7 @@ export default function ParticipantsPage() {
                                 className="text-xl font-semibold text-red-800 mb-4"
                                 data-oid="vtiaejb"
                             >
-                                Speakers
+                                Keynote Speakers
                             </h2>
                             <p className="text-gray-700 mb-4" data-oid="h-s29_2">
                                 Information about conference speakers will be available soon.
