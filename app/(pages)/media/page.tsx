@@ -11,20 +11,20 @@ export default function MediaPage() {
     };
 
     return (
-        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="ul5pgcf">
+        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="8-95n1.">
             <Navigation
                 activeSection="media"
                 scrollToSection={scrollToSection}
-                data-oid=":tc0anv"
+                data-oid="9.ltrh."
             />
 
-            <div className="pt-20 pb-10" data-oid="n-heuvt">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="zrlwc18">
-                    <h1 className="text-3xl font-bold text-red-800 mb-8" data-oid="b2apb10">
+            <div className="pt-20 pb-10" data-oid=":_e932a">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="mhe_-r8">
+                    <h1 className="text-3xl font-bold text-red-800 mb-8" data-oid="ek3oonp">
                         Media
                     </h1>
-                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="szt_e_r">
-                        <p className="text-gray-700 mb-4" data-oid="b7w3trb">
+                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="9f0s2-i">
+                        <p className="text-gray-700 mb-4" data-oid="ri_z6.8">
                             Conference media, photos, videos, and press releases will be available
                             here.
                         </p>
@@ -32,7 +32,7 @@ export default function MediaPage() {
                 </div>
             </div>
 
-            <Footer scrollToSection={scrollToSection} data-oid="2ugtdr:" />
+            <Footer scrollToSection={scrollToSection} data-oid="184sc99" />
         </div>
     );
 }

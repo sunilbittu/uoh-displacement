@@ -11,17 +11,17 @@ export default function PeoplePage() {
     };
 
     return (
-        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="yv_jzqo">
+        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="ws8x9gg">
             <Navigation
                 activeSection="people"
                 scrollToSection={scrollToSection}
-                data-oid="d7qvvct"
+                data-oid="snb18hu"
             />
 
-            <div className="pt-16" data-oid="habdg:.">
-                <People data-oid="90yz:6z" />
+            <div className="pt-16" data-oid="y03rh3p">
+                <People data-oid="fxl:7:j" />
             </div>
-            <Footer scrollToSection={scrollToSection} data-oid="_iwysjs" />
+            <Footer scrollToSection={scrollToSection} data-oid="a3zrkdp" />
         </div>
     );
 }
