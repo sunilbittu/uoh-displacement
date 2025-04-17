@@ -3,15 +3,13 @@ import React from 'react';
 import Navigation from '@/app/components/Navigation';
 import Footer from '@/app/components/Footer';
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
 
 export default function CallForPapersPage() {
     const router = useRouter();
     const scrollToSection = (sectionId: string) => {
         router.push(`/${sectionId === 'home' ? '' : sectionId}`);
     };
-
-    const [selectedImage, setSelectedImage] = useState<string | null>(null);
+=======
 
     // CFP PDFs
     const cfpDocuments = [
