@@ -36,12 +36,51 @@ export default function UpdatesPage() {
                                 className="text-xl font-semibold text-gray-500 mb-2"
                                 data-oid=".n-.86z"
                             >
-                                Poster Section Coming Soon
+                                Conference Materials
                             </h2>
-                            <p className="text-gray-500" data-oid="88pj1:l">
-                                This section will be updated with conference posters and other
-                                important announcements.
-                            </p>
+                            <div className="space-y-4" data-oid="411gw7b">
+                                <div className="p-4 bg-gray-50 rounded-lg" data-oid="yr:.kd3">
+                                    <h3
+                                        className="text-lg font-medium text-red-800 mb-2"
+                                        data-oid="o2cnzkr"
+                                    >
+                                        Displacement Schedule
+                                    </h3>
+                                    <p className="text-gray-600 mb-3" data-oid="krp6fm.">
+                                        View or download the conference schedule for the
+                                        Displacement event.
+                                    </p>
+                                    <a
+                                        href="https://uoh-bucket-images.s3.us-east-1.amazonaws.com/docs/Displacement+Schedule.pdf"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center px-4 py-2 bg-red-800 text-white rounded-md hover:bg-red-700 transition-colors"
+                                        data-oid="clk9x5n"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="h-5 w-5 mr-2"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke="currentColor"
+                                            data-oid="-s:w.en"
+                                        >
+                                            <path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={2}
+                                                d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                                                data-oid="wqt3z77"
+                                            />
+                                        </svg>
+                                        View Schedule PDF
+                                    </a>
+                                </div>
+                                <p className="text-gray-500" data-oid="88pj1:l">
+                                    More conference materials and announcements will be added here
+                                    as they become available.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
