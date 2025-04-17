@@ -202,14 +202,17 @@ export default function ParticipantsPage() {
                             </div>
                         </div>
 
-                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid="tx0ozne">
+                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid="tjwurl1">
                             <h2
                                 className="text-xl font-semibold text-red-800 mb-4"
-                                data-oid="mh6p_.1"
+                                data-oid="ji_rc91"
                             >
-                                Poets
+                                Chairs
                             </h2>
-                            <div className="space-y-4" data-oid="9e1b49l">
+                            <div
+                                className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-2"
+                                data-oid="3nhzd62"
+                            >
                                 <div
                                     className="border-l-4 border-indigo-500 pl-4"
                                     data-oid="o-gxhc0"
@@ -218,7 +221,6 @@ export default function ParticipantsPage() {
                                         Yousif M. Qasmiyeh
                                     </h3>
                                 </div>
-
                                 <div
                                     className="border-l-4 border-indigo-500 pl-4"
                                     data-oid="7v5yjco"
@@ -227,7 +229,6 @@ export default function ParticipantsPage() {
                                         Shash Trevett
                                     </h3>
                                 </div>
-
                                 <div
                                     className="border-l-4 border-indigo-500 pl-4"
                                     data-oid="0ilj5z6"
@@ -235,6 +236,188 @@ export default function ParticipantsPage() {
                                     <h3 className="font-medium text-indigo-700" data-oid="775.i_k">
                                         Anthony Vahni Capildeo
                                     </h3>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="cq.eww4"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="dpbns9i"
+                                    >
+                                        Dr. Goutam Karmakar
+                                    </p>
+                                    <p className="text-gray-600 text-xs" data-oid="3bwvdx_">
+                                        Department of English, UoH
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="u3awa_f"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid=":d1dd9r"
+                                    >
+                                        Dr. Girish D. Pawar
+                                    </p>
+                                    <p className="text-gray-600 text-xs" data-oid="9rd9-fi">
+                                        Department of English, UoH
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="s6exrdl"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="42aibs0"
+                                    >
+                                        Dr. B. Krishnaiah
+                                    </p>
+                                    <p className="text-gray-600 text-xs" data-oid="w5x_t3m">
+                                        Department of English, UoH
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="rcd:s5o"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="pa8qlm3"
+                                    >
+                                        Dr. Yakaiah Kathy
+                                    </p>
+                                    <p className="text-gray-600 text-xs" data-oid="d-wlxd1">
+                                        Department of English, UoH
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="0aws.vd"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="nfm_u35"
+                                    >
+                                        Prof. Sathya Prakash
+                                    </p>
+                                    <p className="text-gray-600 text-xs" data-oid="n8n0ts-">
+                                        Department of Communication, UoH
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="pnug703"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="4n4-ncq"
+                                    >
+                                        Dr. Saradindu Bhattacharya
+                                    </p>
+                                    <p className="text-gray-600 text-xs" data-oid="0tembj6">
+                                        Department of English, UoH
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="e12ff_v"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid=".851lcm"
+                                    >
+                                        Prof. Ajaya Sahoo
+                                    </p>
+                                    <p className="text-gray-600 text-xs" data-oid="9lkozw6">
+                                        Centre for Indian Diaspora, UoH
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="r4.c.fz"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="mv1y801"
+                                    >
+                                        Dr. Siddharth Satpathy
+                                    </p>
+                                    <p className="text-gray-600 text-xs" data-oid="m-bhuo-">
+                                        Department of English, UoH
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="wpqak2g"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="ulql4h_"
+                                    >
+                                        Dr. Sriparna Das
+                                    </p>
+                                    <p className="text-gray-600 text-xs" data-oid="520oeim">
+                                        CALTS, UoH
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="z_565-4"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="quvaa2n"
+                                    >
+                                        Dr. Laboni Mukherjee
+                                    </p>
+                                    <p className="text-gray-600 text-xs" data-oid="4356i-e">
+                                        Department of English, UoH
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="w5ytw_h"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="hjl:f-k"
+                                    >
+                                        Dr. Pushpanjali Sampathkumar
+                                    </p>
+                                    <p className="text-gray-600 text-xs" data-oid="53wb1x0">
+                                        Department of English, UoH
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="s.q16nr"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="t0wf6tl"
+                                    >
+                                        Dr. Purna Chandra Naik
+                                    </p>
+                                    <p className="text-gray-600 text-xs" data-oid="2fjq9_m">
+                                        CCL, UoH
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="py7qzic"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="9_p__j."
+                                    >
+                                        Prof. Anna Kurian
+                                    </p>
+                                    <p className="text-gray-600 text-xs" data-oid="v351z46">
+                                        Department of English, UoH
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -724,17 +907,14 @@ export default function ParticipantsPage() {
                     </div>
 
                     <div className="mt-8" data-oid="rcbqk.1">
-                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid="tjwurl1">
+                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid="tx0ozne">
                             <h2
                                 className="text-xl font-semibold text-red-800 mb-4"
-                                data-oid="ji_rc91"
+                                data-oid="mh6p_.1"
                             >
-                                Chairs
+                                Poets
                             </h2>
-                            <div
-                                className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-2"
-                                data-oid="3nhzd62"
-                            >
+                            <div className="space-y-4" data-oid="9e1b49l">
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
                                     data-oid="16oju:g"
@@ -779,183 +959,183 @@ export default function ParticipantsPage() {
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="cq.eww4"
+                                    data-oid="4ituwm2"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="dpbns9i"
+                                        data-oid="8iapt_8"
                                     >
                                         Dr. Goutam Karmakar
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="3bwvdx_">
+                                    <p className="text-gray-600 text-xs" data-oid="pjn-jw7">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="u3awa_f"
+                                    data-oid="7jtg7jd"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid=":d1dd9r"
+                                        data-oid="2pdv9co"
                                     >
                                         Dr. Girish D. Pawar
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="9rd9-fi">
+                                    <p className="text-gray-600 text-xs" data-oid="suhoqty">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="s6exrdl"
+                                    data-oid="fxmt87s"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="42aibs0"
+                                        data-oid="8vyh117"
                                     >
                                         Dr. B. Krishnaiah
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="w5x_t3m">
+                                    <p className="text-gray-600 text-xs" data-oid="6tu1lnn">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="rcd:s5o"
+                                    data-oid="0jsvru1"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="pa8qlm3"
+                                        data-oid="eie-k88"
                                     >
                                         Dr. Yakaiah Kathy
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="d-wlxd1">
+                                    <p className="text-gray-600 text-xs" data-oid="pmyb7n7">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="0aws.vd"
+                                    data-oid="ev72d16"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="nfm_u35"
+                                        data-oid="pu14t_d"
                                     >
                                         Prof. Sathya Prakash
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="n8n0ts-">
+                                    <p className="text-gray-600 text-xs" data-oid="jb4a6ny">
                                         Department of Communication, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="pnug703"
+                                    data-oid="o5ils1j"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="4n4-ncq"
+                                        data-oid="u_pg_lc"
                                     >
                                         Dr. Saradindu Bhattacharya
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="0tembj6">
+                                    <p className="text-gray-600 text-xs" data-oid="wl9o5jy">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="e12ff_v"
+                                    data-oid="r6c4m4."
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid=".851lcm"
+                                        data-oid="oia0i70"
                                     >
                                         Prof. Ajaya Sahoo
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="9lkozw6">
+                                    <p className="text-gray-600 text-xs" data-oid="534-vw-">
                                         Centre for Indian Diaspora, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="r4.c.fz"
+                                    data-oid="8:t.uw2"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="mv1y801"
+                                        data-oid="c:cp6rb"
                                     >
                                         Dr. Siddharth Satpathy
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="m-bhuo-">
+                                    <p className="text-gray-600 text-xs" data-oid="1_sm49s">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="wpqak2g"
+                                    data-oid="awf.fys"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="ulql4h_"
+                                        data-oid="y9afbx:"
                                     >
                                         Dr. Sriparna Das
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="520oeim">
+                                    <p className="text-gray-600 text-xs" data-oid="w8s6lgd">
                                         CALTS, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="z_565-4"
+                                    data-oid="o2rd782"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="quvaa2n"
+                                        data-oid="4zt1qj8"
                                     >
                                         Dr. Laboni Mukherjee
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="4356i-e">
+                                    <p className="text-gray-600 text-xs" data-oid="z8my:q7">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="w5ytw_h"
+                                    data-oid="jwm11i1"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="hjl:f-k"
+                                        data-oid="415iv0x"
                                     >
                                         Dr. Pushpanjali Sampathkumar
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="53wb1x0">
+                                    <p className="text-gray-600 text-xs" data-oid="w08qhjy">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="s.q16nr"
+                                    data-oid="d36h8_t"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="t0wf6tl"
+                                        data-oid="x9rshq8"
                                     >
                                         Dr. Purna Chandra Naik
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="2fjq9_m">
+                                    <p className="text-gray-600 text-xs" data-oid="9deuoyp">
                                         CCL, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="py7qzic"
+                                    data-oid="p:qy0ay"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="9_p__j."
+                                        data-oid="1ogw-hf"
                                     >
                                         Prof. Anna Kurian
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="v351z46">
+                                    <p className="text-gray-600 text-xs" data-oid="t_oxaux">
                                         Department of English, UoH
                                     </p>
                                 </div>
