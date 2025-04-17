@@ -253,9 +253,407 @@ export default function ParticipantsPage() {
                             >
                                 Round Table Presenters
                             </h2>
-                            <p className="text-gray-700 mb-4" data-oid="kslol-_">
-                                Information about round table presenters will be available soon.
-                            </p>
+                            <div
+                                className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2"
+                                data-oid="x::j0u1"
+                            >
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="mhz24is"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="4cv-zo1"
+                                    >
+                                        Arundhathi Padmanabhan
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid=":ehrr3g"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="_9rfboi"
+                                    >
+                                        Ardra Dinesh
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="70av_1-"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="3s94trd"
+                                    >
+                                        Arup Kumar Bag
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="mr-cf2v"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="2fofmr5"
+                                    >
+                                        Monideepa Raichaudhuri and Raj Shekhar Barman
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="8--8r3f"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="kt.lq8-"
+                                    >
+                                        Niharika Singh
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="o79fjed"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="v0jd:5h"
+                                    >
+                                        Bihan Bandyopadhyay
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="sw-yo66"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="fpnkdnl"
+                                    >
+                                        Minyoung Kim
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="_z2d996"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="mb50c.s"
+                                    >
+                                        Abul Bashar
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="kkq_p_q"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="gaz3.7d"
+                                    >
+                                        Pooja Prasain
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="71ga1d:"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="jyw_._:"
+                                    >
+                                        Trijit Mukherjee
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="9cqtoht"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="14t.6d3"
+                                    >
+                                        Akanchha Singh
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="gaqxpq6"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="dwn6aqh"
+                                    >
+                                        Meenakshi S. Thambi
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="uqwqa5e"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="nbseckb"
+                                    >
+                                        Prasann K Naik
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="bfq-02a"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="39url4y"
+                                    >
+                                        Swayam Sikha Srichandan
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="-km8py9"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="9dxbnux"
+                                    >
+                                        Muhammad Ashar Khan
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="u_2pb.c"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="14xk2m2"
+                                    >
+                                        Shataaxi Chauhan
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="9r.s-5:"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="ast0esa"
+                                    >
+                                        Nayan Mary Tom
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="c6iktfn"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="k.dcjl-"
+                                    >
+                                        Prachi Naik
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="ovlpob_"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid=".q4_8lv"
+                                    >
+                                        Bhakti Deshmukh
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="zmdiv8x"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="p8isftd"
+                                    >
+                                        Sumana Sinhababu
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="-8h.xna"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="lprzuc6"
+                                    >
+                                        Rubaiya Nasrin
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="h09eouv"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="31e4mo6"
+                                    >
+                                        Aishiki Bandhopadhyay
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="g3dtoej"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="88mnkx5"
+                                    >
+                                        Anjali Kaushik
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="lelztlk"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="gi4bx30"
+                                    >
+                                        Gazala F. Ansari
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="afh4dbe"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="p-zvru6"
+                                    >
+                                        Muhammed Saeed PK
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="5wcrzlj"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="96qpl5_"
+                                    >
+                                        Piyush Protim Saikia and Trishna Saikia
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="_tn6a3."
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="44lilbv"
+                                    >
+                                        Nandhana Suresh
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="fzfktrt"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="a.xuskk"
+                                    >
+                                        Aadrit Banerjee
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="zvtxrg4"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="hnok0n6"
+                                    >
+                                        Gautham Anil Warrier (Gaw)
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="a-5e__-"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="phhfqcb"
+                                    >
+                                        Biraj Biswas
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="br.0l7e"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="zmt8oe7"
+                                    >
+                                        Swarupa Das
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="xwycqj4"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="wz14vt-"
+                                    >
+                                        Astik Mukherjee
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="p7g--a5"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="3r9eus5"
+                                    >
+                                        Theadora War
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="gxw00yv"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="w5nkm8d"
+                                    >
+                                        Manisha Madhu
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="g348swj"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="usxw_ke"
+                                    >
+                                        Rashmi Ranjan Panigrahi and Parthajyoti Roy
+                                    </p>
+                                </div>
+                                <div
+                                    className="border-l-2 border-indigo-500 pl-3"
+                                    data-oid="io1.exi"
+                                >
+                                    <p
+                                        className="text-indigo-700 font-medium text-sm"
+                                        data-oid="ddkr7yr"
+                                    >
+                                        Saptanil Maji
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
