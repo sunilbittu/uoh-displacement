@@ -143,9 +143,55 @@ export default function ParticipantsPage() {
                             >
                                 Poets
                             </h2>
-                            <p className="text-gray-700 mb-4" data-oid="scbeann">
-                                Information about participating poets will be available soon.
-                            </p>
+                            <div className="space-y-4" data-oid="9e1b49l">
+                                <div
+                                    className="border-l-4 border-indigo-500 pl-4"
+                                    data-oid="o-gxhc0"
+                                >
+                                    <h3
+                                        className="font-medium text-indigo-700 mb-1"
+                                        data-oid="2409cro"
+                                    >
+                                        Yousif M. Qasmiyeh
+                                    </h3>
+                                    <p className="text-gray-700 italic text-sm" data-oid="y6dzh48">
+                                        "Poetry is the language of displacement, where words
+                                        themselves become refugees."
+                                    </p>
+                                </div>
+
+                                <div
+                                    className="border-l-4 border-indigo-500 pl-4"
+                                    data-oid="7v5yjco"
+                                >
+                                    <h3
+                                        className="font-medium text-indigo-700 mb-1"
+                                        data-oid="fh6h3n7"
+                                    >
+                                        Shash Trevett
+                                    </h3>
+                                    <p className="text-gray-700 italic text-sm" data-oid="gu4mxvl">
+                                        "Through poetry, we can traverse borders that are otherwise
+                                        impassable."
+                                    </p>
+                                </div>
+
+                                <div
+                                    className="border-l-4 border-indigo-500 pl-4"
+                                    data-oid="0ilj5z6"
+                                >
+                                    <h3
+                                        className="font-medium text-indigo-700 mb-1"
+                                        data-oid="775.i_k"
+                                    >
+                                        Anthony Vahni Capildeo
+                                    </h3>
+                                    <p className="text-gray-700 italic text-sm" data-oid="r0-ba-g">
+                                        "The poem is a home we build with words when our physical
+                                        homes are lost."
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
