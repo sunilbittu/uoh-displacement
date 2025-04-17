@@ -11,13 +11,17 @@ export default function PeoplePage() {
     };
 
     return (
-        <div className="min-h-screen bg-white text-gray-800 font-sans">
-            <Navigation activeSection="people" scrollToSection={scrollToSection} />
+        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="k5cgzth">
+            <Navigation
+                activeSection="people"
+                scrollToSection={scrollToSection}
+                data-oid="2fc005r"
+            />
 
-            <div className="pt-16">
-                <People />
+            <div className="pt-16" data-oid="do2973n">
+                <People data-oid="aj:7w3w" />
             </div>
-            <Footer scrollToSection={scrollToSection} />
+            <Footer scrollToSection={scrollToSection} data-oid="1:dv3db" />
         </div>
     );
 }
