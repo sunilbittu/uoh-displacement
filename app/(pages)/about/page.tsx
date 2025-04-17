@@ -11,17 +11,17 @@ export default function AboutPage() {
     };
 
     return (
-        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="n_lc3kf">
+        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="3oafwhy">
             <Navigation
                 activeSection="about"
                 scrollToSection={scrollToSection}
-                data-oid="np.ic-w"
+                data-oid="jrozf7."
             />
 
-            <div className="pt-16" data-oid="1s51e0z">
-                <About data-oid="vclwo67" />
+            <div className="pt-16" data-oid="8zay5e-">
+                <About data-oid="-6e.tyv" />
             </div>
-            <Footer scrollToSection={scrollToSection} data-oid="jwxd-65" />
+            <Footer scrollToSection={scrollToSection} data-oid="c:yb5d9" />
         </div>
     );
 }

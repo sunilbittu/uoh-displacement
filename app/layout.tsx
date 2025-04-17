@@ -11,6 +11,7 @@ export const metadata: Metadata = {
             name: 'University of Hyderabad',
         },
     ],
+
     openGraph: {
         title: 'Displacement - International Conference',
         description:
@@ -33,10 +34,8 @@ export const metadata: Metadata = {
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
-        <html lang="en" data-oid="gsrkpch">
-            <body className="" data-oid="0l:eu60">
-                {children}
-            </body>
+        <html lang="en">
+            <body className="">{children}</body>
         </html>
     );
 }
