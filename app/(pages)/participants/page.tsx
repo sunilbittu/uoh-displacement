@@ -656,6 +656,68 @@ export default function ParticipantsPage() {
                             </div>
                         </div>
                     </div>
+
+                    <div className="grid md:grid-cols-2 gap-8 mt-8" data-oid="sb-egbe">
+                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid="35xru-4">
+                            <h2
+                                className="text-xl font-semibold text-red-800 mb-4"
+                                data-oid="yvpj.27"
+                            >
+                                Chairs
+                            </h2>
+                            <div className="space-y-4" data-oid="pppbjv_">
+                                <div
+                                    className="border-l-4 border-indigo-500 pl-4"
+                                    data-oid="x4v:uay"
+                                >
+                                    <h3 className="font-medium text-indigo-700" data-oid="u6ihxbv">
+                                        Dr. Anna Smith
+                                    </h3>
+                                    <p className="text-gray-600 text-sm" data-oid="u2n1gkc">
+                                        Panel: Migration and Displacement
+                                    </p>
+                                </div>
+
+                                <div
+                                    className="border-l-4 border-indigo-500 pl-4"
+                                    data-oid="1_avqgr"
+                                >
+                                    <h3 className="font-medium text-indigo-700" data-oid="_dafwd:">
+                                        Prof. James Wilson
+                                    </h3>
+                                    <p className="text-gray-600 text-sm" data-oid="1tcs36i">
+                                        Panel: Refugee Literature
+                                    </p>
+                                </div>
+
+                                <div
+                                    className="border-l-4 border-indigo-500 pl-4"
+                                    data-oid="unna0:5"
+                                >
+                                    <h3 className="font-medium text-indigo-700" data-oid="q1l_2z6">
+                                        Dr. Maria Rodriguez
+                                    </h3>
+                                    <p className="text-gray-600 text-sm" data-oid="_8qhm2f">
+                                        Panel: Cultural Identity
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            className="bg-white p-6 rounded-lg shadow-md flex items-center justify-center"
+                            data-oid="43rjzxx"
+                        >
+                            <div className="text-center" data-oid="xggdjc8">
+                                <p className="text-gray-500 italic" data-oid="7k:qgh2">
+                                    More chairs will be announced soon.
+                                </p>
+                                <p className="text-gray-500 italic mt-2" data-oid="womt62z">
+                                    Please check back for updates.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
