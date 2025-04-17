@@ -1,5 +1,5 @@
 'use client';
-import React, { useState } from 'react';
+import React from 'react';
 import Navigation from '@/app/components/Navigation';
 import Footer from '@/app/components/Footer';
 import { useRouter } from 'next/navigation';
@@ -13,39 +13,21 @@ export default function CallForPapersPage() {
 
     const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-    // CFP images from public/images
-    const cfpImages = [
+    // CFP PDFs
+    const cfpDocuments = [
         {
-            id: 'cfp',
-            src: '/images/cfp.webp',
-            alt: 'Call for Papers',
+            id: 'displacement1',
+            title: 'Displacement - Document 1',
+            url: 'https://uoh-bucket-images.s3.us-east-1.amazonaws.com/docs/Displacement1.pdf',
         },
         {
-            id: 'cfp1',
-            src: '/images/cfp1.webp',
-            alt: 'Call for Papers 1',
-        },
-        {
-            id: 'cfp2',
-            src: '/images/cfp2.webp',
-            alt: 'Call for Papers 2',
-        },
-        {
-            id: 'cfp3',
-            src: '/images/cfp3.webp',
-            alt: 'Call for Papers 3',
+            id: 'displacement2',
+            title: 'Displacement - Document 2',
+            url: 'https://uoh-bucket-images.s3.us-east-1.amazonaws.com/docs/Displacement2.pdf',
         },
     ];
 
-    // Function to open the image modal
-    const openImageModal = (imageSrc: string) => {
-        setSelectedImage(imageSrc);
-    };
-
-    // Function to close the image modal
-    const closeImageModal = () => {
-        setSelectedImage(null);
-    };
+    // No need for modal functions since we're using direct PDF links
 
     return (
         <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="vs9-2eg">
@@ -74,34 +56,65 @@ export default function CallForPapersPage() {
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-6" data-oid="r7c9nc9">
-                        {cfpImages.map((image) => (
+                        {cfpDocuments.map((doc) => (
                             <div
-                                key={image.id}
-                                className="bg-white p-4 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow cursor-pointer"
-                                onClick={() => openImageModal(image.src)}
+                                key={doc.id}
+                                className="bg-white p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow"
                                 data-oid="ap1ttw4"
                             >
-                                <div className="relative w-full h-[400px]" data-oid="5s1bhl:">
-                                    <Image
-                                        src={image.src}
-                                        alt={image.alt}
-                                        fill
-                                        style={{ objectFit: 'contain' }}
-                                        className="rounded"
-                                        data-oid="ejl:poq"
-                                    />
-                                </div>
-                                <div className="mt-4 text-center" data-oid="j-_coyn">
-                                    <button
-                                        className="px-4 py-2 bg-red-700 text-white rounded hover:bg-red-800 transition-colors"
-                                        onClick={(e) => {
-                                            e.stopPropagation();
-                                            openImageModal(image.src);
-                                        }}
-                                        data-oid="qaebls0"
+                                <div
+                                    className="flex flex-col items-center justify-center space-y-4"
+                                    data-oid="na4mwno"
+                                >
+                                    <div className="text-5xl text-red-700" data-oid="xm2gmt8">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="h-20 w-20"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke="currentColor"
+                                            data-oid="gkuiojl"
+                                        >
+                                            <path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={2}
+                                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                                                data-oid="r_2l4bx"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <h3
+                                        className="text-xl font-semibold text-gray-800 text-center"
+                                        data-oid="w1exh98"
                                     >
-                                        View Full Size
-                                    </button>
+                                        {doc.title}
+                                    </h3>
+                                    <a
+                                        href={doc.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="px-6 py-3 bg-red-700 text-white rounded-md hover:bg-red-800 transition-colors flex items-center space-x-2"
+                                        data-oid="o29n-j1"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="h-5 w-5"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke="currentColor"
+                                            data-oid="z.l5aq6"
+                                        >
+                                            <path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={2}
+                                                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                                                data-oid="m6rvxr0"
+                                            />
+                                        </svg>
+                                        <span data-oid="iwtlv1b">Download PDF</span>
+                                    </a>
                                 </div>
                             </div>
                         ))}
@@ -109,53 +122,7 @@ export default function CallForPapersPage() {
                 </div>
             </div>
 
-            {/* Image Modal */}
-            {selectedImage && (
-                <div
-                    className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
-                    onClick={closeImageModal}
-                    data-oid="ynacttk"
-                >
-                    <div
-                        className="relative max-w-4xl max-h-[90vh] w-full"
-                        onClick={(e) => e.stopPropagation()}
-                        data-oid="8hyoi9h"
-                    >
-                        <button
-                            className="absolute top-2 right-2 bg-white rounded-full p-2 z-10"
-                            onClick={closeImageModal}
-                            data-oid="s56gqzm"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-6 w-6"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                                data-oid="72_98qu"
-                            >
-                                <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M6 18L18 6M6 6l12 12"
-                                    data-oid=":kc691r"
-                                />
-                            </svg>
-                        </button>
-                        <div className="relative w-full h-[80vh]" data-oid="y87163x">
-                            <Image
-                                src={selectedImage}
-                                alt="Call for Papers"
-                                fill
-                                style={{ objectFit: 'contain' }}
-                                className="rounded"
-                                data-oid="uxnd28h"
-                            />
-                        </div>
-                    </div>
-                </div>
-            )}
+            {/* No image modal needed anymore */}
 
             <Footer scrollToSection={scrollToSection} data-oid="2jllk54" />
         </div>
