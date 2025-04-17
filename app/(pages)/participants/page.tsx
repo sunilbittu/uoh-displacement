@@ -32,104 +32,169 @@ export default function ParticipantsPage() {
                             >
                                 Keynote Speakers
                             </h2>
-                            <div className="space-y-4" data-oid="l.oip3s">
-                                {/* We'll add photos later when provided */}
-                                <div className="flex items-start space-x-3" data-oid="2_teow-">
+                            <div className="space-y-6" data-oid="72iw:z_">
+                                <div className="flex items-start space-x-4" data-oid="nu2_gef">
                                     <div
-                                        className="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0"
-                                        data-oid="te.hqor"
+                                        className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-indigo-200"
+                                        data-oid="rxdsaum"
                                     >
-                                        {/* Photo placeholder - will be replaced with Image component */}
+                                        <Image
+                                            src="/images/speaker-rajini.png"
+                                            alt="Prof. Rajini Srikant"
+                                            width={80}
+                                            height={80}
+                                            className="object-cover w-full h-full"
+                                            data-oid="tv95w2z"
+                                        />
                                     </div>
-                                    <div data-oid="o4w5npx">
+                                    <div data-oid=":qbkrju">
                                         <h3
                                             className="font-medium text-indigo-700"
-                                            data-oid="t3c7tbl"
+                                            data-oid="pr896_o"
                                         >
                                             Prof. Rajini Srikant
                                         </h3>
-                                        <p className="text-gray-600 text-sm" data-oid="pnkbb-d">
+                                        <p className="text-gray-600 text-sm" data-oid="m9qan-b">
                                             University of Massachusetts, Boston, USA
+                                        </p>
+                                        <p
+                                            className="text-gray-500 text-sm mt-1 italic"
+                                            data-oid="z.em7pg"
+                                        >
+                                            Expert in Migration Studies and Displacement
                                         </p>
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-3" data-oid="g3e9gs2">
+                                <div className="flex items-start space-x-4" data-oid="r27q.i_">
                                     <div
-                                        className="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0"
-                                        data-oid="0cipe47"
+                                        className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-indigo-200"
+                                        data-oid="zfr1pz3"
                                     >
-                                        {/* Photo placeholder */}
+                                        <Image
+                                            src="/images/speaker-irudaya.jpeg"
+                                            alt="Prof. Irudaya Rajan"
+                                            width={80}
+                                            height={80}
+                                            className="object-cover w-full h-full"
+                                            data-oid="yw_lg7i"
+                                        />
                                     </div>
-                                    <div data-oid="z5mus:c">
+                                    <div data-oid="qt.8ees">
                                         <h3
                                             className="font-medium text-indigo-700"
-                                            data-oid="sqd:b1d"
+                                            data-oid="90gi4-3"
                                         >
                                             Prof. Irudaya Rajan
                                         </h3>
-                                        <p className="text-gray-600 text-sm" data-oid="okv:t58">
+                                        <p className="text-gray-600 text-sm" data-oid="tjgi8s5">
                                             The International Institute of Migration and Development
+                                        </p>
+                                        <p
+                                            className="text-gray-500 text-sm mt-1 italic"
+                                            data-oid="phkcksw"
+                                        >
+                                            Renowned researcher on migration patterns
                                         </p>
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-3" data-oid="ceciru4">
+                                <div className="flex items-start space-x-4" data-oid="rp2l9o.">
                                     <div
-                                        className="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0"
-                                        data-oid="tah7x_n"
+                                        className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-indigo-200"
+                                        data-oid=".k6:mi0"
                                     >
-                                        {/* Photo placeholder */}
+                                        <Image
+                                            src="/images/speaker-divya.jpeg"
+                                            alt="Divya Jose"
+                                            width={80}
+                                            height={80}
+                                            className="object-cover w-full h-full"
+                                            data-oid="j08d1_-"
+                                        />
                                     </div>
-                                    <div data-oid="izl5yim">
+                                    <div data-oid="1hov0-p">
                                         <h3
                                             className="font-medium text-indigo-700"
-                                            data-oid="p3jdo_s"
+                                            data-oid="-:3e1sj"
                                         >
                                             Divya Jose
                                         </h3>
-                                        <p className="text-gray-600 text-sm" data-oid="k.dl1up">
+                                        <p className="text-gray-600 text-sm" data-oid="qrb2_za">
                                             Refugee Education, UK
+                                        </p>
+                                        <p
+                                            className="text-gray-500 text-sm mt-1 italic"
+                                            data-oid="w3si5.x"
+                                        >
+                                            Advocate for refugee education rights
                                         </p>
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-3" data-oid=".px-269">
+                                <div className="flex items-start space-x-4" data-oid="xr2atxx">
                                     <div
-                                        className="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0"
-                                        data-oid="s:4mnff"
+                                        className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-indigo-200"
+                                        data-oid="1_byscz"
                                     >
-                                        {/* Photo placeholder */}
+                                        <Image
+                                            src="/images/speaker-vinay.jpeg"
+                                            alt="Prof. Vinay Lal"
+                                            width={80}
+                                            height={80}
+                                            className="object-cover w-full h-full"
+                                            data-oid="nr94gte"
+                                        />
                                     </div>
-                                    <div data-oid="sza:ujl">
+                                    <div data-oid="083y7hs">
                                         <h3
                                             className="font-medium text-indigo-700"
-                                            data-oid="v8374un"
+                                            data-oid="qzsi9tg"
                                         >
                                             Prof. Vinay Lal
                                         </h3>
-                                        <p className="text-gray-600 text-sm" data-oid="rl2d4.l">
+                                        <p className="text-gray-600 text-sm" data-oid="zrbnf83">
                                             University of California, LA, USA
+                                        </p>
+                                        <p
+                                            className="text-gray-500 text-sm mt-1 italic"
+                                            data-oid="6sk1bw2"
+                                        >
+                                            Historian specializing in colonial and postcolonial
+                                            studies
                                         </p>
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-3" data-oid="-x-u.7x">
+                                <div className="flex items-start space-x-4" data-oid="r9rg14q">
                                     <div
-                                        className="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0"
-                                        data-oid="lj-ysig"
+                                        className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-indigo-200"
+                                        data-oid="86:.0hp"
                                     >
-                                        {/* Photo placeholder */}
+                                        <Image
+                                            src="/images/speaker-knarayna.png"
+                                            alt="Prof. K Narayana Chandran"
+                                            width={80}
+                                            height={80}
+                                            className="object-cover w-full h-full"
+                                            data-oid="oqov.1p"
+                                        />
                                     </div>
-                                    <div data-oid="fs4h4_b">
+                                    <div data-oid="1z0oq82">
                                         <h3
                                             className="font-medium text-indigo-700"
-                                            data-oid="fhgt_1i"
+                                            data-oid="zsu6ltx"
                                         >
                                             Prof. K Narayana Chandran
                                         </h3>
-                                        <p className="text-gray-600 text-sm" data-oid="1j-xp:m">
+                                        <p className="text-gray-600 text-sm" data-oid="ob7.y2.">
                                             Former Professor, UoH
+                                        </p>
+                                        <p
+                                            className="text-gray-500 text-sm mt-1 italic"
+                                            data-oid="f5y-x_g"
+                                        >
+                                            Distinguished scholar in literary studies
                                         </p>
                                     </div>
                                 </div>
