@@ -182,9 +182,68 @@ export default function ParticipantsPage() {
                             >
                                 Paper Presenters
                             </h2>
-                            <p className="text-gray-700 mb-4" data-oid="21ou6fu">
-                                Information about paper presenters will be available soon.
-                            </p>
+                            <div className="space-y-4" data-oid="41t3k-9">
+                                <div
+                                    className="border-l-4 border-indigo-500 pl-4"
+                                    data-oid="5wn0kga"
+                                >
+                                    <h3 className="font-medium text-indigo-700" data-oid="sirsv:v">
+                                        Aneil Rallin
+                                    </h3>
+                                </div>
+
+                                <div
+                                    className="border-l-4 border-indigo-500 pl-4"
+                                    data-oid="t0blltk"
+                                >
+                                    <h3 className="font-medium text-indigo-700" data-oid="nr9qaen">
+                                        Ido Fuchs
+                                    </h3>
+                                    <p className="text-gray-600 text-sm" data-oid="znty-10">
+                                        Visiting Researcher at the Network for Environmental
+                                        Humanities at the Research Institute for Cultural Inquiry,
+                                        Utrecht University
+                                    </p>
+                                </div>
+
+                                <div
+                                    className="border-l-4 border-indigo-500 pl-4"
+                                    data-oid="f9k12xo"
+                                >
+                                    <h3 className="font-medium text-indigo-700" data-oid="rzzvfir">
+                                        K.S. Ahima
+                                    </h3>
+                                    <p className="text-gray-600 text-sm" data-oid="ipzaski">
+                                        Research Scholar, Humanities and Social Sciences, NIT
+                                        Warangal
+                                    </p>
+                                </div>
+
+                                <div
+                                    className="border-l-4 border-indigo-500 pl-4"
+                                    data-oid="wdt77ys"
+                                >
+                                    <h3 className="font-medium text-indigo-700" data-oid="hv_eydb">
+                                        Abhilasha Sawlani
+                                    </h3>
+                                    <p className="text-gray-600 text-sm" data-oid="nxqcuqw">
+                                        Research Scholar, Ashoka University
+                                    </p>
+                                </div>
+
+                                <div
+                                    className="border-l-4 border-indigo-500 pl-4"
+                                    data-oid="mg2j4u9"
+                                >
+                                    <h3 className="font-medium text-indigo-700" data-oid="2k29r7m">
+                                        John Leandro Reyes
+                                    </h3>
+                                    <p className="text-gray-600 text-sm" data-oid="r9l57i_">
+                                        Associate Lecturer at Mindanao State University - Iligan
+                                        Institute of Technology
+                                    </p>
+                                </div>
+                            </div>
                         </div>
 
                         <div className="bg-white p-6 rounded-lg shadow-md" data-oid="z7j.:h7">
