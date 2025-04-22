@@ -8,6 +8,7 @@ import Image from 'next/image';
 export default function MediaPage() {
     const router = useRouter();
     const [selectedImage, setSelectedImage] = useState<string | null>(null);
+    const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
 
     // Define the media items with the provided URLs
     const images = [
@@ -60,6 +61,16 @@ export default function MediaPage() {
     // Function to close the image modal
     const closeImageModal = () => {
         setSelectedImage(null);
+    };
+
+    // Function to open the video modal
+    const openVideoModal = (videoUrl: string) => {
+        setSelectedVideo(videoUrl);
+    };
+
+    // Function to close the video modal
+    const closeVideoModal = () => {
+        setSelectedVideo(null);
     };
 
     return (
@@ -164,22 +175,61 @@ export default function MediaPage() {
                                 {videos.map((video, index) => (
                                     <div
                                         key={index}
-                                        className="overflow-hidden rounded-lg shadow-md"
+                                        className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer group"
                                         data-oid="h-ryt9:"
                                     >
-                                        <video
-                                            controls
-                                            className="w-full h-auto"
-                                            data-oid="a_wp.q:"
+                                        <div
+                                            className="relative overflow-hidden"
+                                            data-oid="v0_5s5k"
                                         >
-                                            <source
-                                                src={video.url}
-                                                type="video/mp4"
-                                                data-oid="99e8nae"
-                                            />
-                                            Your browser does not support the video tag.
-                                        </video>
-                                        {/* Title section removed */}
+                                            <video
+                                                className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
+                                                data-oid="a_wp.q:"
+                                                poster={video.url.replace('.mp4', '-thumbnail.jpg')}
+                                                onClick={() => openVideoModal(video.url)}
+                                            >
+                                                <source
+                                                    src={video.url}
+                                                    type="video/mp4"
+                                                    data-oid="99e8nae"
+                                                />
+                                                Your browser does not support the video tag.
+                                            </video>
+                                            <div
+                                                className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity duration-300 flex items-center justify-center pointer-events-none"
+                                                data-oid="surj-l_"
+                                            >
+                                                <div
+                                                    className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                                                    data-oid="35u9_qr"
+                                                >
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        className="h-16 w-16"
+                                                        fill="none"
+                                                        viewBox="0 0 24 24"
+                                                        stroke="currentColor"
+                                                        data-oid="0kz8xte"
+                                                    >
+                                                        <path
+                                                            strokeLinecap="round"
+                                                            strokeLinejoin="round"
+                                                            strokeWidth={2}
+                                                            d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
+                                                            data-oid="rjudtb1"
+                                                        />
+
+                                                        <path
+                                                            strokeLinecap="round"
+                                                            strokeLinejoin="round"
+                                                            strokeWidth={2}
+                                                            d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                                            data-oid="1tgcamh"
+                                                        />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 ))}
                             </div>
@@ -244,6 +294,71 @@ export default function MediaPage() {
                                     <p
                                         className="text-white text-sm bg-black bg-opacity-50 px-4 py-2 rounded-full"
                                         data-oid="ofu65nk"
+                                    >
+                                        Click anywhere to close
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Video Modal */}
+                    {selectedVideo && (
+                        <div
+                            className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 p-4 animate-fadeIn"
+                            onClick={closeVideoModal}
+                            data-oid="y5zu30a"
+                        >
+                            <div
+                                className="relative max-w-5xl max-h-screen animate-scaleIn"
+                                data-oid="gvqy5.l"
+                            >
+                                <button
+                                    className="absolute top-3 right-3 bg-white rounded-full p-2 shadow-lg hover:bg-gray-200 transition-colors z-10"
+                                    onClick={(e) => {
+                                        e.stopPropagation();
+                                        closeVideoModal();
+                                    }}
+                                    aria-label="Close"
+                                    data-oid="cxiqcb4"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="h-6 w-6"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                        data-oid=".k6v5q."
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
+                                            d="M6 18L18 6M6 6l12 12"
+                                            data-oid="z768700"
+                                        />
+                                    </svg>
+                                </button>
+                                <div
+                                    className="bg-white bg-opacity-5 p-1 rounded-lg"
+                                    data-oid="bv68tyf"
+                                >
+                                    <video
+                                        src={selectedVideo}
+                                        controls
+                                        autoPlay
+                                        className="max-h-[90vh] max-w-full rounded shadow-2xl"
+                                        onClick={(e) => e.stopPropagation()}
+                                        data-oid="3:ber9o"
+                                    />
+                                </div>
+                                <div
+                                    className="absolute bottom-4 left-1/2 transform -translate-x-1/2"
+                                    data-oid="x.h0:qa"
+                                >
+                                    <p
+                                        className="text-white text-sm bg-black bg-opacity-50 px-4 py-2 rounded-full"
+                                        data-oid="2a:7hbq"
                                     >
                                         Click anywhere to close
                                     </p>
