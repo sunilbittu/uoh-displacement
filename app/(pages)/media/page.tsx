@@ -88,12 +88,12 @@ export default function MediaPage() {
                     </h1>
                     <div className="bg-white p-6 rounded-lg shadow-md" data-oid="h37:ob_">
                         <h2 className="text-xl font-semibold text-red-800 mb-4" data-oid="waw-d20">
-                            Conference Media Gallery
+                            Culturals BTS
                         </h2>
 
                         <p className="text-gray-700 mb-6" data-oid="5l5s7ld">
-                            Browse photos and videos from the Displacement Conference. More media
-                            will be added as the event approaches.
+                            Browse behind-the-scenes photos and videos from our cultural events.
+                            More media will be added as events take place.
                         </p>
 
                         {/* Photos Section */}
@@ -102,7 +102,7 @@ export default function MediaPage() {
                                 className="text-lg font-medium text-indigo-700 mb-4"
                                 data-oid="u8:68kn"
                             >
-                                Photos
+                                Photos - Culturals BTS
                             </h3>
                             <div
                                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
@@ -166,7 +166,7 @@ export default function MediaPage() {
                                 className="text-lg font-medium text-indigo-700 mb-4"
                                 data-oid="uvktuv1"
                             >
-                                Videos
+                                Videos - Culturals BTS
                             </h3>
                             <div
                                 className="grid grid-cols-1 md:grid-cols-2 gap-6"
