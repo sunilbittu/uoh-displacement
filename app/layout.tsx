@@ -34,8 +34,10 @@ export const metadata: Metadata = {
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
-        <html lang="en">
-            <body className="">{children}</body>
+        <html lang="en" data-oid="mq:rucs">
+            <body className="" data-oid="ipqx232">
+                {children}
+            </body>
         </html>
     );
 }

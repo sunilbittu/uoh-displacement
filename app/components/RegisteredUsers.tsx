@@ -60,41 +60,48 @@ export default function RegisteredUsers() {
 
     if (loading) {
         return (
-            <div className="flex justify-center items-center min-h-[400px]">
-                <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-red-600"></div>
+            <div className="flex justify-center items-center min-h-[400px]" data-oid="9rv13d2">
+                <div
+                    className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-red-600"
+                    data-oid="1jwmot3"
+                ></div>
             </div>
         );
     }
 
     if (error) {
         return (
-            <div className="text-center text-red-600 p-4">
-                <p>{error}</p>
+            <div className="text-center text-red-600 p-4" data-oid="5o_6caq">
+                <p data-oid="ko0znke">{error}</p>
             </div>
         );
     }
 
     return (
-        <section className="py-20 bg-yellow-50">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl font-bold text-center text-red-800 mb-12">
+        <section className="py-20 bg-yellow-50" data-oid="_taavpy">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="72tniuw">
+                <h2
+                    className="text-3xl font-bold text-center text-red-800 mb-12"
+                    data-oid="33yq7k3"
+                >
                     Registered Users
                 </h2>
 
-                <div className="mb-4">
+                <div className="mb-4" data-oid="yel:t_4">
                     <input
                         type="text"
                         placeholder="Search users..."
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                         className="w-full md:w-1/3 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
+                        data-oid="n5njkt."
                     />
                 </div>
 
-                <div className="bg-white rounded-lg shadow overflow-x-auto">
-                    <table className="min-w-full divide-y divide-gray-200">
-                        <thead className="bg-gray-50">
-                            <tr>
+                <div className="bg-white rounded-lg shadow overflow-x-auto" data-oid="31-k.bw">
+                    <table className="min-w-full divide-y divide-gray-200" data-oid="57sy_l-">
+                        <thead className="bg-gray-50" data-oid="y-z2:cy">
+                            <tr data-oid="5-hh_xc">
                                 {[
                                     'name',
                                     'designation',
@@ -107,11 +114,12 @@ export default function RegisteredUsers() {
                                         key={field}
                                         onClick={() => handleSort(field as keyof RegisteredUser)}
                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                                        data-oid="rbo41iu"
                                     >
                                         {field.charAt(0).toUpperCase() +
                                             field.slice(1).replace(/([A-Z])/g, ' $1')}
                                         {sortField === field && (
-                                            <span className="ml-2">
+                                            <span className="ml-2" data-oid="n0d4z4d">
                                                 {sortDirection === 'asc' ? '↑' : '↓'}
                                             </span>
                                         )}
@@ -119,25 +127,43 @@ export default function RegisteredUsers() {
                                 ))}
                             </tr>
                         </thead>
-                        <tbody className="bg-white divide-y divide-gray-200">
+                        <tbody className="bg-white divide-y divide-gray-200" data-oid="hry4.l.">
                             {filteredUsers.map((user, index) => (
-                                <tr key={index} className="hover:bg-yellow-50">
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                <tr key={index} className="hover:bg-yellow-50" data-oid="yr1e43s">
+                                    <td
+                                        className="px-6 py-4 whitespace-nowrap text-sm text-gray-900"
+                                        data-oid="wllik0w"
+                                    >
                                         {user.name}
                                     </td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    <td
+                                        className="px-6 py-4 whitespace-nowrap text-sm text-gray-900"
+                                        data-oid="g7d3g2a"
+                                    >
                                         {user.designation}
                                     </td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    <td
+                                        className="px-6 py-4 whitespace-nowrap text-sm text-gray-900"
+                                        data-oid="dgnbh-f"
+                                    >
                                         {user.paperTitle}
                                     </td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    <td
+                                        className="px-6 py-4 whitespace-nowrap text-sm text-gray-900"
+                                        data-oid="w:qcmoj"
+                                    >
                                         {user.participationMode}
                                     </td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    <td
+                                        className="px-6 py-4 whitespace-nowrap text-sm text-gray-900"
+                                        data-oid="2f-cpjb"
+                                    >
                                         {user.email}
                                     </td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    <td
+                                        className="px-6 py-4 whitespace-nowrap text-sm text-gray-900"
+                                        data-oid="t3d7:yy"
+                                    >
                                         <button
                                             onClick={() =>
                                                 window.open(
@@ -147,6 +173,7 @@ export default function RegisteredUsers() {
                                                 )
                                             }
                                             className="text-blue-600 hover:text-blue-800 underline focus:outline-none"
+                                            data-oid="t8e_b5p"
                                         >
                                             View Receipt
                                         </button>
