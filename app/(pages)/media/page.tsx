@@ -179,14 +179,14 @@ export default function MediaPage() {
                                         data-oid="h-ryt9:"
                                     >
                                         <div
-                                            className="relative overflow-hidden"
+                                            className="relative overflow-hidden bg-gray-900"
                                             data-oid="v0_5s5k"
                                         >
                                             <video
-                                                className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
+                                                className="w-full h-auto transition-transform duration-500 group-hover:scale-105 bg-black"
                                                 data-oid="a_wp.q:"
-                                                poster={video.url.replace('.mp4', '-thumbnail.jpg')}
                                                 onClick={() => openVideoModal(video.url)}
+                                                preload="metadata"
                                             >
                                                 <source
                                                     src={video.url}
@@ -344,13 +344,19 @@ export default function MediaPage() {
                                     data-oid="bv68tyf"
                                 >
                                     <video
-                                        src={selectedVideo}
                                         controls
                                         autoPlay
-                                        className="max-h-[90vh] max-w-full rounded shadow-2xl"
+                                        className="max-h-[90vh] max-w-full rounded shadow-2xl bg-black"
                                         onClick={(e) => e.stopPropagation()}
                                         data-oid="3:ber9o"
-                                    />
+                                    >
+                                        <source
+                                            src={selectedVideo}
+                                            type="video/mp4"
+                                            data-oid="amusm28"
+                                        />
+                                        Your browser does not support the video tag.
+                                    </video>
                                 </div>
                                 <div
                                     className="absolute bottom-4 left-1/2 transform -translate-x-1/2"
