@@ -25,7 +25,7 @@ export default function MediaPage() {
         },
         {
             url: 'https://uoh-bucket-images.s3.us-east-1.amazonaws.com/photos/photo+(4).jpeg',
-            title: 'Conference Photo 4',
+            title: '',
         },
         {
             url: 'https://uoh-bucket-images.s3.us-east-1.amazonaws.com/photos/photo+(5).jpeg',
