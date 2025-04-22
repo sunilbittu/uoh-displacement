@@ -11,10 +11,10 @@ export default function HomePage() {
     };
 
     return (
-        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="w1xc0i2">
-            <Navigation activeSection="home" scrollToSection={scrollToSection} data-oid="hc_a3e4" />
-            <Hero scrollToSection={scrollToSection} data-oid="kq0sxu_" />
-            <Footer scrollToSection={scrollToSection} data-oid="3s.q7vm" />
+        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="n48a1tj">
+            <Navigation activeSection="home" scrollToSection={scrollToSection} data-oid="_z0-_2:" />
+            <Hero scrollToSection={scrollToSection} data-oid="1ecn8rq" />
+            <Footer scrollToSection={scrollToSection} data-oid="3d3h0v8" />
         </div>
     );
 }

@@ -12,32 +12,32 @@ export default function ParticipantsPage() {
     };
 
     return (
-        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="a1c8qrv">
+        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="r4e.80h">
             <Navigation
                 activeSection="participants"
                 scrollToSection={scrollToSection}
-                data-oid="ozpnt1b"
+                data-oid="hj2y5rq"
             />
 
-            <div className="pt-20 pb-10" data-oid="ngeu:nk">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="ptxpvcs">
-                    <h1 className="text-3xl font-bold text-red-800 mb-8" data-oid="e73_:w2">
+            <div className="pt-20 pb-10" data-oid="_qfe5c0">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="tzcz5qd">
+                    <h1 className="text-3xl font-bold text-red-800 mb-8" data-oid="3ecenw:">
                         Participants
                     </h1>
 
-                    <div className="grid md:grid-cols-2 gap-8 mb-8" data-oid="bcwak73">
-                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid="tnujczp">
+                    <div className="grid md:grid-cols-2 gap-8 mb-8" data-oid="j7e4zzv">
+                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid=":r9arh3">
                             <h2
                                 className="text-xl font-semibold text-red-800 mb-4"
-                                data-oid="v6_lmz4"
+                                data-oid="d2s2bkl"
                             >
                                 Keynote Speakers
                             </h2>
-                            <div className="space-y-6" data-oid="upzrdzd">
-                                <div className="flex items-start space-x-4" data-oid="r90rwbg">
+                            <div className="space-y-6" data-oid="zicijfv">
+                                <div className="flex items-start space-x-4" data-oid="s6xcn6_">
                                     <div
                                         className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-indigo-200"
-                                        data-oid="_j.9jv8"
+                                        data-oid="pt-k15y"
                                     >
                                         <Image
                                             src="/images/speaker-rajini.png"
@@ -45,32 +45,32 @@ export default function ParticipantsPage() {
                                             width={80}
                                             height={80}
                                             className="object-cover w-full h-full"
-                                            data-oid="au10aip"
+                                            data-oid="bs3hdwn"
                                         />
                                     </div>
-                                    <div data-oid="nq3_:0h">
+                                    <div data-oid="plnv42w">
                                         <h3
                                             className="font-medium text-indigo-700"
-                                            data-oid="lnsd50v"
+                                            data-oid="pao-_3_"
                                         >
                                             Prof. Rajini Srikant
                                         </h3>
-                                        <p className="text-gray-600 text-sm" data-oid="wso5c3c">
+                                        <p className="text-gray-600 text-sm" data-oid="u9skl8e">
                                             University of Massachusetts, Boston, USA
                                         </p>
                                         <p
                                             className="text-gray-500 text-sm mt-1 italic"
-                                            data-oid="cwozrrp"
+                                            data-oid="1z16tf1"
                                         >
                                             Expert in Migration Studies and Displacement
                                         </p>
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-4" data-oid="9kahztd">
+                                <div className="flex items-start space-x-4" data-oid="4uh5474">
                                     <div
                                         className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-indigo-200"
-                                        data-oid="vowrhyq"
+                                        data-oid="4k7n4ss"
                                     >
                                         <Image
                                             src="/images/speaker-irudaya.jpeg"
@@ -78,32 +78,32 @@ export default function ParticipantsPage() {
                                             width={80}
                                             height={80}
                                             className="object-cover w-full h-full"
-                                            data-oid="flr:4t_"
+                                            data-oid=":arm9tl"
                                         />
                                     </div>
-                                    <div data-oid="8it6271">
+                                    <div data-oid="g4fnqpl">
                                         <h3
                                             className="font-medium text-indigo-700"
-                                            data-oid="gz.u13p"
+                                            data-oid="kkwep-q"
                                         >
                                             Prof. Irudaya Rajan
                                         </h3>
-                                        <p className="text-gray-600 text-sm" data-oid="_38384b">
+                                        <p className="text-gray-600 text-sm" data-oid="-peh-uq">
                                             The International Institute of Migration and Development
                                         </p>
                                         <p
                                             className="text-gray-500 text-sm mt-1 italic"
-                                            data-oid="p6n589p"
+                                            data-oid="7c6ncbp"
                                         >
                                             Renowned researcher on migration patterns
                                         </p>
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-4" data-oid="wndi1dm">
+                                <div className="flex items-start space-x-4" data-oid="h5ifacm">
                                     <div
                                         className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-indigo-200"
-                                        data-oid="1q0ygia"
+                                        data-oid="q2:n6oj"
                                     >
                                         <Image
                                             src="/images/speaker-divya.jpeg"
@@ -111,32 +111,32 @@ export default function ParticipantsPage() {
                                             width={80}
                                             height={80}
                                             className="object-cover w-full h-full"
-                                            data-oid="pdc0q3y"
+                                            data-oid="b4im-o7"
                                         />
                                     </div>
-                                    <div data-oid="lj17tvq">
+                                    <div data-oid="-nhw4ew">
                                         <h3
                                             className="font-medium text-indigo-700"
-                                            data-oid="eqjop:n"
+                                            data-oid="occ-1:k"
                                         >
                                             Divya Jose
                                         </h3>
-                                        <p className="text-gray-600 text-sm" data-oid="7yyxzu-">
+                                        <p className="text-gray-600 text-sm" data-oid="lfkhbnl">
                                             Refugee Education, UK
                                         </p>
                                         <p
                                             className="text-gray-500 text-sm mt-1 italic"
-                                            data-oid="i.fvph:"
+                                            data-oid="vjjsv9e"
                                         >
                                             Advocate for refugee education rights
                                         </p>
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-4" data-oid="20z8_:g">
+                                <div className="flex items-start space-x-4" data-oid="reec8va">
                                     <div
                                         className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-indigo-200"
-                                        data-oid="7:wdpp:"
+                                        data-oid="21sm3nd"
                                     >
                                         <Image
                                             src="/images/speaker-vinay.jpeg"
@@ -144,22 +144,22 @@ export default function ParticipantsPage() {
                                             width={80}
                                             height={80}
                                             className="object-cover w-full h-full"
-                                            data-oid="d8sfl_a"
+                                            data-oid="jd5xs94"
                                         />
                                     </div>
-                                    <div data-oid="-z27hb:">
+                                    <div data-oid="2mhnehq">
                                         <h3
                                             className="font-medium text-indigo-700"
-                                            data-oid="wy6bj65"
+                                            data-oid="ru8u.ys"
                                         >
                                             Prof. Vinay Lal
                                         </h3>
-                                        <p className="text-gray-600 text-sm" data-oid="90jwoep">
+                                        <p className="text-gray-600 text-sm" data-oid="3dyzv-s">
                                             University of California, LA, USA
                                         </p>
                                         <p
                                             className="text-gray-500 text-sm mt-1 italic"
-                                            data-oid="4jcrnfq"
+                                            data-oid="gqzv__u"
                                         >
                                             Historian specializing in colonial and postcolonial
                                             studies
@@ -167,10 +167,10 @@ export default function ParticipantsPage() {
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-4" data-oid=".9b3llc">
+                                <div className="flex items-start space-x-4" data-oid="6nhe1tj">
                                     <div
                                         className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-indigo-200"
-                                        data-oid="eb5a8id"
+                                        data-oid="i.60irg"
                                     >
                                         <Image
                                             src="/images/speaker-knarayna.png"
@@ -178,22 +178,22 @@ export default function ParticipantsPage() {
                                             width={80}
                                             height={80}
                                             className="object-cover w-full h-full"
-                                            data-oid="_6oz82z"
+                                            data-oid="jdhcap5"
                                         />
                                     </div>
-                                    <div data-oid="wr5z9uz">
+                                    <div data-oid="qd419hs">
                                         <h3
                                             className="font-medium text-indigo-700"
-                                            data-oid="r7vgvzc"
+                                            data-oid="j9h_6ve"
                                         >
                                             Prof. K Narayana Chandran
                                         </h3>
-                                        <p className="text-gray-600 text-sm" data-oid="ecoexqo">
+                                        <p className="text-gray-600 text-sm" data-oid="lgn041z">
                                             Former Professor, UoH
                                         </p>
                                         <p
                                             className="text-gray-500 text-sm mt-1 italic"
-                                            data-oid="5330ka0"
+                                            data-oid="los9n-q"
                                         >
                                             Distinguished scholar in literary studies
                                         </p>
@@ -202,38 +202,38 @@ export default function ParticipantsPage() {
                             </div>
                         </div>
 
-                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid="f71.:a5">
+                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid="1vj9q_4">
                             <h2
                                 className="text-xl font-semibold text-red-800 mb-4"
-                                data-oid="uw8:7go"
+                                data-oid=":gy.qhk"
                             >
                                 Poets
                             </h2>
                             <div
                                 className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-2"
-                                data-oid="hsabpru"
+                                data-oid="9_t6mjc"
                             >
                                 <div
                                     className="border-l-4 border-indigo-500 pl-4"
-                                    data-oid="fofjj8h"
+                                    data-oid="_przz_k"
                                 >
-                                    <h3 className="font-medium text-indigo-700" data-oid="94gml5s">
+                                    <h3 className="font-medium text-indigo-700" data-oid="xo53_89">
                                         Yousif M. Qasmiyeh
                                     </h3>
                                 </div>
                                 <div
                                     className="border-l-4 border-indigo-500 pl-4"
-                                    data-oid="7.764xa"
+                                    data-oid="bc7pbop"
                                 >
-                                    <h3 className="font-medium text-indigo-700" data-oid=":.m8r0s">
+                                    <h3 className="font-medium text-indigo-700" data-oid="9kx7to:">
                                         Shash Trevett
                                     </h3>
                                 </div>
                                 <div
                                     className="border-l-4 border-indigo-500 pl-4"
-                                    data-oid="ad7301q"
+                                    data-oid="5fr9s-u"
                                 >
-                                    <h3 className="font-medium text-indigo-700" data-oid="1n:2pjw">
+                                    <h3 className="font-medium text-indigo-700" data-oid="6hc.4ho">
                                         Anthony Vahni Capildeo
                                     </h3>
                                 </div>
@@ -241,32 +241,32 @@ export default function ParticipantsPage() {
                         </div>
                     </div>
 
-                    <div className="grid md:grid-cols-2 gap-8" data-oid="gi.sg6x">
-                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid=":b5r:-h">
+                    <div className="grid md:grid-cols-2 gap-8" data-oid="3oc6yv5">
+                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid="q97fbmz">
                             <h2
                                 className="text-xl font-semibold text-red-800 mb-4"
-                                data-oid="hhi-lgw"
+                                data-oid="pqom6:6"
                             >
                                 Paper Presenters
                             </h2>
-                            <div className="space-y-4" data-oid="-p7i__c">
+                            <div className="space-y-4" data-oid="tf8i-jq">
                                 <div
                                     className="border-l-4 border-indigo-500 pl-4"
-                                    data-oid="9kyl601"
+                                    data-oid="2cyra6y"
                                 >
-                                    <h3 className="font-medium text-indigo-700" data-oid="tod-53p">
+                                    <h3 className="font-medium text-indigo-700" data-oid="xl0xmck">
                                         Aneil Rallin
                                     </h3>
                                 </div>
 
                                 <div
                                     className="border-l-4 border-indigo-500 pl-4"
-                                    data-oid="lcgljs9"
+                                    data-oid="vspkw42"
                                 >
-                                    <h3 className="font-medium text-indigo-700" data-oid="_txa:og">
+                                    <h3 className="font-medium text-indigo-700" data-oid="dh8gi2:">
                                         Ido Fuchs
                                     </h3>
-                                    <p className="text-gray-600 text-sm" data-oid="pe0f6q5">
+                                    <p className="text-gray-600 text-sm" data-oid="0c3:jef">
                                         Visiting Researcher at the Network for Environmental
                                         Humanities at the Research Institute for Cultural Inquiry,
                                         Utrecht University
@@ -275,12 +275,12 @@ export default function ParticipantsPage() {
 
                                 <div
                                     className="border-l-4 border-indigo-500 pl-4"
-                                    data-oid="1yx:s48"
+                                    data-oid="j6nfsn2"
                                 >
-                                    <h3 className="font-medium text-indigo-700" data-oid="79ee7p2">
+                                    <h3 className="font-medium text-indigo-700" data-oid="-wh6xd9">
                                         K.S. Ahima
                                     </h3>
-                                    <p className="text-gray-600 text-sm" data-oid="kg:6x-l">
+                                    <p className="text-gray-600 text-sm" data-oid="hkgleoq">
                                         Research Scholar, Humanities and Social Sciences, NIT
                                         Warangal
                                     </p>
@@ -288,24 +288,24 @@ export default function ParticipantsPage() {
 
                                 <div
                                     className="border-l-4 border-indigo-500 pl-4"
-                                    data-oid="v7sci6g"
+                                    data-oid="tokl.f5"
                                 >
-                                    <h3 className="font-medium text-indigo-700" data-oid="2xl6m2i">
+                                    <h3 className="font-medium text-indigo-700" data-oid="bg5pfl8">
                                         Abhilasha Sawlani
                                     </h3>
-                                    <p className="text-gray-600 text-sm" data-oid="xq:a30n">
+                                    <p className="text-gray-600 text-sm" data-oid="s941q:t">
                                         Research Scholar, Ashoka University
                                     </p>
                                 </div>
 
                                 <div
                                     className="border-l-4 border-indigo-500 pl-4"
-                                    data-oid="macpaqx"
+                                    data-oid="fp:g6.a"
                                 >
-                                    <h3 className="font-medium text-indigo-700" data-oid="1s4jaxf">
+                                    <h3 className="font-medium text-indigo-700" data-oid="9a_df3i">
                                         John Leandro Reyes
                                     </h3>
-                                    <p className="text-gray-600 text-sm" data-oid="37:f_au">
+                                    <p className="text-gray-600 text-sm" data-oid="f4wh3mf">
                                         Associate Lecturer at Mindanao State University - Iligan
                                         Institute of Technology
                                     </p>
@@ -313,409 +313,409 @@ export default function ParticipantsPage() {
                             </div>
                         </div>
 
-                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid="bh:.184">
+                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid="19eh5bj">
                             <h2
                                 className="text-xl font-semibold text-red-800 mb-4"
-                                data-oid="ltmzl26"
+                                data-oid="vb4ad2x"
                             >
                                 Round Table Presenters
                             </h2>
                             <div
                                 className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2"
-                                data-oid="6t5aju_"
+                                data-oid="g34x1xu"
                             >
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="17eqs1z"
+                                    data-oid="5zbn.al"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="kbewd2d"
+                                        data-oid="3fa_y2w"
                                     >
                                         Arundhathi Padmanabhan
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="yi7q7nm"
+                                    data-oid="y25en3_"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="dtiqmfr"
+                                        data-oid="1vy8b52"
                                     >
                                         Ardra Dinesh
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="uuqnic5"
+                                    data-oid="y46y8io"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="v3sq28t"
+                                        data-oid="1.wts7n"
                                     >
                                         Arup Kumar Bag
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="66w53b1"
+                                    data-oid="37giapk"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="lgunl3d"
+                                        data-oid="26ec625"
                                     >
                                         Monideepa Raichaudhuri and Raj Shekhar Barman
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="03ryyrr"
+                                    data-oid="7-xoz0v"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="fgljyy4"
+                                        data-oid="idlv2.5"
                                     >
                                         Niharika Singh
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="io7b3zc"
+                                    data-oid="bp-hvsn"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="4umy2sx"
+                                        data-oid=":5dfsld"
                                     >
                                         Bihan Bandyopadhyay
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="qcs_ahb"
+                                    data-oid="2h_t541"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="t23:c84"
+                                        data-oid="wccdae0"
                                     >
                                         Minyoung Kim
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="7t7q87o"
+                                    data-oid="r8flqta"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="8lzxu0-"
+                                        data-oid="n.ee2g2"
                                     >
                                         Abul Bashar
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="_rcdnsy"
+                                    data-oid="15fs_28"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="zt:ik_m"
+                                        data-oid="1zdoo6i"
                                     >
                                         Pooja Prasain
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="f0j:r31"
+                                    data-oid="g2g-ntf"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="7q6own6"
+                                        data-oid="0o:g6m9"
                                     >
                                         Trijit Mukherjee
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="yi62t-z"
+                                    data-oid="8.r..ue"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="ltizxt."
+                                        data-oid="1dvywht"
                                     >
                                         Akanchha Singh
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="9iczhvs"
+                                    data-oid="oisu4:m"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="6e:fn1r"
+                                        data-oid=".:1f5:_"
                                     >
                                         Meenakshi S. Thambi
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="ut2wwie"
+                                    data-oid="8:cjpzs"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="5n67803"
+                                        data-oid="hpvp-_a"
                                     >
                                         Prasann K Naik
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="et3g.bd"
+                                    data-oid="_9j48mv"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="9eaz.at"
+                                        data-oid="kbbot4u"
                                     >
                                         Swayam Sikha Srichandan
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="4xqakk:"
+                                    data-oid="xp2qd_4"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="mqh.8.m"
+                                        data-oid="km4i5y3"
                                     >
                                         Muhammad Ashar Khan
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="zu_zfoz"
+                                    data-oid="6ua_ict"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid=":xq_04g"
+                                        data-oid="0uu4yei"
                                     >
                                         Shataaxi Chauhan
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="w.nvzfu"
+                                    data-oid="gnpbiu2"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="qrz30:q"
+                                        data-oid="m6we6zr"
                                     >
                                         Nayan Mary Tom
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="x:vw0mx"
+                                    data-oid="xjxj3ix"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="82dzyew"
+                                        data-oid="0j1x-_e"
                                     >
                                         Prachi Naik
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="s630b75"
+                                    data-oid="w33p_hc"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="yli9d65"
+                                        data-oid="oyukedf"
                                     >
                                         Bhakti Deshmukh
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="6u12gaf"
+                                    data-oid="r395n28"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="q7ku_99"
+                                        data-oid="dq86qox"
                                     >
                                         Sumana Sinhababu
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="wrh8o_k"
+                                    data-oid="9_p-tkk"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="zj-2f32"
+                                        data-oid="61e8bl-"
                                     >
                                         Rubaiya Nasrin
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="ddxsbtt"
+                                    data-oid="lfe1:_0"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="x1q3rl9"
+                                        data-oid=":ud._3d"
                                     >
                                         Aishiki Bandhopadhyay
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="atpcdhm"
+                                    data-oid="t_1r8.w"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="m.wy3_o"
+                                        data-oid="a9ul_jn"
                                     >
                                         Anjali Kaushik
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="dct8-p4"
+                                    data-oid="03itazr"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="..b7y:_"
+                                        data-oid="e68mvn0"
                                     >
                                         Gazala F. Ansari
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="t6tweqd"
+                                    data-oid="1l5m._h"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="rw7cg64"
+                                        data-oid="7fvpe3z"
                                     >
                                         Muhammed Saeed PK
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="zkll_4r"
+                                    data-oid="qig..4i"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="xpogi.s"
+                                        data-oid="--30lg1"
                                     >
                                         Piyush Protim Saikia and Trishna Saikia
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="-niz8es"
+                                    data-oid="hj8-xge"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="i-1.oer"
+                                        data-oid="y5nr1c2"
                                     >
                                         Nandhana Suresh
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="eqcdv9:"
+                                    data-oid="2mwsfjo"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="0743w7q"
+                                        data-oid="nc04q1t"
                                     >
                                         Aadrit Banerjee
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="_9k-m6a"
+                                    data-oid="hhvlq28"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="pw215ih"
+                                        data-oid="gdur9a1"
                                     >
                                         Gautham Anil Warrier (Gaw)
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="6svgv:k"
+                                    data-oid="wz3xaii"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="teu:_y1"
+                                        data-oid="_.jih4y"
                                     >
                                         Biraj Biswas
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="w9-yvdb"
+                                    data-oid="clqzpy7"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="dbjzxa4"
+                                        data-oid="trumpmn"
                                     >
                                         Swarupa Das
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="00qxb3m"
+                                    data-oid="fwgtzg2"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="0.zb8xj"
+                                        data-oid="ahd_0fm"
                                     >
                                         Astik Mukherjee
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="h8s-f3c"
+                                    data-oid="-6w4p3f"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="va-ffky"
+                                        data-oid="kh9r6.y"
                                     >
                                         Theadora War
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="et-vbsd"
+                                    data-oid="klysvfs"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="2.w62id"
+                                        data-oid="bkt0yb_"
                                     >
                                         Manisha Madhu
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="xsh0bz9"
+                                    data-oid="zqqd.92"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid=":--lgkq"
+                                        data-oid="dbol02l"
                                     >
                                         Rashmi Ranjan Panigrahi and Parthajyoti Roy
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="r561q4s"
+                                    data-oid="6k:0wd7"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="qn3zz8j"
+                                        data-oid="_w14egt"
                                     >
                                         Saptanil Maji
                                     </p>
@@ -724,236 +724,236 @@ export default function ParticipantsPage() {
                         </div>
                     </div>
 
-                    <div className="mt-8" data-oid="0gtm4b8">
-                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid="rf81kt8">
+                    <div className="mt-8" data-oid="nzc-n2b">
+                        <div className="bg-white p-6 rounded-lg shadow-md" data-oid="dj5cow:">
                             <h2
                                 className="text-xl font-semibold text-red-800 mb-4"
-                                data-oid=".jsvhn6"
+                                data-oid="i_3q:jl"
                             >
                                 Chairs
                             </h2>
-                            <div className="space-y-4" data-oid="km6x:7z">
+                            <div className="space-y-4" data-oid="17vg76j">
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="99ete-s"
+                                    data-oid="8kknnha"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="uko9am0"
+                                        data-oid="59w6wha"
                                     >
                                         Prof. Pramod K Nayar
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="32u5lj_">
+                                    <p className="text-gray-600 text-xs" data-oid="8.cve3m">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="a_b0d4e"
+                                    data-oid="i3zpx86"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="5r5-op8"
+                                        data-oid="pntp6kq"
                                     >
                                         Dr. Salah Punathil
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="o9ezlpy">
+                                    <p className="text-gray-600 text-xs" data-oid="h-v8.pc">
                                         Regional Studies, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="qm:fq40"
+                                    data-oid="7ewprgz"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="hqoho6_"
+                                        data-oid="hj7b4jy"
                                     >
                                         Dr. Nandini Shankar
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="rfjhz1l">
+                                    <p className="text-gray-600 text-xs" data-oid="ca3aa:e">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="0rwgy10"
+                                    data-oid="hryrybp"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="5jjcx5s"
+                                        data-oid="h1yjv7b"
                                     >
                                         Dr. Goutam Karmakar
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="tc2pm.8">
+                                    <p className="text-gray-600 text-xs" data-oid="bbx2t43">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="5xrd:b7"
+                                    data-oid="l3ie6gf"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="p7yinup"
+                                        data-oid="s-o:erv"
                                     >
                                         Dr. Girish D. Pawar
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="p1vhwfz">
+                                    <p className="text-gray-600 text-xs" data-oid="f02m9h2">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="xv72nwy"
+                                    data-oid="b9vx:ro"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="a5tam:k"
+                                        data-oid="z233ur0"
                                     >
                                         Dr. B. Krishnaiah
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="hfjdyq9">
+                                    <p className="text-gray-600 text-xs" data-oid="ld0v_o8">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="a7id:hb"
+                                    data-oid="py476ay"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="o5p_7rg"
+                                        data-oid="t7bh1wc"
                                     >
                                         Dr. Yakaiah Kathy
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="o0maffh">
+                                    <p className="text-gray-600 text-xs" data-oid="3zuod69">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="pz6npay"
+                                    data-oid="k_o2ttm"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="ta79hjd"
+                                        data-oid=":5g4a.0"
                                     >
                                         Prof. Sathya Prakash
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="r8_0gg5">
+                                    <p className="text-gray-600 text-xs" data-oid="0myndkx">
                                         Department of Communication, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="3jel1rb"
+                                    data-oid="e:vi1-2"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="fa.5.ak"
+                                        data-oid="4b8w0g6"
                                     >
                                         Dr. Saradindu Bhattacharya
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="3azm-bc">
+                                    <p className="text-gray-600 text-xs" data-oid="l3a5p:f">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="w6dy93t"
+                                    data-oid="_gipks9"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="m94s9uh"
+                                        data-oid=":t88zj7"
                                     >
                                         Prof. Ajaya Sahoo
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="_k:6zoy">
+                                    <p className="text-gray-600 text-xs" data-oid="vo2t0pi">
                                         Centre for Indian Diaspora, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="vpnpa47"
+                                    data-oid="s116_hp"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="row84ue"
+                                        data-oid="gz6vv6w"
                                     >
                                         Dr. Siddharth Satpathy
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="yxpoivr">
+                                    <p className="text-gray-600 text-xs" data-oid="7wt3n0:">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="31u.2pk"
+                                    data-oid="-:qwpe:"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="v3hz8g_"
+                                        data-oid="eapr_:0"
                                     >
                                         Dr. Sriparna Das
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="1dxts9f">
+                                    <p className="text-gray-600 text-xs" data-oid="opg-9yk">
                                         CALTS, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="l6qs6y2"
+                                    data-oid="zgjbr36"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="631kqph"
+                                        data-oid="q3jzhl-"
                                     >
                                         Dr. Laboni Mukherjee
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="7lwga8:">
+                                    <p className="text-gray-600 text-xs" data-oid="fwctdr7">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="d64tj28"
+                                    data-oid="bmix-j6"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="7w9::6:"
+                                        data-oid="alpzjj_"
                                     >
                                         Dr. Pushpanjali Sampathkumar
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="aym9vrp">
+                                    <p className="text-gray-600 text-xs" data-oid="9sea73w">
                                         Department of English, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="u1rcbca"
+                                    data-oid="t0bo5sk"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="cv66:1j"
+                                        data-oid="1ufe7.p"
                                     >
                                         Dr. Purna Chandra Naik
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="x1iagjk">
+                                    <p className="text-gray-600 text-xs" data-oid="ea_f0vt">
                                         CCL, UoH
                                     </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
-                                    data-oid="s4sxz6-"
+                                    data-oid=":rebkzp"
                                 >
                                     <p
                                         className="text-indigo-700 font-medium text-sm"
-                                        data-oid="r7kf-g-"
+                                        data-oid="lbyhmxq"
                                     >
                                         Prof. Anna Kurian
                                     </p>
-                                    <p className="text-gray-600 text-xs" data-oid="httr24p">
+                                    <p className="text-gray-600 text-xs" data-oid="ytk4uf4">
                                         Department of English, UoH
                                     </p>
                                 </div>
@@ -963,7 +963,7 @@ export default function ParticipantsPage() {
                 </div>
             </div>
 
-            <Footer scrollToSection={scrollToSection} data-oid="w-cana4" />
+            <Footer scrollToSection={scrollToSection} data-oid=":erksw9" />
         </div>
     );
 }

@@ -11,17 +11,17 @@ export default function RegisteredUsersPage() {
     };
 
     return (
-        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="uumcb1i">
+        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="j3bmbz1">
             <Navigation
                 activeSection="registration"
                 scrollToSection={scrollToSection}
-                data-oid="fbevm5z"
+                data-oid="njvldhs"
             />
 
-            <div className="pt-16" data-oid="sqa8exu">
-                <RegisteredUsers data-oid="vy3spjh" />
+            <div className="pt-16" data-oid="ha:a_j7">
+                <RegisteredUsers data-oid="c:bbc_y" />
             </div>
-            <Footer scrollToSection={scrollToSection} data-oid="j32tod:" />
+            <Footer scrollToSection={scrollToSection} data-oid="qbwau8u" />
         </div>
     );
 }

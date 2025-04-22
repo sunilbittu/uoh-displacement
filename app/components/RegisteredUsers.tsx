@@ -60,10 +60,10 @@ export default function RegisteredUsers() {
 
     if (loading) {
         return (
-            <div className="flex justify-center items-center min-h-[400px]" data-oid="9rv13d2">
+            <div className="flex justify-center items-center min-h-[400px]" data-oid="v17-wo4">
                 <div
                     className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-red-600"
-                    data-oid="1jwmot3"
+                    data-oid="hqggvq5"
                 ></div>
             </div>
         );
@@ -71,37 +71,37 @@ export default function RegisteredUsers() {
 
     if (error) {
         return (
-            <div className="text-center text-red-600 p-4" data-oid="5o_6caq">
-                <p data-oid="ko0znke">{error}</p>
+            <div className="text-center text-red-600 p-4" data-oid="_zp4cf0">
+                <p data-oid="q88cs-r">{error}</p>
             </div>
         );
     }
 
     return (
-        <section className="py-20 bg-yellow-50" data-oid="_taavpy">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="72tniuw">
+        <section className="py-20 bg-yellow-50" data-oid="ff5up6z">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="8vi.4hz">
                 <h2
                     className="text-3xl font-bold text-center text-red-800 mb-12"
-                    data-oid="33yq7k3"
+                    data-oid="rnsu5w4"
                 >
                     Registered Users
                 </h2>
 
-                <div className="mb-4" data-oid="yel:t_4">
+                <div className="mb-4" data-oid="78wd2.9">
                     <input
                         type="text"
                         placeholder="Search users..."
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                         className="w-full md:w-1/3 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
-                        data-oid="n5njkt."
+                        data-oid="bbu52br"
                     />
                 </div>
 
-                <div className="bg-white rounded-lg shadow overflow-x-auto" data-oid="31-k.bw">
-                    <table className="min-w-full divide-y divide-gray-200" data-oid="57sy_l-">
-                        <thead className="bg-gray-50" data-oid="y-z2:cy">
-                            <tr data-oid="5-hh_xc">
+                <div className="bg-white rounded-lg shadow overflow-x-auto" data-oid="l3b4i9z">
+                    <table className="min-w-full divide-y divide-gray-200" data-oid="afr6m-n">
+                        <thead className="bg-gray-50" data-oid="cm6u5xn">
+                            <tr data-oid="s6.05fp">
                                 {[
                                     'name',
                                     'designation',
@@ -114,12 +114,12 @@ export default function RegisteredUsers() {
                                         key={field}
                                         onClick={() => handleSort(field as keyof RegisteredUser)}
                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
-                                        data-oid="rbo41iu"
+                                        data-oid="51x79ix"
                                     >
                                         {field.charAt(0).toUpperCase() +
                                             field.slice(1).replace(/([A-Z])/g, ' $1')}
                                         {sortField === field && (
-                                            <span className="ml-2" data-oid="n0d4z4d">
+                                            <span className="ml-2" data-oid="r_wrqlc">
                                                 {sortDirection === 'asc' ? '↑' : '↓'}
                                             </span>
                                         )}
@@ -127,42 +127,42 @@ export default function RegisteredUsers() {
                                 ))}
                             </tr>
                         </thead>
-                        <tbody className="bg-white divide-y divide-gray-200" data-oid="hry4.l.">
+                        <tbody className="bg-white divide-y divide-gray-200" data-oid="f.pdg5o">
                             {filteredUsers.map((user, index) => (
-                                <tr key={index} className="hover:bg-yellow-50" data-oid="yr1e43s">
+                                <tr key={index} className="hover:bg-yellow-50" data-oid="vm8y6av">
                                     <td
                                         className="px-6 py-4 whitespace-nowrap text-sm text-gray-900"
-                                        data-oid="wllik0w"
+                                        data-oid="zb4s8v-"
                                     >
                                         {user.name}
                                     </td>
                                     <td
                                         className="px-6 py-4 whitespace-nowrap text-sm text-gray-900"
-                                        data-oid="g7d3g2a"
+                                        data-oid="vm_j58w"
                                     >
                                         {user.designation}
                                     </td>
                                     <td
                                         className="px-6 py-4 whitespace-nowrap text-sm text-gray-900"
-                                        data-oid="dgnbh-f"
+                                        data-oid="y.6z1r2"
                                     >
                                         {user.paperTitle}
                                     </td>
                                     <td
                                         className="px-6 py-4 whitespace-nowrap text-sm text-gray-900"
-                                        data-oid="w:qcmoj"
+                                        data-oid="24a-8rv"
                                     >
                                         {user.participationMode}
                                     </td>
                                     <td
                                         className="px-6 py-4 whitespace-nowrap text-sm text-gray-900"
-                                        data-oid="2f-cpjb"
+                                        data-oid="66avb5o"
                                     >
                                         {user.email}
                                     </td>
                                     <td
                                         className="px-6 py-4 whitespace-nowrap text-sm text-gray-900"
-                                        data-oid="t3d7:yy"
+                                        data-oid="igs.5bd"
                                     >
                                         <button
                                             onClick={() =>
@@ -173,7 +173,7 @@ export default function RegisteredUsers() {
                                                 )
                                             }
                                             className="text-blue-600 hover:text-blue-800 underline focus:outline-none"
-                                            data-oid="t8e_b5p"
+                                            data-oid="6uypzop"
                                         >
                                             View Receipt
                                         </button>

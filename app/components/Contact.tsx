@@ -3,86 +3,86 @@ import Image from 'next/image';
 
 export default function Contact() {
     return (
-        <section id="contact" className="py-20 bg-white" data-oid="nl.ar51">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="5fah6md">
+        <section id="contact" className="py-20 bg-white" data-oid="i42-5nm">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="l1_4qlt">
                 <h2
                     className="text-3xl font-bold text-center text-red-800 mb-12"
-                    data-oid="meqrqh:"
+                    data-oid="_6r-lti"
                 >
                     Contact Us
                 </h2>
-                <div className="grid md:grid-cols-2 gap-8" data-oid="utobxe_">
-                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="b3_bebh">
-                        <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="7-.2pyz">
+                <div className="grid md:grid-cols-2 gap-8" data-oid="08usx9k">
+                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="8sq:oy9">
+                        <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="7pko:zi">
                             Conference Organizers
                         </h3>
-                        <div className="space-y-6" data-oid="n0hmsnw">
-                            <div data-oid="6mqupt8">
-                                <h4 className="font-medium text-red-700 mb-2" data-oid="9y_lkkc">
+                        <div className="space-y-6" data-oid="l6akx2k">
+                            <div data-oid="1lvmoa7">
+                                <h4 className="font-medium text-red-700 mb-2" data-oid="exj7unf">
                                     Conference Chair
                                 </h4>
-                                <p className="text-gray-700" data-oid="bw_nxn7">
+                                <p className="text-gray-700" data-oid="o-n:pix">
                                     Prof. Ananya Sharma
                                 </p>
-                                <p className="text-gray-700" data-oid="8q6nsjm">
+                                <p className="text-gray-700" data-oid="_xb5ymz">
                                     University of Hyderabad
                                 </p>
                                 <a
                                     href="mailto:chair@displacement2025.org"
                                     className="text-indigo-600 hover:underline"
-                                    data-oid="uaknz7s"
+                                    data-oid="ot6uns_"
                                 >
                                     chair@displacement2025.org
                                 </a>
                             </div>
-                            <div data-oid="c41f:xb">
-                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="8n-98ee">
+                            <div data-oid="z-root5">
+                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="-q3ngw.">
                                     Program Committee
                                 </h4>
-                                <p className="text-gray-700" data-oid="k:233ne">
+                                <p className="text-gray-700" data-oid="a.c6kfx">
                                     Prof. Michael Chen
                                 </p>
-                                <p className="text-gray-700" data-oid="oreuvx0">
+                                <p className="text-gray-700" data-oid="d20e8.8">
                                     Dartmouth College
                                 </p>
                                 <a
                                     href="mailto:program@displacement2025.org"
                                     className="text-indigo-600 hover:underline"
-                                    data-oid="roc69f6"
+                                    data-oid="l_h:753"
                                 >
                                     program@displacement2025.org
                                 </a>
                             </div>
-                            <div data-oid="ziwyiy7">
-                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="1222pv4">
+                            <div data-oid="ljenzlz">
+                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="emt7kh4">
                                     Local Arrangements
                                 </h4>
-                                <p className="text-gray-700" data-oid="-8z2sf3">
+                                <p className="text-gray-700" data-oid="bttl309">
                                     Dr. Priya Patel
                                 </p>
-                                <p className="text-gray-700" data-oid="sulilxd">
+                                <p className="text-gray-700" data-oid="4:3qda4">
                                     University of Hyderabad
                                 </p>
                                 <a
                                     href="mailto:local@displacement2025.org"
                                     className="text-indigo-600 hover:underline"
-                                    data-oid="g9m84tu"
+                                    data-oid="8.j71k:"
                                 >
                                     local@displacement2025.org
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="75.3xml">
-                        <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="4_8trac">
+                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="bay4m7n">
+                        <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="h3q8h11">
                             Get in Touch
                         </h3>
-                        <form className="space-y-4" data-oid="x:frumd">
-                            <div data-oid="8sb05vc">
+                        <form className="space-y-4" data-oid="226xnu9">
+                            <div data-oid=":uv1pj9">
                                 <label
                                     htmlFor="name"
                                     className="block text-sm font-medium text-gray-700 mb-1"
-                                    data-oid="m_8xvpe"
+                                    data-oid="05b421e"
                                 >
                                     Name
                                 </label>
@@ -91,14 +91,14 @@ export default function Contact() {
                                     id="name"
                                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                                     placeholder="Your name"
-                                    data-oid="wtranyt"
+                                    data-oid="2yidpxt"
                                 />
                             </div>
-                            <div data-oid="7f2k1a4">
+                            <div data-oid="o-g2v.6">
                                 <label
                                     htmlFor="email"
                                     className="block text-sm font-medium text-gray-700 mb-1"
-                                    data-oid="4836c2w"
+                                    data-oid="l0bog.."
                                 >
                                     Email
                                 </label>
@@ -107,14 +107,14 @@ export default function Contact() {
                                     id="email"
                                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
                                     placeholder="Your email"
-                                    data-oid="najffhx"
+                                    data-oid="-7cuok_"
                                 />
                             </div>
-                            <div data-oid="zqui0ij">
+                            <div data-oid="tupm9vy">
                                 <label
                                     htmlFor="subject"
                                     className="block text-sm font-medium text-gray-700 mb-1"
-                                    data-oid="c42xazl"
+                                    data-oid="q54qc5c"
                                 >
                                     Subject
                                 </label>
@@ -123,14 +123,14 @@ export default function Contact() {
                                     id="subject"
                                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
                                     placeholder="Subject"
-                                    data-oid="y25rnv."
+                                    data-oid="czxy_dw"
                                 />
                             </div>
-                            <div data-oid="km2c_r8">
+                            <div data-oid="bos1o68">
                                 <label
                                     htmlFor="message"
                                     className="block text-sm font-medium text-gray-700 mb-1"
-                                    data-oid="u74ac3:"
+                                    data-oid="f57tpdg"
                                 >
                                     Message
                                 </label>
@@ -139,61 +139,61 @@ export default function Contact() {
                                     rows={4}
                                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
                                     placeholder="Your message"
-                                    data-oid=".a3s589"
+                                    data-oid="b7ndh3:"
                                 ></textarea>
                             </div>
                             <button
                                 type="submit"
                                 className="px-8 py-3 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors shadow-md"
-                                data-oid=":gb-o82"
+                                data-oid="cxqtu.o"
                             >
                                 Send Message
                             </button>
                         </form>
                     </div>
                 </div>
-                <div className="mt-12 bg-yellow-50 p-6 rounded-lg" data-oid="n6ddnw1">
-                    <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="55v5it5">
+                <div className="mt-12 bg-yellow-50 p-6 rounded-lg" data-oid="2g9ocij">
+                    <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="pl-nsn0">
                         Conference Venue
                     </h3>
-                    <div className="grid md:grid-cols-2 gap-6" data-oid="9p5_.4k">
-                        <div data-oid="f0bk0jy">
-                            <p className="text-gray-700 mb-2" data-oid="j:q_xh7">
-                                <strong data-oid="deyy1-g">University of Hyderabad</strong>
-                                <br data-oid="x47.q8y" /> Prof. C.R. Rao Road, Gachibowli
-                                <br data-oid="bstylg9" /> Hyderabad, Telangana 500046
-                                <br data-oid="fujuv41" /> India
+                    <div className="grid md:grid-cols-2 gap-6" data-oid="ym:72s3">
+                        <div data-oid="wvbaclj">
+                            <p className="text-gray-700 mb-2" data-oid="y2lot_i">
+                                <strong data-oid="cz1a5xg">University of Hyderabad</strong>
+                                <br data-oid="_xilu55" /> Prof. C.R. Rao Road, Gachibowli
+                                <br data-oid="tozn8t5" /> Hyderabad, Telangana 500046
+                                <br data-oid="_wvjocs" /> India
                             </p>
-                            <p className="text-gray-700 mb-4" data-oid="xi1ie0b">
-                                <strong data-oid="tbz5vaz">Conference Hall:</strong> School of
+                            <p className="text-gray-700 mb-4" data-oid="u-wek01">
+                                <strong data-oid="29.1t7_">Conference Hall:</strong> School of
                                 Social Sciences Auditorium
                             </p>
-                            <div data-oid="lf0ry10">
-                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="7g3bnrh">
+                            <div data-oid="6i:3n0g">
+                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="8f70vfd">
                                     Accommodation
                                 </h4>
-                                <p className="text-gray-700" data-oid="7s5tgxw">
+                                <p className="text-gray-700" data-oid="z33s9y-">
                                     Information about recommended hotels and special conference
                                     rates will be available soon. For early inquiries, please
                                     contact{' '}
                                     <a
                                         href="mailto:accommodation@displacement2025.org"
                                         className="text-indigo-600 hover:underline"
-                                        data-oid="sqfxuut"
+                                        data-oid="8to92ar"
                                     >
                                         accommodation@displacement2025.org
                                     </a>
                                 </p>
                             </div>
                         </div>
-                        <div className="rounded-md overflow-hidden shadow-lg" data-oid="ltj66m_">
+                        <div className="rounded-md overflow-hidden shadow-lg" data-oid="1m05s_3">
                             <Image
                                 src="/images/Displacement _20250307_121648_0004.jpg"
                                 alt="University of Hyderabad Campus"
                                 width={1000}
                                 height={400}
                                 className="w-full h-64 object-cover"
-                                data-oid="zmsbdbx"
+                                data-oid="r6l6rjf"
                             />
                         </div>
                     </div>
