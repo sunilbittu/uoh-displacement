@@ -100,21 +100,50 @@ export default function MediaPage() {
                                 {images.map((image, index) => (
                                     <div
                                         key={index}
-                                        className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                                        className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer group"
                                         onClick={() => openImageModal(image.url)}
                                         data-oid="5ts83z:"
                                     >
-                                        <div className="relative h-48" data-oid="6larisf">
+                                        <div
+                                            className="relative h-48 overflow-hidden"
+                                            data-oid="6larisf"
+                                        >
                                             <Image
                                                 src={image.url}
                                                 alt={image.title}
                                                 fill
-                                                className="object-cover"
+                                                className="object-cover transition-transform duration-500 group-hover:scale-110"
                                                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                                 data-oid="vft6k7z"
                                             />
+
+                                            <div
+                                                className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity duration-300 flex items-center justify-center"
+                                                data-oid="rdb-t7_"
+                                            >
+                                                <div
+                                                    className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                                                    data-oid="9d:80g5"
+                                                >
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        className="h-10 w-10"
+                                                        fill="none"
+                                                        viewBox="0 0 24 24"
+                                                        stroke="currentColor"
+                                                        data-oid="-zewa4z"
+                                                    >
+                                                        <path
+                                                            strokeLinecap="round"
+                                                            strokeLinejoin="round"
+                                                            strokeWidth={2}
+                                                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"
+                                                            data-oid="kua55oh"
+                                                        />
+                                                    </svg>
+                                                </div>
+                                            </div>
                                         </div>
-                                        {/* Title section removed */}
                                     </div>
                                 ))}
                             </div>
@@ -160,18 +189,22 @@ export default function MediaPage() {
                     {/* Image Modal */}
                     {selectedImage && (
                         <div
-                            className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+                            className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 p-4 animate-fadeIn"
                             onClick={closeImageModal}
                             data-oid="2gpozym"
                         >
-                            <div className="relative max-w-4xl max-h-screen" data-oid="1ob8pxl">
+                            <div
+                                className="relative max-w-5xl max-h-screen animate-scaleIn"
+                                data-oid="1ob8pxl"
+                            >
                                 <button
-                                    className="absolute top-2 right-2 bg-white rounded-full p-2 shadow-lg"
+                                    className="absolute top-3 right-3 bg-white rounded-full p-2 shadow-lg hover:bg-gray-200 transition-colors"
                                     onClick={(e) => {
                                         e.stopPropagation();
                                         closeImageModal();
                                     }}
                                     data-oid="dz1_xrd"
+                                    aria-label="Close"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -190,14 +223,31 @@ export default function MediaPage() {
                                         />
                                     </svg>
                                 </button>
-                                <Image
-                                    src={selectedImage}
-                                    alt="Enlarged photo"
-                                    width={1200}
-                                    height={800}
-                                    className="max-h-[90vh] w-auto object-contain"
-                                    data-oid="vp4xg9w"
-                                />
+                                <div
+                                    className="bg-white bg-opacity-5 p-1 rounded-lg"
+                                    data-oid="cp924ie"
+                                >
+                                    <Image
+                                        src={selectedImage}
+                                        alt="Enlarged photo"
+                                        width={1600}
+                                        height={1000}
+                                        className="max-h-[90vh] w-auto object-contain rounded shadow-2xl"
+                                        data-oid="vp4xg9w"
+                                        priority
+                                    />
+                                </div>
+                                <div
+                                    className="absolute bottom-4 left-1/2 transform -translate-x-1/2"
+                                    data-oid="_57st5_"
+                                >
+                                    <p
+                                        className="text-white text-sm bg-black bg-opacity-50 px-4 py-2 rounded-full"
+                                        data-oid="ofu65nk"
+                                    >
+                                        Click anywhere to close
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     )}
