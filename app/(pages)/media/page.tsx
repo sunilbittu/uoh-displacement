@@ -74,50 +74,50 @@ export default function MediaPage() {
     };
 
     return (
-        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="qs.j06b">
+        <div className="min-h-screen bg-white text-gray-800 font-sans" data-oid="xjbyo6v">
             <Navigation
                 activeSection="media"
                 scrollToSection={scrollToSection}
-                data-oid="0i7zwt2"
+                data-oid="2mwz94v"
             />
 
-            <div className="pt-20 pb-10" data-oid="n638:el">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="-gd9w5-">
-                    <h1 className="text-3xl font-bold text-red-800 mb-8" data-oid="2wdne2m">
+            <div className="pt-20 pb-10" data-oid="htwawa9">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="3btfvdo">
+                    <h1 className="text-3xl font-bold text-red-800 mb-8" data-oid="_dajjbn">
                         Media
                     </h1>
-                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="dwgg-6g">
-                        <h2 className="text-xl font-semibold text-red-800 mb-4" data-oid="-:5.9t1">
+                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="h37:ob_">
+                        <h2 className="text-xl font-semibold text-red-800 mb-4" data-oid="waw-d20">
                             Conference Media Gallery
                         </h2>
 
-                        <p className="text-gray-700 mb-6" data-oid="-b:3_.6">
+                        <p className="text-gray-700 mb-6" data-oid="5l5s7ld">
                             Browse photos and videos from the Displacement Conference. More media
                             will be added as the event approaches.
                         </p>
 
                         {/* Photos Section */}
-                        <div className="mb-10" data-oid="1:1mrs.">
+                        <div className="mb-10" data-oid="v93701j">
                             <h3
                                 className="text-lg font-medium text-indigo-700 mb-4"
-                                data-oid="t.echdo"
+                                data-oid="u8:68kn"
                             >
                                 Photos
                             </h3>
                             <div
                                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
-                                data-oid="q.hxpy3"
+                                data-oid="7sry_wk"
                             >
                                 {images.map((image, index) => (
                                     <div
                                         key={index}
                                         className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer group"
                                         onClick={() => openImageModal(image.url)}
-                                        data-oid="5ts83z:"
+                                        data-oid="tys_5z0"
                                     >
                                         <div
                                             className="relative h-48 overflow-hidden"
-                                            data-oid="6larisf"
+                                            data-oid="2xpl59k"
                                         >
                                             <Image
                                                 src={image.url}
@@ -125,16 +125,16 @@ export default function MediaPage() {
                                                 fill
                                                 className="object-cover transition-transform duration-500 group-hover:scale-110"
                                                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                                data-oid="vft6k7z"
+                                                data-oid="_2wdhq5"
                                             />
 
                                             <div
                                                 className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity duration-300 flex items-center justify-center"
-                                                data-oid="rdb-t7_"
+                                                data-oid="9yez01."
                                             >
                                                 <div
                                                     className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                                                    data-oid="9d:80g5"
+                                                    data-oid="o962_eb"
                                                 >
                                                     <svg
                                                         xmlns="http://www.w3.org/2000/svg"
@@ -142,14 +142,14 @@ export default function MediaPage() {
                                                         fill="none"
                                                         viewBox="0 0 24 24"
                                                         stroke="currentColor"
-                                                        data-oid="-zewa4z"
+                                                        data-oid="i7xdpl3"
                                                     >
                                                         <path
                                                             strokeLinecap="round"
                                                             strokeLinejoin="round"
                                                             strokeWidth={2}
                                                             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"
-                                                            data-oid="kua55oh"
+                                                            data-oid="7gjstta"
                                                         />
                                                     </svg>
                                                 </div>
@@ -161,47 +161,47 @@ export default function MediaPage() {
                         </div>
 
                         {/* Videos Section */}
-                        <div data-oid="anro2oo">
+                        <div data-oid="juuha40">
                             <h3
                                 className="text-lg font-medium text-indigo-700 mb-4"
-                                data-oid="arml.4m"
+                                data-oid="uvktuv1"
                             >
                                 Videos
                             </h3>
                             <div
                                 className="grid grid-cols-1 md:grid-cols-2 gap-6"
-                                data-oid="vp2:0n_"
+                                data-oid="a9n2ax:"
                             >
                                 {videos.map((video, index) => (
                                     <div
                                         key={index}
                                         className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer group"
-                                        data-oid="h-ryt9:"
+                                        data-oid="l3l26s6"
                                     >
                                         <div
                                             className="relative overflow-hidden bg-gray-900"
-                                            data-oid="v0_5s5k"
+                                            data-oid="k7iu.zc"
                                         >
                                             <video
                                                 className="w-full h-auto transition-transform duration-500 group-hover:scale-105 bg-black"
-                                                data-oid="a_wp.q:"
                                                 onClick={() => openVideoModal(video.url)}
                                                 preload="metadata"
+                                                data-oid="mo1wdgl"
                                             >
                                                 <source
                                                     src={video.url}
                                                     type="video/mp4"
-                                                    data-oid="99e8nae"
+                                                    data-oid="tbv4:l_"
                                                 />
                                                 Your browser does not support the video tag.
                                             </video>
                                             <div
                                                 className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity duration-300 flex items-center justify-center pointer-events-none"
-                                                data-oid="surj-l_"
+                                                data-oid="sjrzyam"
                                             >
                                                 <div
                                                     className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                                                    data-oid="35u9_qr"
+                                                    data-oid="jt48jq6"
                                                 >
                                                     <svg
                                                         xmlns="http://www.w3.org/2000/svg"
@@ -209,14 +209,14 @@ export default function MediaPage() {
                                                         fill="none"
                                                         viewBox="0 0 24 24"
                                                         stroke="currentColor"
-                                                        data-oid="0kz8xte"
+                                                        data-oid="_u57ozw"
                                                     >
                                                         <path
                                                             strokeLinecap="round"
                                                             strokeLinejoin="round"
                                                             strokeWidth={2}
                                                             d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
-                                                            data-oid="rjudtb1"
+                                                            data-oid="fmls7qb"
                                                         />
 
                                                         <path
@@ -224,7 +224,7 @@ export default function MediaPage() {
                                                             strokeLinejoin="round"
                                                             strokeWidth={2}
                                                             d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                                                            data-oid="1tgcamh"
+                                                            data-oid="zz.u68t"
                                                         />
                                                     </svg>
                                                 </div>
@@ -241,11 +241,11 @@ export default function MediaPage() {
                         <div
                             className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 p-4 animate-fadeIn"
                             onClick={closeImageModal}
-                            data-oid="2gpozym"
+                            data-oid="e3:tksi"
                         >
                             <div
                                 className="relative max-w-5xl max-h-screen animate-scaleIn"
-                                data-oid="1ob8pxl"
+                                data-oid=".twkllx"
                             >
                                 <button
                                     className="absolute top-3 right-3 bg-white rounded-full p-2 shadow-lg hover:bg-gray-200 transition-colors"
@@ -253,8 +253,8 @@ export default function MediaPage() {
                                         e.stopPropagation();
                                         closeImageModal();
                                     }}
-                                    data-oid="dz1_xrd"
                                     aria-label="Close"
+                                    data-oid="5ha-yne"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -262,20 +262,20 @@ export default function MediaPage() {
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
-                                        data-oid=":wzmbv0"
+                                        data-oid="q-h_1vm"
                                     >
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                             strokeWidth={2}
                                             d="M6 18L18 6M6 6l12 12"
-                                            data-oid="4lvhies"
+                                            data-oid="smadaq0"
                                         />
                                     </svg>
                                 </button>
                                 <div
                                     className="bg-white bg-opacity-5 p-1 rounded-lg"
-                                    data-oid="cp924ie"
+                                    data-oid="7.gyqtx"
                                 >
                                     <Image
                                         src={selectedImage}
@@ -283,17 +283,17 @@ export default function MediaPage() {
                                         width={1600}
                                         height={1000}
                                         className="max-h-[90vh] w-auto object-contain rounded shadow-2xl"
-                                        data-oid="vp4xg9w"
                                         priority
+                                        data-oid="c.4na._"
                                     />
                                 </div>
                                 <div
                                     className="absolute bottom-4 left-1/2 transform -translate-x-1/2"
-                                    data-oid="_57st5_"
+                                    data-oid="vt-b_et"
                                 >
                                     <p
                                         className="text-white text-sm bg-black bg-opacity-50 px-4 py-2 rounded-full"
-                                        data-oid="ofu65nk"
+                                        data-oid="p1kfmx-"
                                     >
                                         Click anywhere to close
                                     </p>
@@ -307,11 +307,11 @@ export default function MediaPage() {
                         <div
                             className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 p-4 animate-fadeIn"
                             onClick={closeVideoModal}
-                            data-oid="y5zu30a"
+                            data-oid="p-eoc88"
                         >
                             <div
                                 className="relative max-w-5xl max-h-screen animate-scaleIn"
-                                data-oid="gvqy5.l"
+                                data-oid="4-0kaix"
                             >
                                 <button
                                     className="absolute top-3 right-3 bg-white rounded-full p-2 shadow-lg hover:bg-gray-200 transition-colors z-10"
@@ -320,7 +320,7 @@ export default function MediaPage() {
                                         closeVideoModal();
                                     }}
                                     aria-label="Close"
-                                    data-oid="cxiqcb4"
+                                    data-oid="93itrq8"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -328,43 +328,43 @@ export default function MediaPage() {
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
-                                        data-oid=".k6v5q."
+                                        data-oid="p-:zcjf"
                                     >
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                             strokeWidth={2}
                                             d="M6 18L18 6M6 6l12 12"
-                                            data-oid="z768700"
+                                            data-oid="omot1uj"
                                         />
                                     </svg>
                                 </button>
                                 <div
                                     className="bg-white bg-opacity-5 p-1 rounded-lg"
-                                    data-oid="bv68tyf"
+                                    data-oid="v.fjfbk"
                                 >
                                     <video
                                         controls
                                         autoPlay
                                         className="max-h-[90vh] max-w-full rounded shadow-2xl bg-black"
                                         onClick={(e) => e.stopPropagation()}
-                                        data-oid="3:ber9o"
+                                        data-oid="2782u.7"
                                     >
                                         <source
                                             src={selectedVideo}
                                             type="video/mp4"
-                                            data-oid="amusm28"
+                                            data-oid="rlxyep:"
                                         />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
                                 <div
                                     className="absolute bottom-4 left-1/2 transform -translate-x-1/2"
-                                    data-oid="x.h0:qa"
+                                    data-oid="33s2ht2"
                                 >
                                     <p
                                         className="text-white text-sm bg-black bg-opacity-50 px-4 py-2 rounded-full"
-                                        data-oid="2a:7hbq"
+                                        data-oid="goy-_oq"
                                     >
                                         Click anywhere to close
                                     </p>
@@ -375,7 +375,7 @@ export default function MediaPage() {
                 </div>
             </div>
 
-            <Footer scrollToSection={scrollToSection} data-oid="tf4fgnd" />
+            <Footer scrollToSection={scrollToSection} data-oid=".jwnbbg" />
         </div>
     );
 }

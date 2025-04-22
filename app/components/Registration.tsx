@@ -126,33 +126,33 @@ export default function Registration() {
     };
 
     return (
-        <section id="registration" className="py-20 bg-yellow-50" data-oid="wkzqhg_">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="xbgqdtj">
+        <section id="registration" className="py-20 bg-yellow-50" data-oid="b9-ssj8">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="9:oq39h">
                 <h2
                     className="text-3xl font-bold text-center text-red-800 mb-12"
-                    data-oid="ztocmz7"
+                    data-oid="oncmvp3"
                 >
                     Registration
                 </h2>
 
                 <div
                     className="bg-white p-8 rounded-lg shadow-md max-w-2xl mx-auto mb-8"
-                    data-oid="az2g2vi"
+                    data-oid="utc2dim"
                 >
-                    <div className="mb-8 pb-8 border-b border-gray-200" data-oid="ej.f0ii">
-                        <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="mjq7ew2">
+                    <div className="mb-8 pb-8 border-b border-gray-200" data-oid="q7oi7vn">
+                        <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="x5h3hts">
                             Check Your Registration
                         </h3>
                         <form
                             onSubmit={handleCheckRegistration}
                             className="space-y-4"
-                            data-oid="4moa_qc"
+                            data-oid="42mp5gy"
                         >
-                            <div data-oid="ji6ut06">
+                            <div data-oid="5cvbfkz">
                                 <label
                                     htmlFor="checkEmail"
                                     className="block text-sm font-medium text-gray-700 mb-1"
-                                    data-oid="3t0wsjz"
+                                    data-oid="crcnjat"
                                 >
                                     Email Address
                                 </label>
@@ -163,15 +163,15 @@ export default function Registration() {
                                     onChange={(e) => setCheckEmail(e.target.value)}
                                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                                     required
-                                    data-oid="gnmv_aw"
+                                    data-oid="1a_thu4"
                                 />
                             </div>
-                            <div className="text-center" data-oid="_2a6r.j">
+                            <div className="text-center" data-oid="_17:8ql">
                                 <button
                                     type="submit"
                                     disabled={isChecking}
                                     className={`px-6 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors shadow-md ${isChecking ? 'opacity-70 cursor-not-allowed' : ''}`}
-                                    data-oid="tq9_jxw"
+                                    data-oid="60vth9j"
                                 >
                                     {isChecking ? 'Checking...' : 'Check Registration'}
                                 </button>
@@ -181,33 +181,33 @@ export default function Registration() {
                         {checkError && (
                             <div
                                 className="mt-4 p-3 bg-red-50 text-red-800 rounded-md"
-                                data-oid="hz3::oo"
+                                data-oid="li52vr_"
                             >
-                                <p data-oid="__qm89:">{checkError}</p>
+                                <p data-oid="azdq0eu">{checkError}</p>
                             </div>
                         )}
 
                         {registrationData && (
                             <div
                                 className="mt-4 p-4 bg-green-50 text-green-800 rounded-md"
-                                data-oid="tu5-:ya"
+                                data-oid="u.08sn3"
                             >
-                                <h4 className="font-medium mb-2" data-oid="tfi-2ro">
+                                <h4 className="font-medium mb-2" data-oid="5jjzerm">
                                     Registration Found
                                 </h4>
-                                <p className="mb-2" data-oid="h-uem8z">
+                                <p className="mb-2" data-oid="vn66mm4">
                                     Name: {registrationData.name}
                                 </p>
-                                <p className="mb-4" data-oid="2co5vu1">
+                                <p className="mb-4" data-oid="ex8ep39">
                                     Email: {registrationData.email}
                                 </p>
-                                <div className="mt-2" data-oid=".r6rnxl">
+                                <div className="mt-2" data-oid="i8wc:jg">
                                     <a
                                         href={registrationData.receiptUrl}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-block px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
-                                        data-oid="j:xc1vc"
+                                        data-oid="4sh_f9x"
                                     >
                                         View Receipt
                                     </a>
@@ -216,15 +216,15 @@ export default function Registration() {
                         )}
                     </div>
 
-                    <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="n45wq_-">
+                    <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="5_c6l9h">
                         New Registration
                     </h3>
-                    <form onSubmit={handleSubmit} className="space-y-6" data-oid="ovpc2u4">
-                        <div data-oid="rmdmhz8">
+                    <form onSubmit={handleSubmit} className="space-y-6" data-oid="er8_3-:">
+                        <div data-oid="_v_.br3">
                             <label
                                 htmlFor="name"
                                 className="block text-sm font-medium text-gray-700 mb-1"
-                                data-oid="-t:zzid"
+                                data-oid="ky-n8lo"
                             >
                                 Name
                             </label>
@@ -236,15 +236,15 @@ export default function Registration() {
                                 onChange={handleChange}
                                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                                 required
-                                data-oid="cmox:p."
+                                data-oid="nccqf34"
                             />
                         </div>
 
-                        <div data-oid="zb-4zs6">
+                        <div data-oid="4whxoc8">
                             <label
                                 htmlFor="designation"
                                 className="block text-sm font-medium text-gray-700 mb-1"
-                                data-oid="79kpn8-"
+                                data-oid="28ht2id"
                             >
                                 Designation/Affiliation
                             </label>
@@ -256,15 +256,15 @@ export default function Registration() {
                                 onChange={handleChange}
                                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                                 required
-                                data-oid="2tdfnxm"
+                                data-oid="5pbzexf"
                             />
                         </div>
 
-                        <div data-oid="x2ln4w2">
+                        <div data-oid="ts6y2.f">
                             <label
                                 htmlFor="paperTitle"
                                 className="block text-sm font-medium text-gray-700 mb-1"
-                                data-oid="jzm6h.q"
+                                data-oid="kfhca-x"
                             >
                                 Title of the Paper
                             </label>
@@ -276,15 +276,15 @@ export default function Registration() {
                                 onChange={handleChange}
                                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                                 required
-                                data-oid="99jsly1"
+                                data-oid="nt3_cmy"
                             />
                         </div>
 
-                        <div data-oid="13sit-6">
+                        <div data-oid="q_r59k1">
                             <label
                                 htmlFor="participationMode"
                                 className="block text-sm font-medium text-gray-700 mb-1"
-                                data-oid="ulm.j1q"
+                                data-oid="ujpknla"
                             >
                                 Mode of Participation
                             </label>
@@ -295,25 +295,25 @@ export default function Registration() {
                                 onChange={handleChange}
                                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                                 required
-                                data-oid="v5h_01u"
+                                data-oid="p0z1d9-"
                             >
-                                <option value="" data-oid="o.flkqm">
+                                <option value="" data-oid="ethl0-b">
                                     Select mode
                                 </option>
-                                <option value="online" data-oid="mlin-l0">
+                                <option value="online" data-oid="085h202">
                                     Online
                                 </option>
-                                <option value="inPerson" data-oid="qa4drvc">
+                                <option value="inPerson" data-oid="jsvyjet">
                                     In Person
                                 </option>
                             </select>
                         </div>
 
-                        <div data-oid="rp4h:i7">
+                        <div data-oid="dmtbq3i">
                             <label
                                 htmlFor="email"
                                 className="block text-sm font-medium text-gray-700 mb-1"
-                                data-oid="1inm1in"
+                                data-oid="_1aze0c"
                             >
                                 Email Address
                             </label>
@@ -325,15 +325,15 @@ export default function Registration() {
                                 onChange={handleChange}
                                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                                 required
-                                data-oid="mguxwta"
+                                data-oid="6zi332."
                             />
                         </div>
 
-                        <div data-oid="tg8up1c">
+                        <div data-oid="2m_cg7b">
                             <label
                                 htmlFor="receipt"
                                 className="block text-sm font-medium text-gray-700 mb-1"
-                                data-oid="6nbnjje"
+                                data-oid="l3tdnk-"
                             >
                                 Upload Receipt
                             </label>
@@ -345,20 +345,20 @@ export default function Registration() {
                                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                                 accept=".pdf,.jpg,.jpeg,.png"
                                 required
-                                data-oid="w4q0fm3"
+                                data-oid="3riy6t5"
                             />
 
-                            <p className="text-xs text-gray-500 mt-1" data-oid="334-fl:">
+                            <p className="text-xs text-gray-500 mt-1" data-oid="y68bazn">
                                 Accepted formats: PDF, JPG, JPEG, PNG
                             </p>
                         </div>
 
-                        <div className="text-center" data-oid="m7n-s7k">
+                        <div className="text-center" data-oid="m8h-z_4">
                             <button
                                 type="submit"
                                 disabled={isSubmitting}
                                 className={`px-8 py-3 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors shadow-md ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''}`}
-                                data-oid="hhct:8j"
+                                data-oid="_u4:x:."
                             >
                                 {isSubmitting ? 'Processing...' : 'Register Now'}
                             </button>
@@ -368,22 +368,22 @@ export default function Registration() {
                     {showMessage && (
                         <div
                             className={`mt-6 p-4 rounded-md ${submitStatus.success ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-800'}`}
-                            data-oid="pk27me9"
+                            data-oid="i-ghkah"
                         >
-                            <div className="flex" data-oid="x842m9p">
-                                <div className="flex-shrink-0" data-oid="ge1m25h">
+                            <div className="flex" data-oid="39fkz87">
+                                <div className="flex-shrink-0" data-oid="l5dczik">
                                     {submitStatus.success ? (
                                         <svg
                                             className="h-5 w-5 text-green-400"
                                             fill="currentColor"
                                             viewBox="0 0 20 20"
-                                            data-oid="v0tpq5l"
+                                            data-oid="::ynp9b"
                                         >
                                             <path
                                                 fillRule="evenodd"
                                                 d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                 clipRule="evenodd"
-                                                data-oid=".ykwkz."
+                                                data-oid="qe-qhvr"
                                             />
                                         </svg>
                                     ) : (
@@ -391,44 +391,44 @@ export default function Registration() {
                                             className="h-5 w-5 text-red-400"
                                             fill="currentColor"
                                             viewBox="0 0 20 20"
-                                            data-oid="36x6gx-"
+                                            data-oid="hfbhpwm"
                                         >
                                             <path
                                                 fillRule="evenodd"
                                                 d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
                                                 clipRule="evenodd"
-                                                data-oid="i-r7de9"
+                                                data-oid="fx10w5:"
                                             />
                                         </svg>
                                     )}
                                 </div>
-                                <div className="ml-3" data-oid="5m6f_y3">
-                                    <p className="text-sm font-medium" data-oid="sa:l38y">
+                                <div className="ml-3" data-oid="klq74tf">
+                                    <p className="text-sm font-medium" data-oid="xkcjzyc">
                                         {submitStatus.message}
                                     </p>
                                 </div>
-                                <div className="ml-auto pl-3" data-oid="2gppjz7">
-                                    <div className="-mx-1.5 -my-1.5" data-oid="tzgxtct">
+                                <div className="ml-auto pl-3" data-oid="g0lxm6f">
+                                    <div className="-mx-1.5 -my-1.5" data-oid="wecn6lu">
                                         <button
                                             type="button"
                                             onClick={() => setShowMessage(false)}
                                             className={`inline-flex rounded-md p-1.5 ${submitStatus.success ? 'text-green-500 hover:bg-green-100' : 'text-red-500 hover:bg-red-100'}`}
-                                            data-oid="hd4dfz-"
+                                            data-oid="c7b0zp4"
                                         >
-                                            <span className="sr-only" data-oid="3xpwcjb">
+                                            <span className="sr-only" data-oid="guyerqj">
                                                 Dismiss
                                             </span>
                                             <svg
                                                 className="h-5 w-5"
                                                 viewBox="0 0 20 20"
                                                 fill="currentColor"
-                                                data-oid="i18w1mq"
+                                                data-oid="v54bxz5"
                                             >
                                                 <path
                                                     fillRule="evenodd"
                                                     d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
                                                     clipRule="evenodd"
-                                                    data-oid="9uj.439"
+                                                    data-oid="-9k-9w3"
                                                 />
                                             </svg>
                                         </button>

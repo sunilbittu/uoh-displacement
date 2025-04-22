@@ -10,38 +10,38 @@ interface NavigationProps {
 export default function Navigation({ activeSection, scrollToSection }: NavigationProps) {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     return (
-        <nav className="fixed w-full bg-white shadow-md z-50" data-oid="qa_hbx4">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="guc9kq5">
-                <div className="flex justify-between h-16" data-oid="9d_rda2">
-                    <div className="flex items-center" data-oid="8j_3bcp">
-                        <Link href="/" className="flex items-center space-x-3" data-oid="pzomxky">
-                            <div className="relative h-24 w-16" data-oid="96le9tj">
+        <nav className="fixed w-full bg-white shadow-md z-50" data-oid="bkctw1h">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="b6e6hu2">
+                <div className="flex justify-between h-16" data-oid="s.m_8-m">
+                    <div className="flex items-center" data-oid=":dpw97q">
+                        <Link href="/" className="flex items-center space-x-3" data-oid="zs768_g">
+                            <div className="relative h-24 w-16" data-oid="x08szyz">
                                 <Image
                                     src="/images/logo-uoh.png"
                                     alt="University of Hyderabad Logo"
                                     fill
                                     style={{ objectFit: 'contain' }}
                                     priority
-                                    data-oid="5:9.c59"
+                                    data-oid="k71br99"
                                 />
                             </div>
-                            <div className="text-xl font-bold text-red-700" data-oid="h-qzmuv">
+                            <div className="text-xl font-bold text-red-700" data-oid="juzyrnt">
                                 Displacement
                             </div>
-                            <div className="relative h-24 w-16" data-oid="wbpxpfd">
+                            <div className="relative h-24 w-16" data-oid="8:e23cw">
                                 <Image
                                     src="/images/logo-ioe.png"
                                     alt="IOE Logo"
                                     fill
                                     style={{ objectFit: 'contain' }}
                                     priority
-                                    data-oid="skbjgnp"
+                                    data-oid="88caje5"
                                 />
                             </div>
                         </Link>
                     </div>
                     {/* Desktop Navigation */}
-                    <div className="hidden md:flex items-center space-x-4" data-oid="ko_npew">
+                    <div className="hidden md:flex items-center space-x-4" data-oid="j6isgtm">
                         {[
                             'home',
                             'about',
@@ -56,7 +56,7 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                                 key={section}
                                 onClick={() => scrollToSection(section as SectionId)}
                                 className={`px-3 py-2 rounded-md text-sm font-medium ${activeSection === section ? 'text-red-600 bg-yellow-50' : 'text-gray-800 hover:bg-yellow-100'}`}
-                                data-oid="r855hos"
+                                data-oid="wl86rxi"
                             >
                                 {section
                                     .split('-')
@@ -69,15 +69,15 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                         <button
                             onClick={() => scrollToSection('d-logo' as SectionId)}
                             className={`p-1 rounded-md ${activeSection === 'd-logo' ? 'bg-yellow-50' : 'hover:bg-yellow-100'}`}
-                            data-oid="0_rznle"
+                            data-oid="lt_fkk5"
                         >
-                            <div className="relative h-8 w-8" data-oid="-06:zjo">
+                            <div className="relative h-8 w-8" data-oid="kxi.77m">
                                 <Image
                                     src="/images/d-logo.jpg"
                                     alt="D Logo"
                                     fill
                                     style={{ objectFit: 'contain' }}
-                                    data-oid="p7qoxoy"
+                                    data-oid="noon_j8"
                                 />
                             </div>
                         </button>
@@ -86,25 +86,25 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                         <button
                             onClick={() => scrollToSection('u-logo' as SectionId)}
                             className={`p-1 rounded-md ${activeSection === 'u-logo' ? 'bg-yellow-50' : 'hover:bg-yellow-100'}`}
-                            data-oid="9z6.wex"
+                            data-oid="v3n94:l"
                         >
-                            <div className="relative h-8 w-8" data-oid="jztrwo8">
+                            <div className="relative h-8 w-8" data-oid="2au-ljr">
                                 <Image
                                     src="/images/u-logo.jpg"
                                     alt="U Logo"
                                     fill
                                     style={{ objectFit: 'contain' }}
-                                    data-oid="cd6tvp5"
+                                    data-oid="0dpo:_i"
                                 />
                             </div>
                         </button>
                     </div>
                     {/* Mobile menu button */}
-                    <div className="md:hidden flex items-center" data-oid="0.r:j-h">
+                    <div className="md:hidden flex items-center" data-oid="6f72u3n">
                         <button
                             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                             className="inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-red-600 hover:bg-yellow-100 focus:outline-none"
-                            data-oid="gycg60z"
+                            data-oid="s:h2dtl"
                         >
                             <svg
                                 className="h-6 w-6"
@@ -112,7 +112,7 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
-                                data-oid="rynl.8i"
+                                data-oid="0mr_l7d"
                             >
                                 {mobileMenuOpen ? (
                                     <path
@@ -120,7 +120,7 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                                         strokeLinejoin="round"
                                         strokeWidth={2}
                                         d="M6 18L18 6M6 6l12 12"
-                                        data-oid="g3st73r"
+                                        data-oid="jlqu_r7"
                                     />
                                 ) : (
                                     <path
@@ -128,7 +128,7 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                                         strokeLinejoin="round"
                                         strokeWidth={2}
                                         d="M4 6h16M4 12h16M4 18h16"
-                                        data-oid="ri:0_u-"
+                                        data-oid="63gbqs-"
                                     />
                                 )}
                             </svg>
@@ -138,8 +138,8 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
             </div>
             {/* Mobile menu */}
             {mobileMenuOpen && (
-                <div className="md:hidden bg-white shadow-lg" data-oid="s.-1ikc">
-                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3" data-oid="ot0615-">
+                <div className="md:hidden bg-white shadow-lg" data-oid=":jix7vs">
+                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3" data-oid="jgsnzk1">
                         {[
                             'home',
                             'about',
@@ -157,7 +157,7 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                                     setMobileMenuOpen(false);
                                 }}
                                 className={`block px-3 py-2 rounded-md text-base font-medium w-full text-left ${activeSection === section ? 'text-red-600 bg-yellow-50' : 'text-gray-800 hover:bg-yellow-100'}`}
-                                data-oid="fr9.ve9"
+                                data-oid="jlcy8.w"
                             >
                                 {section
                                     .split('-')
@@ -166,7 +166,7 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                             </button>
                         ))}
 
-                        <div className="flex space-x-4 px-3 py-2" data-oid=".3zvj32">
+                        <div className="flex space-x-4 px-3 py-2" data-oid="wwctl--">
                             {/* D-Logo */}
                             <button
                                 onClick={() => {
@@ -174,15 +174,15 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                                     setMobileMenuOpen(false);
                                 }}
                                 className={`p-1 rounded-md ${activeSection === 'd-logo' ? 'bg-yellow-50' : 'hover:bg-yellow-100'}`}
-                                data-oid="vy:kth0"
+                                data-oid="odk-75y"
                             >
-                                <div className="relative h-8 w-8" data-oid="acc.w4r">
+                                <div className="relative h-8 w-8" data-oid="5j.i88b">
                                     <Image
                                         src="/images/d-logo.jpg"
                                         alt="D Logo"
                                         fill
                                         style={{ objectFit: 'contain' }}
-                                        data-oid=":2m2kzx"
+                                        data-oid="3ty1.pk"
                                     />
                                 </div>
                             </button>
@@ -194,15 +194,15 @@ export default function Navigation({ activeSection, scrollToSection }: Navigatio
                                     setMobileMenuOpen(false);
                                 }}
                                 className={`p-1 rounded-md ${activeSection === 'u-logo' ? 'bg-yellow-50' : 'hover:bg-yellow-100'}`}
-                                data-oid="s.w-f0s"
+                                data-oid="ygrfjre"
                             >
-                                <div className="relative h-8 w-8" data-oid="x.i3bja">
+                                <div className="relative h-8 w-8" data-oid="2wurcqj">
                                     <Image
                                         src="/images/u-logo.jpg"
                                         alt="U Logo"
                                         fill
                                         style={{ objectFit: 'contain' }}
-                                        data-oid="km15vjp"
+                                        data-oid="n1p1cl2"
                                     />
                                 </div>
                             </button>
