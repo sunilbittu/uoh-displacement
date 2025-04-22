@@ -114,14 +114,7 @@ export default function MediaPage() {
                                                 data-oid="vft6k7z"
                                             />
                                         </div>
-                                        <div className="p-3 bg-gray-50" data-oid="a1532t-">
-                                            <p
-                                                className="text-sm font-medium text-gray-700"
-                                                data-oid="9rhzu6d"
-                                            >
-                                                {image.title}
-                                            </p>
-                                        </div>
+                                        {/* Title section removed */}
                                     </div>
                                 ))}
                             </div>
@@ -157,14 +150,7 @@ export default function MediaPage() {
                                             />
                                             Your browser does not support the video tag.
                                         </video>
-                                        <div className="p-3 bg-gray-50" data-oid="qv00fwp">
-                                            <p
-                                                className="font-medium text-gray-700"
-                                                data-oid="p0i9t-n"
-                                            >
-                                                {video.title}
-                                            </p>
-                                        </div>
+                                        {/* Title section removed */}
                                     </div>
                                 ))}
                             </div>
