@@ -46,53 +46,65 @@ export default function People() {
                             </div>
                             <div data-oid="gcc--ak">
                                 <h4 className="font-medium text-indigo-700 mb-2" data-oid="bgrurey">
-                                    Organising Committee
+                                    Core Committee
                                 </h4>
-                                <div className="grid grid-cols-2 gap-2" data-oid="jw4ly21">
-                                    <p className="text-gray-700" data-oid="8vl6ygn">
-                                        Laboni Mukherjee
-                                    </p>
+                                <div className="grid grid-cols-2 gap-2 mb-4" data-oid="jw4ly21">
                                     <p className="text-gray-700" data-oid="7qjm070">
                                         Noah Simon Kolikapudi
+                                    </p>
+                                    <p className="text-gray-700" data-oid="8vl6ygn">
+                                        Laboni Mukherjee
                                     </p>
                                     <p className="text-gray-700" data-oid="c8daxl8">
                                         Assis Mon Marcelin
                                     </p>
+                                </div>
+
+                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="4819uad">
+                                    Organizing Committee
+                                </h4>
+                                <div className="grid grid-cols-2 gap-2 mb-4" data-oid="sntd0wp">
                                     <p className="text-gray-700" data-oid="7304c_e">
                                         Sourav Jatua
-                                    </p>
-                                    <p className="text-gray-700" data-oid="fehule3">
-                                        Prateeti Chowdary
-                                    </p>
-                                    <p className="text-gray-700" data-oid="3nxdbfq">
-                                        Themreichon Alma Poinamei
-                                    </p>
-                                    <p className="text-gray-700" data-oid="_.r5mgd">
-                                        Aravind Prakash
-                                    </p>
-                                    <p className="text-gray-700" data-oid="ohvprww">
-                                        Atul Nair
-                                    </p>
-                                    <p className="text-gray-700" data-oid="u0-zr56">
-                                        Songayam Zimik
                                     </p>
                                     <p className="text-gray-700" data-oid="ytaj2dq">
                                         Liya Abi
                                     </p>
-                                    <p className="text-gray-700" data-oid="hq2-bpq">
-                                        Abhinav TM
+                                    <p className="text-gray-700" data-oid="3nxdbfq">
+                                        Themreichon Alma Poinamei
                                     </p>
+                                    <p className="text-gray-700" data-oid="oxr4g_c">
+                                        Arjun Raj V
+                                    </p>
+                                    <p className="text-gray-700" data-oid="fehule3">
+                                        Prateeti Chowdhury
+                                    </p>
+                                    <p className="text-gray-700" data-oid="u0-zr56">
+                                        Songayam Zimik
+                                    </p>
+                                    <p className="text-gray-700" data-oid="ohvprww">
+                                        Atul V Nair
+                                    </p>
+                                    <p className="text-gray-700" data-oid="_.r5mgd">
+                                        Aravind Prakash
+                                    </p>
+                                </div>
+
+                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="9001b_6">
+                                    Associate Committee
+                                </h4>
+                                <div className="grid grid-cols-2 gap-2" data-oid="ncf6-wj">
                                     <p className="text-gray-700" data-oid="0sgms4m">
                                         Arya P
                                     </p>
-                                    <p className="text-gray-700" data-oid="yk.ok-z">
-                                        Gifty R
-                                    </p>
-                                    <p className="text-gray-700" data-oid="0gtc8y3">
-                                        Prabhas Ahamed
+                                    <p className="text-gray-700" data-oid="hq2-bpq">
+                                        Abhinav TM
                                     </p>
                                     <p className="text-gray-700" data-oid="cfg7tx9">
-                                        Irfan S
+                                        Irfan S Ahamed
+                                    </p>
+                                    <p className="text-gray-700" data-oid="yk.ok-z">
+                                        Gifty R Prabhas
                                     </p>
                                     <p className="text-gray-700" data-oid="e8foiqx">
                                         Hami Shirin
