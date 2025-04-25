@@ -262,8 +262,8 @@ export default function ParticipantsPage() {
                                             >
                                                 An occasional writer of criticism in Malayalam, his
                                                 first language, he has also translated Romeo &
-                                                Juliet and Harold Pinter's Mountain Language. His
-                                                post-superannuation term as the Institution of
+                                                Juliet and Harold Pinter`&apos;`s Mountain Language.
+                                                His post-superannuation term as the Institution of
                                                 Eminence Research Chair Professor in Literary and
                                                 Cultural Theory at the University of Hyderabad ended
                                                 in June 2024.
@@ -403,7 +403,7 @@ export default function ParticipantsPage() {
                                                 U.K. Her poetry has been widely published in
                                                 journals and anthologies, she has read variously
                                                 across the U.K and internationally and is a winner
-                                                of a Northern Writers' Award.
+                                                of a Northern Writers`&apos;` Award.
                                             </p>
                                             <p
                                                 className="text-gray-600 text-sm mt-1"
@@ -415,8 +415,8 @@ export default function ParticipantsPage() {
                                                 </span>{' '}
                                                 (Bloodaxe 2023, Penguin India 2023) which she
                                                 co-edited with Vidyan Ravinthiran and Seni
-                                                Seneviratne, was a Times Literary Supplement's Books
-                                                of the Year for 2023.{' '}
+                                                Seneviratne, was a Times Literary
+                                                Supplement`&apos;`s Books of the Year for 2023.{' '}
                                                 <span className="italic" data-oid="gu0jh8h">
                                                     The Naming of Names
                                                 </span>
@@ -501,13 +501,13 @@ export default function ParticipantsPage() {
                                                 Dreads and Open Mouths: Living/Teaching/Writing
                                                 Queerly
                                             </span>{' '}
-                                            (Litwin Books), co-editor of the special issue "Queer
-                                            and Now" of{' '}
+                                            (Litwin Books), co-editor of the special issue
+                                            `&quot;`Queer and Now`&quot;` of{' '}
                                             <span className="italic" data-oid="0liyooo">
                                                 The Writing Instructor
                                             </span>
-                                            , convener of the special issue "Rhet/Comp for
-                                            Palestine: A Gathering of Spirit" of{' '}
+                                            , convener of the special issue `&quot;`Rhet/Comp for
+                                            Palestine: A Gathering of Spirit`&quot;` of{' '}
                                             <span className="italic" data-oid="aij8zhr">
                                                 The Journal of Multimodal Rhetorics
                                             </span>
@@ -1120,8 +1120,9 @@ export default function ParticipantsPage() {
                                             and Ethnic Diversity, Gottingen, Germany. He was a DAAD
                                             Guest Professor at CeMIS, University of Gottingen in
                                             2022. Salah is the recipient of M.N Srinivas Award for
-                                            Young Indian Sociologist, 2015 and Chancellor's Award
-                                            for Best Faculty at the University of Hyderabad in 2022.
+                                            Young Indian Sociologist, 2015 and Chancellor`&apos;`s
+                                            Award for Best Faculty at the University of Hyderabad in
+                                            2022.
                                         </p>
                                     </div>
                                 </div>
@@ -1181,11 +1182,11 @@ export default function ParticipantsPage() {
                                             className="text-gray-600 text-xs mt-1"
                                             data-oid="3kbg4uj"
                                         >
-                                            Karmakar's research interests include the Global South
-                                            literary studies, postcolonial and decolonial studies,
-                                            women and gender studies, and environmental studies. He
-                                            is also a series editor for the Routledge book series
-                                            South Asian Literature in Focus.
+                                            Karmakar`&apos;`s research interests include the Global
+                                            South literary studies, postcolonial and decolonial
+                                            studies, women and gender studies, and environmental
+                                            studies. He is also a series editor for the Routledge
+                                            book series South Asian Literature in Focus.
                                         </p>
                                     </div>
                                 </div>
@@ -1250,9 +1251,9 @@ export default function ParticipantsPage() {
                                             </span>{' '}
                                             by gen next publications in 2017. Dr. Kathy has also
                                             published scholarly articles in several reputed national
-                                            and international journals, including "Entrenched
-                                            Patriarchal Victorian Society in Oscar Wilde's A Woman
-                                            of No Importance", published in the{' '}
+                                            and international journals, including `&quot;`Entrenched
+                                            Patriarchal Victorian Society in Oscar Wilde`&apos;`s A
+                                            Woman of No Importance`&quot;`, published in the{' '}
                                             <span className="italic" data-oid="1o4gb1r">
                                                 Sydney Journal of English
                                             </span>{' '}
@@ -1316,8 +1317,8 @@ export default function ParticipantsPage() {
                                             </span>
                                             . He has also been involved in the development of online
                                             educational resources (OERs) on platforms like Indian
-                                            Writing in English Online, UGC's e-PG pathshala and
-                                            NPTEL.
+                                            Writing in English Online, UGC`&apos;`s e-PG pathshala
+                                            and NPTEL.
                                         </p>
                                     </div>
                                 </div>
@@ -1408,8 +1409,8 @@ export default function ParticipantsPage() {
                                         <p className="text-gray-600 text-xs" data-oid="ucx5ok6">
                                             Teaches in the Centre for Comparative Literature at
                                             University of Hyderabad. He is the author of the
-                                            forthcoming book, "Reading the Rejected: Dirt in Dalit
-                                            Literature" (Routledge).
+                                            forthcoming book, `&quot;`Reading the Rejected: Dirt in
+                                            Dalit Literature`&quot;` (Routledge).
                                         </p>
                                         <p
                                             className="text-gray-600 text-xs mt-1"
