@@ -304,6 +304,73 @@ export default function ParticipantsPage() {
                                         >
                                             Yousif M. Qasmiyeh
                                         </h3>
+                                        <div className="mt-1" data-oid="2wzp4z8">
+                                            <p className="text-gray-600 text-sm" data-oid="j-3ivtj">
+                                                Born and educated in Baddawi refugee camp in
+                                                Lebanon, Yousif M. Qasmiyeh is a poet and scholar
+                                                who completed his doctorate in English Literature at
+                                                the University of Oxford.
+                                            </p>
+                                            <p
+                                                className="text-gray-600 text-sm mt-1"
+                                                data-oid="vrl0zt6"
+                                            >
+                                                Time, the body and ruination inform his poetry and
+                                                prose, which have appeared in{' '}
+                                                <span className="italic" data-oid="k5q2hpc">
+                                                    Modern Poetry in Translation
+                                                </span>
+                                                ,{' '}
+                                                <span className="italic" data-oid="v5a7teg">
+                                                    Critical Quarterly
+                                                </span>
+                                                ,{' '}
+                                                <span className="italic" data-oid="896jac2">
+                                                    Cambridge Literary Review
+                                                </span>
+                                                ,{' '}
+                                                <span className="italic" data-oid="f:_pg33">
+                                                    PN Review
+                                                </span>
+                                                ,{' '}
+                                                <span className="italic" data-oid="mit8gx-">
+                                                    Stand
+                                                </span>
+                                                ,{' '}
+                                                <span className="italic" data-oid="97euqwd">
+                                                    New England Review
+                                                </span>
+                                                ,{' '}
+                                                <span className="italic" data-oid="1_c-p2m">
+                                                    Poetry London
+                                                </span>{' '}
+                                                and{' '}
+                                                <span className="italic" data-oid="67li.2c">
+                                                    Wasafiri
+                                                </span>
+                                                .
+                                            </p>
+                                            <p
+                                                className="text-gray-600 text-sm mt-1"
+                                                data-oid="18t6bc:"
+                                            >
+                                                Yousif is the Creative Encounters Editor of the{' '}
+                                                <span className="italic" data-oid="4:0hs8r">
+                                                    Migration and Society
+                                                </span>{' '}
+                                                journal and Writer-in-Residence for the Refugee
+                                                Hosts project. His debut collection,{' '}
+                                                <span className="italic" data-oid="3kfi_x6">
+                                                    Writing the Camp
+                                                </span>{' '}
+                                                (Broken Sleep Books, 2021), was a 2021 PBS
+                                                Recommendation; was selected as one of the Best
+                                                Poetry Books of 2021 by the Telegraph and the Irish
+                                                Times; was highly commended by the 2021 Forward
+                                                Prizes for Poetry; and was shortlisted for the 2022
+                                                Royal Society of Literature Ondaatje Prize.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -329,6 +396,47 @@ export default function ParticipantsPage() {
                                         >
                                             Shash Trevett
                                         </h3>
+                                        <div className="mt-1" data-oid="j_.r9vf">
+                                            <p className="text-gray-600 text-sm" data-oid="ed3ybto">
+                                                A poet, critic and a translator of Tamil poetry into
+                                                English. Born in Sri Lanka, she now lives in the
+                                                U.K. Her poetry has been widely published in
+                                                journals and anthologies, she has read variously
+                                                across the U.K and internationally and is a winner
+                                                of a Northern Writers' Award.
+                                            </p>
+                                            <p
+                                                className="text-gray-600 text-sm mt-1"
+                                                data-oid="c9rlkcg"
+                                            >
+                                                <span className="italic" data-oid="glb5.n5">
+                                                    Out of Sri Lanka: Tamil, Sinhala and English
+                                                    Poetry from Sri Lanka and its Diasporas
+                                                </span>{' '}
+                                                (Bloodaxe 2023, Penguin India 2023) which she
+                                                co-edited with Vidyan Ravinthiran and Seni
+                                                Seneviratne, was a Times Literary Supplement's Books
+                                                of the Year for 2023.{' '}
+                                                <span className="italic" data-oid="gu0jh8h">
+                                                    The Naming of Names
+                                                </span>
+                                                , her first full collection, was published by
+                                                Smith|Doorstop in September 2024 and her work has
+                                                recently been conserved by the Poetry Archive.
+                                            </p>
+                                            <p
+                                                className="text-gray-600 text-sm mt-1"
+                                                data-oid="0sizhl7"
+                                            >
+                                                Shash has presented at academic conferences both in
+                                                the U.K and abroad, and has been involved with the
+                                                Singapore Translation Symposium, the PEN Translates
+                                                awards and the Commonwealth Short Story Prize. She
+                                                is a member of the Kinara Poetry Collective, is a
+                                                Ledbury Critic and a Board Member of Modern Poetry
+                                                in Translation.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -354,6 +462,23 @@ export default function ParticipantsPage() {
                                         >
                                             Anthony Vahni Capildeo
                                         </h3>
+                                        <div className="mt-1" data-oid="5193lct">
+                                            <p className="text-gray-600 text-sm" data-oid="tiu9jua">
+                                                A Trinidadian Scottish writer of poetry and
+                                                non-fiction. Their work has been recognized with the
+                                                Forward Prize for Best Collection and shortlisted
+                                                for the T.S. Eliot Prize.
+                                            </p>
+                                            <p
+                                                className="text-gray-600 text-sm mt-1"
+                                                data-oid="_bc_hea"
+                                            >
+                                                Capildeo's work often explores themes of language,
+                                                migration, and cultural identity, drawing on their
+                                                own experiences of displacement and belonging across
+                                                different cultural contexts.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
