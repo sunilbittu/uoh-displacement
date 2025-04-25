@@ -376,6 +376,40 @@ export default function ParticipantsPage() {
                                     <h3 className="font-medium text-indigo-700" data-oid="wqhuott">
                                         Aneil Rallin
                                     </h3>
+                                    <div className="mt-1" data-oid="-vy_0a-">
+                                        <p className="text-gray-600 text-sm" data-oid="1iw:x8r">
+                                            Aneil Rallin (they/them/their) is a recovering academic
+                                            who has survived working at nine universities in the US
+                                            and Canada (including Soka University of America, York
+                                            University, California State University, San Marcos, and
+                                            University of Southern California).
+                                        </p>
+                                        <p
+                                            className="text-gray-600 text-sm mt-1"
+                                            data-oid="7flkhid"
+                                        >
+                                            Author of{' '}
+                                            <span className="italic" data-oid="yncsq:1">
+                                                Dreads and Open Mouths: Living/Teaching/Writing
+                                                Queerly
+                                            </span>{' '}
+                                            (Litwin Books), co-editor of the special issue "Queer
+                                            and Now" of{' '}
+                                            <span className="italic" data-oid="0liyooo">
+                                                The Writing Instructor
+                                            </span>
+                                            , convener of the special issue "Rhet/Comp for
+                                            Palestine: A Gathering of Spirit" of{' '}
+                                            <span className="italic" data-oid="aij8zhr">
+                                                The Journal of Multimodal Rhetorics
+                                            </span>
+                                            , and co-editor of the forthcoming collection{' '}
+                                            <span className="italic" data-oid="g:iqugp">
+                                                Trigger Warnings: Teaching Through Trauma
+                                            </span>{' '}
+                                            (Lever Press).
+                                        </p>
+                                    </div>
                                 </div>
 
                                 <div
@@ -403,6 +437,28 @@ export default function ParticipantsPage() {
                                         Research Scholar, Humanities and Social Sciences, NIT
                                         Warangal
                                     </p>
+                                    <div className="mt-1" data-oid="ue_ijlg">
+                                        <p className="text-gray-600 text-sm" data-oid="me-h:e5">
+                                            A third year Research scholar from the Department of
+                                            Humanities and Social Sciences at National Institute of
+                                            Technology, Warangal, Telangana. She is currently
+                                            working as a research scholar under the supervision of
+                                            Dr R Vennela, who is an Assistant Professor of the same
+                                            department.
+                                        </p>
+                                        <p
+                                            className="text-gray-600 text-sm mt-1"
+                                            data-oid="m:ime0."
+                                        >
+                                            She did her Bachelors in English Language and Literature
+                                            from Mercy College and her Masters in English and
+                                            Comparative Literature from Pondicherry University. Her
+                                            current field of interest is in Asian Literatures with a
+                                            specific focus on East Asian and South-East Asian
+                                            Studies. Her research interests lie in cultural studies,
+                                            memory studies and gender studies.
+                                        </p>
+                                    </div>
                                 </div>
 
                                 <div
@@ -415,6 +471,34 @@ export default function ParticipantsPage() {
                                     <p className="text-gray-600 text-sm" data-oid="eh:rm1d">
                                         Research Scholar, Ashoka University
                                     </p>
+                                    <div className="mt-1" data-oid="i2:3ika">
+                                        <p className="text-gray-600 text-sm" data-oid="kdacw7s">
+                                            A doctoral candidate in the Department of English at
+                                            Ashoka University, India. Her research focuses on Sindhi
+                                            narratives of return, particularly in the context of the
+                                            Partition of the Indian Subcontinent.
+                                        </p>
+                                        <p
+                                            className="text-gray-600 text-sm mt-1"
+                                            data-oid="mk3u0o-"
+                                        >
+                                            She has presented her work at various avenues, including
+                                            the Yale Modern South Asia Workshop (2022), the American
+                                            Comparative Literature Association Conference (2024),
+                                            and the Annual Conference on South Asia at the
+                                            University of Wisconsin-Madison (2024). An aspiring
+                                            translator, she plans to translate Sindhi literature
+                                            written in the Perso-Arabic script into English.
+                                        </p>
+                                        <p
+                                            className="text-gray-600 text-sm mt-1"
+                                            data-oid="sk.sg4x"
+                                        >
+                                            In addition to Partition literature, her research
+                                            interests include Cultural Studies, Literatures of
+                                            Exile, and Popular Cinema in India.
+                                        </p>
+                                    </div>
                                 </div>
 
                                 <div
