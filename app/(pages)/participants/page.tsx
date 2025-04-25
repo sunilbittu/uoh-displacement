@@ -53,17 +53,42 @@ export default function ParticipantsPage() {
                                             className="font-medium text-indigo-700"
                                             data-oid="flnwd_x"
                                         >
-                                            Prof. Rajini Srikant
+                                            Prof. Rajini Srikanth
                                         </h3>
                                         <p className="text-gray-600 text-sm" data-oid=":wdffg9">
                                             University of Massachusetts, Boston, USA
                                         </p>
-                                        <p
-                                            className="text-gray-500 text-sm mt-1 italic"
-                                            data-oid="4r1-3q2"
-                                        >
-                                            Expert in Migration Studies and Displacement
-                                        </p>
+                                        <div className="mt-1" data-oid="-afs87o">
+                                            <p className="text-gray-700 text-sm" data-oid="mmj_2tp">
+                                                Professor of English at the University of
+                                                Massachusetts Boston. Her research and teaching
+                                                interests span literature and human rights,
+                                                comparative race and ethnic studies, literature and
+                                                pedagogy, the role of humanities in climate justice,
+                                                and transnational American and Asian American
+                                                literature.
+                                            </p>
+                                            <p
+                                                className="text-gray-700 text-sm mt-1"
+                                                data-oid="24xgpp2"
+                                            >
+                                                She is the author of three monographs and several
+                                                co-edited collections including{' '}
+                                                <span className="italic" data-oid="t6xeax-">
+                                                    Constructing the Enemy: Empathy/Antipathy in US
+                                                    Literature and Law
+                                                </span>{' '}
+                                                (2012),{' '}
+                                                <span className="italic" data-oid="e0u:xcp">
+                                                    Interdisciplinary Approaches to Human Rights
+                                                </span>{' '}
+                                                (2018), and{' '}
+                                                <span className="italic" data-oid="0po3v59">
+                                                    Climate Justice and Public Health
+                                                </span>{' '}
+                                                (2024).
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -86,17 +111,22 @@ export default function ParticipantsPage() {
                                             className="font-medium text-indigo-700"
                                             data-oid="j4zrndb"
                                         >
-                                            Prof. Irudaya Rajan
+                                            Prof. S. Irudaya Rajan
                                         </h3>
                                         <p className="text-gray-600 text-sm" data-oid="vp3c3_w">
-                                            The International Institute of Migration and Development
+                                            The International Institute of Migration and
+                                            Development, Kerala
                                         </p>
-                                        <p
-                                            className="text-gray-500 text-sm mt-1 italic"
-                                            data-oid="_r69asa"
-                                        >
-                                            Renowned researcher on migration patterns
-                                        </p>
+                                        <div className="mt-1" data-oid="i8jedx2">
+                                            <p className="text-gray-700 text-sm" data-oid="h_llntf">
+                                                Chair of the International Institute of Migration
+                                                and Development, Kerala. He is the Founder Editor in
+                                                Chief of Migration and Development (Sage) and the
+                                                editor of two Routledge series - India Migration
+                                                Report and South Asia Migration Report and lead
+                                                editor of Springer Series - South-South Migration.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -122,14 +152,28 @@ export default function ParticipantsPage() {
                                             Divya Jose
                                         </h3>
                                         <p className="text-gray-600 text-sm" data-oid="-ptej1v">
-                                            Refugee Education, UK
+                                            Refugee Education UK (REUK)
                                         </p>
-                                        <p
-                                            className="text-gray-500 text-sm mt-1 italic"
-                                            data-oid="98.64i4"
-                                        >
-                                            Advocate for refugee education rights
-                                        </p>
+                                        <div className="mt-1" data-oid="n33vwr2">
+                                            <p className="text-gray-700 text-sm" data-oid="m69u2ug">
+                                                Youth Advocacy Manager at Refugee Education UK
+                                                (REUK). She specialises in qualitative research with
+                                                a focus on child- and youth-centred research
+                                                methods, and has conducted research on forced
+                                                migration, human trafficking and education for
+                                                refugee and asylum seeking learners in India and the
+                                                UK.
+                                            </p>
+                                            <p
+                                                className="text-gray-700 text-sm mt-1"
+                                                data-oid="yh:l9h."
+                                            >
+                                                At REUK, she works on research projects that study
+                                                the experiences of refugee and asylum-seeking young
+                                                people in accessing education in the UK and
+                                                internationally.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -155,15 +199,28 @@ export default function ParticipantsPage() {
                                             Prof. Vinay Lal
                                         </h3>
                                         <p className="text-gray-600 text-sm" data-oid="wcbzpj5">
-                                            University of California, LA, USA
+                                            University of California, Los Angeles (UCLA), USA
                                         </p>
-                                        <p
-                                            className="text-gray-500 text-sm mt-1 italic"
-                                            data-oid="x0uw1kl"
-                                        >
-                                            Historian specializing in colonial and postcolonial
-                                            studies
-                                        </p>
+                                        <div className="mt-1" data-oid="_b6b:5h">
+                                            <p className="text-gray-700 text-sm" data-oid="cn.0j6m">
+                                                Cultural critic, writer, blogger, and Professor of
+                                                History at UCLA. He earned his BA and MA from Johns
+                                                Hopkins in literature, philosophy, and history in
+                                                1982, and a PhD with Distinction from the University
+                                                of Chicago (1992) in South Asian studies.
+                                            </p>
+                                            <p
+                                                className="text-gray-700 text-sm mt-1"
+                                                data-oid="8hx9i16"
+                                            >
+                                                Author or editor of 22 books including nine volumes
+                                                from Oxford UP. He blogs at vinaylal.wordpress.com,
+                                                and has an academic YouTube channel. He is a Fellow
+                                                for 2024 at the Stellenbosch Institute of Advanced
+                                                Study, South Africa and recipient of the Senior
+                                                Fulbright-Nehru Award (2025-26).
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -191,12 +248,27 @@ export default function ParticipantsPage() {
                                         <p className="text-gray-600 text-sm" data-oid="p15xtoz">
                                             Former Professor, UoH
                                         </p>
-                                        <p
-                                            className="text-gray-500 text-sm mt-1 italic"
-                                            data-oid="guk81ax"
-                                        >
-                                            Distinguished scholar in literary studies
-                                        </p>
+                                        <div className="mt-1" data-oid="kvk.m1u">
+                                            <p className="text-gray-700 text-sm" data-oid=".w3-ah1">
+                                                A teacher of English for about 50 years, lives in
+                                                Hyderabad. His publications exceed 200, among which
+                                                are monographs, edited collections, articles and
+                                                short notes, anthologies for teaching poetry,
+                                                review-essays, prefaces, and translations.
+                                            </p>
+                                            <p
+                                                className="text-gray-700 text-sm mt-1"
+                                                data-oid="3t_knnz"
+                                            >
+                                                An occasional writer of criticism in Malayalam, his
+                                                first language, he has also translated Romeo &
+                                                Juliet and Harold Pinter's Mountain Language. His
+                                                post-superannuation term as the Institution of
+                                                Eminence Research Chair Professor in Literary and
+                                                Cultural Theory at the University of Hyderabad ended
+                                                in June 2024.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
