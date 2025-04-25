@@ -209,33 +209,80 @@ export default function ParticipantsPage() {
                             >
                                 Poets
                             </h2>
-                            <div
-                                className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-2"
-                                data-oid="5jq8rqk"
-                            >
-                                <div
-                                    className="border-l-4 border-indigo-500 pl-4"
-                                    data-oid="m9su4yc"
-                                >
-                                    <h3 className="font-medium text-indigo-700" data-oid="2xdw1qt">
-                                        Yousif M. Qasmiyeh
-                                    </h3>
+                            <div className="space-y-6" data-oid="5jq8rqk">
+                                <div className="flex items-start space-x-4" data-oid="m9su4yc">
+                                    <div
+                                        className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-indigo-200"
+                                        data-oid="poet-img-1"
+                                    >
+                                        <Image
+                                            src="/images/poet-yousuf.jpeg"
+                                            alt="Yousif M. Qasmiyeh"
+                                            width={80}
+                                            height={80}
+                                            className="object-cover w-full h-full"
+                                            data-oid="poet-img-1-src"
+                                        />
+                                    </div>
+                                    <div data-oid="poet-1-info">
+                                        <h3
+                                            className="font-medium text-indigo-700"
+                                            data-oid="2xdw1qt"
+                                            key="olk-53M7"
+                                        >
+                                            Yousif M. Qasmiyeh
+                                        </h3>
+                                    </div>
                                 </div>
-                                <div
-                                    className="border-l-4 border-indigo-500 pl-4"
-                                    data-oid="ksbpnt5"
-                                >
-                                    <h3 className="font-medium text-indigo-700" data-oid="fbpv9y9">
-                                        Shash Trevett
-                                    </h3>
+
+                                <div className="flex items-start space-x-4" data-oid="ksbpnt5">
+                                    <div
+                                        className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-indigo-200"
+                                        data-oid="poet-img-2"
+                                    >
+                                        <Image
+                                            src="/images/poet-shash.jpeg"
+                                            alt="Shash Trevett"
+                                            width={80}
+                                            height={80}
+                                            className="object-cover w-full h-full"
+                                            data-oid="poet-img-2-src"
+                                        />
+                                    </div>
+                                    <div data-oid="poet-2-info">
+                                        <h3
+                                            className="font-medium text-indigo-700"
+                                            data-oid="fbpv9y9"
+                                            key="olk-4RSC"
+                                        >
+                                            Shash Trevett
+                                        </h3>
+                                    </div>
                                 </div>
-                                <div
-                                    className="border-l-4 border-indigo-500 pl-4"
-                                    data-oid="um5lclq"
-                                >
-                                    <h3 className="font-medium text-indigo-700" data-oid="t1rypei">
-                                        Anthony Vahni Capildeo
-                                    </h3>
+
+                                <div className="flex items-start space-x-4" data-oid="um5lclq">
+                                    <div
+                                        className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-indigo-200"
+                                        data-oid="poet-img-3"
+                                    >
+                                        <div
+                                            className="bg-gray-200 w-full h-full flex items-center justify-center text-gray-400"
+                                            data-oid="1is15ch"
+                                        >
+                                            <span className="text-xs" data-oid="lt6tq3v">
+                                                No image
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div data-oid="poet-3-info">
+                                        <h3
+                                            className="font-medium text-indigo-700"
+                                            data-oid="t1rypei"
+                                            key="olk-TEac"
+                                        >
+                                            Anthony Vahni Capildeo
+                                        </h3>
+                                    </div>
                                 </div>
                             </div>
                         </div>
