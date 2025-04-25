@@ -462,23 +462,6 @@ export default function ParticipantsPage() {
                                         >
                                             Anthony Vahni Capildeo
                                         </h3>
-                                        <div className="mt-1" data-oid="5193lct">
-                                            <p className="text-gray-600 text-sm" data-oid="tiu9jua">
-                                                A Trinidadian Scottish writer of poetry and
-                                                non-fiction. Their work has been recognized with the
-                                                Forward Prize for Best Collection and shortlisted
-                                                for the T.S. Eliot Prize.
-                                            </p>
-                                            <p
-                                                className="text-gray-600 text-sm mt-1"
-                                                data-oid="_bc_hea"
-                                            >
-                                                Capildeo's work often explores themes of language,
-                                                migration, and cultural identity, drawing on their
-                                                own experiences of displacement and belonging across
-                                                different cultural contexts.
-                                            </p>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1074,6 +1057,10 @@ export default function ParticipantsPage() {
                                     <p className="text-gray-600 text-xs" data-oid="jmf-syi">
                                         Department of English, UoH
                                     </p>
+                                    <p className="text-gray-600 text-xs mt-1" data-oid="ytlt4re">
+                                        Teaches at the Department of English, where he also holds
+                                        the UNESCO Chair in Vulnerability Studies.
+                                    </p>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
@@ -1088,6 +1075,55 @@ export default function ParticipantsPage() {
                                     <p className="text-gray-600 text-xs" data-oid="pt:gz20">
                                         Regional Studies, UoH
                                     </p>
+                                    <div className="mt-1" data-oid="ezyyz4a">
+                                        <p className="text-gray-600 text-xs" data-oid=":1t0nj9">
+                                            A Sociologist, teaches at the Centre for Regional
+                                            Studies, University of Hyderabad. His research interests
+                                            include ethnic violence, migration and borderlands,
+                                            citizenship, Muslims in South Asia and the intersection
+                                            of archives and ethnography.
+                                        </p>
+                                        <p
+                                            className="text-gray-600 text-xs mt-1"
+                                            data-oid="l:d3d.n"
+                                        >
+                                            His book{' '}
+                                            <span className="italic" data-oid="vyziul8">
+                                                Interrogating Communalism: Violence, Citizenship and
+                                                Minorities in South India
+                                            </span>{' '}
+                                            is published by Routledge in 2019. He has published
+                                            articles in journals such as{' '}
+                                            <span className="italic" data-oid="ra8h:0l">
+                                                Citizenship Studies
+                                            </span>
+                                            ,{' '}
+                                            <span className="italic" data-oid="hnkzpzr">
+                                                History and Anthropology
+                                            </span>
+                                            ,{' '}
+                                            <span className="italic" data-oid="ln9p0pk">
+                                                South Asia Research
+                                            </span>{' '}
+                                            and{' '}
+                                            <span className="italic" data-oid="z:_q::h">
+                                                Contributions to Indian Sociology
+                                            </span>
+                                            .
+                                        </p>
+                                        <p
+                                            className="text-gray-600 text-xs mt-1"
+                                            data-oid="r_cmc_i"
+                                        >
+                                            Salah has done his Post-Doctoral Fellowship (2018-2020)
+                                            at the Max Planck Institute for the Study of Religious
+                                            and Ethnic Diversity, Gottingen, Germany. He was a DAAD
+                                            Guest Professor at CeMIS, University of Gottingen in
+                                            2022. Salah is the recipient of M.N Srinivas Award for
+                                            Young Indian Sociologist, 2015 and Chancellor's Award
+                                            for Best Faculty at the University of Hyderabad in 2022.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
@@ -1097,10 +1133,17 @@ export default function ParticipantsPage() {
                                         className="text-indigo-700 font-medium text-sm"
                                         data-oid="3hvtv36"
                                     >
-                                        Dr. Nandini Shankar
+                                        Dr. Nandini Ramesh Sankar
                                     </p>
                                     <p className="text-gray-600 text-xs" data-oid="x3wx9fd">
                                         Department of English, UoH
+                                    </p>
+                                    <p className="text-gray-600 text-xs mt-1" data-oid="_wakpsf">
+                                        Works on British and American poetry after 1900, literature
+                                        and visual arts, and related areas. After completing her PhD
+                                        from Cornell University in 2012, she worked at the Indian
+                                        Institute of Technology Hyderabad before joining the
+                                        University of Hyderabad earlier this year.
                                     </p>
                                 </div>
                                 <div
@@ -1116,6 +1159,35 @@ export default function ParticipantsPage() {
                                     <p className="text-gray-600 text-xs" data-oid="3d452ov">
                                         Department of English, UoH
                                     </p>
+                                    <div className="mt-1" data-oid="cu4lehh">
+                                        <p className="text-gray-600 text-xs" data-oid="llpne98">
+                                            An Assistant Professor in the Department of English,
+                                            School of Humanities, University of Hyderabad, India. He
+                                            is also an honorary research associate at the Faculty of
+                                            Arts and Design, Durban University of Technology, South
+                                            Africa.
+                                        </p>
+                                        <p
+                                            className="text-gray-600 text-xs mt-1"
+                                            data-oid="rpmfzys"
+                                        >
+                                            Along with several visiting researcher fellowships, he
+                                            has been awarded the Alexander von Humboldt Fellowship
+                                            at MESH (Multidisciplinary Environmental Studies in the
+                                            Humanities), University of Cologne, Germany, and the
+                                            MIASA Individual Fellowship at the University of Ghana.
+                                        </p>
+                                        <p
+                                            className="text-gray-600 text-xs mt-1"
+                                            data-oid="3kbg4uj"
+                                        >
+                                            Karmakar's research interests include the Global South
+                                            literary studies, postcolonial and decolonial studies,
+                                            women and gender studies, and environmental studies. He
+                                            is also a series editor for the Routledge book series
+                                            South Asian Literature in Focus.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
@@ -1158,6 +1230,35 @@ export default function ParticipantsPage() {
                                     <p className="text-gray-600 text-xs" data-oid="2bvdl55">
                                         Department of English, UoH
                                     </p>
+                                    <div className="mt-1" data-oid="zyu9a-z">
+                                        <p className="text-gray-600 text-xs" data-oid="cl71s02">
+                                            An assistant professor of English at the University of
+                                            Hyderabad Telangana. He previously taught for ten years
+                                            at Kakatiya University, Warangal. He has contributed to
+                                            academia through research and publications in the field
+                                            of English literature with 18 articles published in UGC
+                                            care and peer reviewed journals.
+                                        </p>
+                                        <p
+                                            className="text-gray-600 text-xs mt-1"
+                                            data-oid="92f8_n7"
+                                        >
+                                            He also published a book titled{' '}
+                                            <span className="italic" data-oid="be_jlxt">
+                                                The Booker and The Postcolonial Indian Award Winning
+                                                Novels
+                                            </span>{' '}
+                                            by gen next publications in 2017. Dr. Kathy has also
+                                            published scholarly articles in several reputed national
+                                            and international journals, including "Entrenched
+                                            Patriarchal Victorian Society in Oscar Wilde's A Woman
+                                            of No Importance", published in the{' '}
+                                            <span className="italic" data-oid="1o4gb1r">
+                                                Sydney Journal of English
+                                            </span>{' '}
+                                            (Vol. 31, No. 1, 2021).
+                                        </p>
+                                    </div>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
@@ -1186,6 +1287,39 @@ export default function ParticipantsPage() {
                                     <p className="text-gray-600 text-xs" data-oid="zi3i4qz">
                                         Department of English, UoH
                                     </p>
+                                    <div className="mt-1" data-oid="q7qg6pj">
+                                        <p className="text-gray-600 text-xs" data-oid="u_b6:0c">
+                                            Assistant Professor at the Department of English,
+                                            University of Hyderabad. His areas of interest are
+                                            narratives of trauma, English poetry, the pedagogy of
+                                            English in India, popular culture and media.
+                                        </p>
+                                        <p
+                                            className="text-gray-600 text-xs mt-1"
+                                            data-oid="b8zzq3b"
+                                        >
+                                            He has published in journals like{' '}
+                                            <span className="italic" data-oid="0r00.5n">
+                                                Radical Teacher
+                                            </span>
+                                            ,{' '}
+                                            <span className="italic" data-oid="m.2y4.x">
+                                                The Explicator
+                                            </span>
+                                            ,{' '}
+                                            <span className="italic" data-oid="j6zfvm8">
+                                                Pedagogy
+                                            </span>
+                                            , and{' '}
+                                            <span className="italic" data-oid="5d-cwty">
+                                                English
+                                            </span>
+                                            . He has also been involved in the development of online
+                                            educational resources (OERs) on platforms like Indian
+                                            Writing in English Online, UGC's e-PG pathshala and
+                                            NPTEL.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
@@ -1265,11 +1399,37 @@ export default function ParticipantsPage() {
                                         className="text-indigo-700 font-medium text-sm"
                                         data-oid="-mpdeqj"
                                     >
-                                        Dr. Purna Chandra Naik
+                                        Dr. Purnachandra Naik
                                     </p>
                                     <p className="text-gray-600 text-xs" data-oid="a16v75h">
-                                        CCL, UoH
+                                        Centre for Comparative Literature, UoH
                                     </p>
+                                    <div className="mt-1" data-oid="rzdt78j">
+                                        <p className="text-gray-600 text-xs" data-oid="ucx5ok6">
+                                            Teaches in the Centre for Comparative Literature at
+                                            University of Hyderabad. He is the author of the
+                                            forthcoming book, "Reading the Rejected: Dirt in Dalit
+                                            Literature" (Routledge).
+                                        </p>
+                                        <p
+                                            className="text-gray-600 text-xs mt-1"
+                                            data-oid="xo1xbd8"
+                                        >
+                                            He completed his PhD in Nottingham Trent University, UK.
+                                            He has an MA in English Literature and also holds an MA
+                                            in Spanish Literature. His research has been published
+                                            in the{' '}
+                                            <span className="italic" data-oid="kkex47s">
+                                                Economic and Political Weekly
+                                            </span>
+                                            ,{' '}
+                                            <span className="italic" data-oid="mo9-hn.">
+                                                Outlook
+                                            </span>
+                                            , and edited compilations by Routledge and Cambridge
+                                            University Press.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div
                                     className="border-l-2 border-indigo-500 pl-3"
@@ -1283,6 +1443,14 @@ export default function ParticipantsPage() {
                                     </p>
                                     <p className="text-gray-600 text-xs" data-oid="x:52l8p">
                                         Department of English, UoH
+                                    </p>
+                                    <p className="text-gray-600 text-xs mt-1" data-oid="tfyc0lt">
+                                        Teaches in the Department of English at the University of
+                                        Hyderabad. Her interests lie in Shakespearean as well as
+                                        other Early Modern Drama and its pedagogy, and she is the
+                                        editor of Indian Writing in English Online, the first
+                                        academic online educational resource dedicated to the
+                                        subject.
                                     </p>
                                 </div>
                             </div>
