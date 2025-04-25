@@ -3,136 +3,136 @@ import Image from 'next/image';
 
 export default function People() {
     return (
-        <section id="people" className="py-20 bg-white" data-oid="pbs7eiu">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="tpk0i60">
+        <section id="people" className="py-20 bg-white" data-oid="uetse8s">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="kiyfr1s">
                 <h2
                     className="text-3xl font-bold text-center text-red-800 mb-12"
-                    data-oid="xwsg-7r"
+                    data-oid="onzhaw3"
                 >
                     People
                 </h2>
-                <div className="grid md:grid-cols-2 gap-8" data-oid="0hphj10">
-                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="d8ajmnt">
-                        <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="827-477">
+                <div className="grid md:grid-cols-2 gap-8" data-oid="ynqoopk">
+                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="lq1tybc">
+                        <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="goqsm6d">
                             Conference Organizers
                         </h3>
-                        <div className="space-y-6" data-oid="9b-xmn9">
-                            <div data-oid="zkxqam-">
-                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="-0rn8c3">
+                        <div className="space-y-6" data-oid="05szydz">
+                            <div data-oid="mmw9n8b">
+                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="8fjbkym">
                                     Convenor
                                 </h4>
-                                <p className="text-gray-700" data-oid="as6e8bi">
+                                <p className="text-gray-700" data-oid="8vabwkg">
                                     Dr. Sireesha Telugu
                                 </p>
                             </div>
-                            <div data-oid="_ip_cq3">
-                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="d3kkedx">
+                            <div data-oid="5klwygb">
+                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="do.f7r_">
                                     Co-convenor
                                 </h4>
-                                <p className="text-gray-700" data-oid="ia18yvr">
+                                <p className="text-gray-700" data-oid="_bwu8va">
                                     Dr. Bhaskar Lama
                                 </p>
                             </div>
-                            <div data-oid="h-soh6c">
-                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="pb_2q_1">
+                            <div data-oid="x3lisbq">
+                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="bzlcu6e">
                                     International Coordinators
                                 </h4>
-                                <p className="text-gray-700" data-oid="vf4t-0n">
+                                <p className="text-gray-700" data-oid="5-5ub05">
                                     Dr. Eman Shaban Morsi (Dartmouth College, US)
                                 </p>
-                                <p className="text-gray-700" data-oid="t07l_g4">
+                                <p className="text-gray-700" data-oid="d3b8p8y">
                                     Dr. Elena Fiddian-Qasmiyeh (University College London, UK)
                                 </p>
                             </div>
-                            <div data-oid="oj3p.d_">
-                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="fnbtb_x">
+                            <div data-oid="yxcn-mw">
+                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="ehuj7.1">
                                     Core Committee
                                 </h4>
-                                <div className="grid grid-cols-2 gap-2 mb-4" data-oid="cfaw7ki">
-                                    <p className="text-gray-700" data-oid="-h9n3o3">
+                                <div className="grid grid-cols-2 gap-2 mb-4" data-oid="4xv5vp4">
+                                    <p className="text-gray-700" data-oid="bgh8yrw">
                                         Noah Simon Kolikapudi
                                     </p>
-                                    <p className="text-gray-700" data-oid="16d.1ae">
+                                    <p className="text-gray-700" data-oid="1i._7f8">
                                         Laboni Mukherjee
                                     </p>
-                                    <p className="text-gray-700" data-oid="3suoieh">
+                                    <p className="text-gray-700" data-oid="k-4svrk">
                                         Assis Mon Marcelin
                                     </p>
                                 </div>
 
-                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="e8z1_hn">
+                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="zow-2ql">
                                     Organizing Committee
                                 </h4>
-                                <div className="grid grid-cols-2 gap-2 mb-4" data-oid="tbofb51">
-                                    <p className="text-gray-700" data-oid="5f169pw">
+                                <div className="grid grid-cols-2 gap-2 mb-4" data-oid=":4kaivw">
+                                    <p className="text-gray-700" data-oid="i0pxhyr">
                                         Sourav Jatua
                                     </p>
-                                    <p className="text-gray-700" data-oid="8632_sd">
+                                    <p className="text-gray-700" data-oid="1maodui">
                                         Liya Abi
                                     </p>
-                                    <p className="text-gray-700" data-oid="b2c:8j3">
+                                    <p className="text-gray-700" data-oid=":5czzho">
                                         Themreichon Alma Poinamei
                                     </p>
-                                    <p className="text-gray-700" data-oid="948:a6-">
+                                    <p className="text-gray-700" data-oid="drpdwju">
                                         Arjun Raj V
                                     </p>
-                                    <p className="text-gray-700" data-oid="f_f4:4p">
+                                    <p className="text-gray-700" data-oid="153ju7y">
                                         Prateeti Chowdhury
                                     </p>
-                                    <p className="text-gray-700" data-oid="edpgpog">
+                                    <p className="text-gray-700" data-oid="e5cc185">
                                         Songayam Zimik
                                     </p>
-                                    <p className="text-gray-700" data-oid="ly_5dg6">
+                                    <p className="text-gray-700" data-oid="vw4l4a.">
                                         Atul V Nair
                                     </p>
-                                    <p className="text-gray-700" data-oid="zx0b.l4">
+                                    <p className="text-gray-700" data-oid="0uju95r">
                                         Aravind Prakash
                                     </p>
                                 </div>
 
-                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="ak.o2ol">
+                                <h4 className="font-medium text-indigo-700 mb-2" data-oid="64dilhr">
                                     Associate Committee
                                 </h4>
-                                <div className="grid grid-cols-2 gap-2" data-oid="gvdplrr">
-                                    <p className="text-gray-700" data-oid="c8ya4cu">
+                                <div className="grid grid-cols-2 gap-2" data-oid=".0a.vjn">
+                                    <p className="text-gray-700" data-oid="6xd4w29">
                                         Arya P
                                     </p>
-                                    <p className="text-gray-700" data-oid="88lpad2">
+                                    <p className="text-gray-700" data-oid="id8j1us">
                                         Abhinav TM
                                     </p>
-                                    <p className="text-gray-700" data-oid="a-789q2">
+                                    <p className="text-gray-700" data-oid="jolf.a.">
                                         Irfan S Ahamed
                                     </p>
-                                    <p className="text-gray-700" data-oid="ibnkz7b">
+                                    <p className="text-gray-700" data-oid="x05vjf:">
                                         Gifty R Prabhas
                                     </p>
-                                    <p className="text-gray-700" data-oid="-li4iwr">
+                                    <p className="text-gray-700" data-oid="ruspq0o">
                                         Hami Shirin
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="xx7:y1o">
-                        <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="p8czc_n">
+                    <div className="bg-white p-6 rounded-lg shadow-md" data-oid="6ft7ib_">
+                        <h3 className="text-xl font-semibold text-red-800 mb-4" data-oid="o6-kfg7">
                             Conference Venue
                         </h3>
-                        <div className="grid md:grid-cols-1 gap-6" data-oid="0jn-o__">
-                            <div data-oid=":g5i5yk">
-                                <p className="text-gray-700 mb-2" data-oid="8kq8axp">
-                                    <strong data-oid="se7c86d">University of Hyderabad</strong>
-                                    <br data-oid="2tny-ot" /> Prof. C.R. Rao Road, Gachibowli
-                                    <br data-oid="2j29-e_" /> Hyderabad, Telangana 500046
-                                    <br data-oid="25nb4id" /> India
+                        <div className="grid md:grid-cols-1 gap-6" data-oid="1-irr95">
+                            <div data-oid="0z2gzi0">
+                                <p className="text-gray-700 mb-2" data-oid="7-a1nep">
+                                    <strong data-oid="67vg:f7">University of Hyderabad</strong>
+                                    <br data-oid="k2u-zbc" /> Prof. C.R. Rao Road, Gachibowli
+                                    <br data-oid="7ol2igr" /> Hyderabad, Telangana 500046
+                                    <br data-oid="o6tah::" /> India
                                 </p>
-                                <p className="text-gray-700 mb-4" data-oid="--heony">
-                                    <strong data-oid="m_gcibw">Conference Hall:</strong> Zakir
+                                <p className="text-gray-700 mb-4" data-oid="zjhx:rz">
+                                    <strong data-oid="nkcc6a9">Conference Hall:</strong> Zakir
                                     Hussain Lecture Hall Complex
                                 </p>
                             </div>
                             <div
                                 className="rounded-md overflow-hidden shadow-lg mt-4"
-                                data-oid="9-rkod5"
+                                data-oid="9fje-j3"
                             >
                                 <Image
                                     src="/images/Displacement _20250307_121648_0004.jpg"
@@ -140,7 +140,7 @@ export default function People() {
                                     width={1000}
                                     height={400}
                                     className="w-full h-64 object-cover"
-                                    data-oid="n9eirkk"
+                                    data-oid="y.5wkuz"
                                 />
                             </div>
                         </div>
